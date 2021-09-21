@@ -1,6 +1,6 @@
 # BET
 
-Indexes of topics (chronolgic order)
-====================================
+Indexes of topics (chronogical order)
+-------------------------------------
 
-1. Normen
+1. [Normen](./Normen.md) 
