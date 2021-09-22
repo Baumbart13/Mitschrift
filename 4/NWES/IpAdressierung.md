@@ -2,8 +2,9 @@
 
 #### IPv4 - Internet Protocol Version 4
 Eine IPv4-Adresse besteht aus 32-Bit -> 4,3 Milliarden Möglichkeiten
-|:   :|:   :|:   :|:   :|
+
 |*11000000*|10101000|*00001010*|00001010|
+|:   :|:   :|:   :|:   :|
 |*Oktette*|Oktette|*Oktette*|Oktette|
 |*128+64*|128+32+8|*8+2*|8+2|
 |*192*|168|*10*|10|
@@ -36,7 +37,7 @@ Hosts:    10.0.0.1 - 10.255.255.254
 2. Router: verbindet verschiedene Netzwerke
 3. Switches: verbindet Geräte in einem lokalen Netzwerk.
 
-####Private IP-Adresse
-10.0.0.0 /8
-172.16.0.0 /12
-192.162.0.0 /16
+#### Private IP-Adresse
+- 10.0.0.0 /8
+- 172.16.0.0 /12
+- 192.162.0.0 /16
