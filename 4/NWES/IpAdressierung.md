@@ -6,9 +6,10 @@ Eine IPv4-Adresse besteht aus 32-Bit -> 4,3 Milliarden Möglichkeiten
 | 11000000 | 10101000 | 00001010 | 00001010 |
 |:   :|:   :|:   :|:   :|
 | Oktette | Oktette | Oktette | Oktette |
-| 128+64* | 128+32+8 | 8+2 | 8+2 |
+| 128+64 | 128+32+8 | 8+2 | 8+2 |
 | 192 | 168 | 10 | 10 |
 | Netzteil | Netzteil | Netzteil | Hostteil |
+
 -> 192.168.10.10/24
 
 Die Subnetzmaske gibt an, wo zwischen Netzwerkteil und Hostteil getrennt wird.
