@@ -12,7 +12,7 @@ Bei einer Rechtsnorm handelt es sich um eine allgemeine Norm, die von den Organe
    - Werden von der EU erzeugt mit Kooperation mit den Mitgliedsstaaten, Kommission und dem EU-Parlament
    - EU-Recht liegt über der Verfassung
 2. Verfassungsgesetz
-   - Für neues Verfassungsgesetz muss 1/3 Mehrheit und 50% Anwesenheit herrschen
+   - Für neues Verfassungsgesetz muss 2/3 Mehrheit und 50% Anwesenheit herrschen
    - Bevölkerung muss nicht miteinbezogen sein (keine Volksabstimmung nötig)
 3. Einfaches Gesetz
    - Absolute Mehrheit und 1/3 Anwesenheit wird hier benötigt
