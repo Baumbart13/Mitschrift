@@ -78,6 +78,14 @@ Es herrscht eine Nomenklatur, wobei ein Buhstabe für ein Gebiet steht (zB C - C
 
 Werden vom Europäischen Komitee für Normen verwaltet.
 
+---
+
+Ein ISO-Zertifiziertes Unternehmen benutzt gute, zuverlässige, stabile Normen und haben auch ein Zertifikat, dass sie diese verwenden (dürfen).
+
+Es ist immer von Vorteil mit einem Unternhemen zu kooperieren, welche zertifiziert sind und auch Normprodukte herstellt.
+
+---
+
 2.4.3 Veröffentlichung Europäischer Normen in anderen Ländern
 ---
 
@@ -117,5 +125,11 @@ Wie entsteht eine Norm? [DIN-Link](https://www.youtube.com/watch?v=qX_LGgKXAi8)
 
 ---
 
-CE-Kennzeichen
+<br><br><br>
+
+
+Normen.. Fragen ausarbeiten
 ====
+
+###### Unterschied zwischen Standard und Norm
+
