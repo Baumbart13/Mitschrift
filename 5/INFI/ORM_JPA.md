@@ -9,6 +9,7 @@ ORM Mapping
    - Ein persistentes Objekt wird Entity genannt.
    - Beschreibung aus der JPA- Spezifikation 
    > „An entity is a lightweight persistent domain object.“ 
+   
       - Damit ist ein einfaches Java-Objekt gemeint
       - Siehe auch: https://docs.oracle.com/cd/E19798-01/821-1841/bnbqa/index.html
 
