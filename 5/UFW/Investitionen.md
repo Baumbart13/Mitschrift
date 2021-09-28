@@ -106,3 +106,10 @@ Fixkosten sind unabhängig vom Beschäftigungsgrad. <br>
 Variable Kosten sind abhängig vom Beschäftigungsgrad. <br><br>
 
 
+#### 2 Rentabilitätsrechnung
+
+Rentabilität = Was man für sein eingesetztes Kapital bekommt
+
+Rentabilität und Ammortisation ist im Prinzip eine Weiterführung der Rentabilitätsrechnung, da sie sagt, wie lange benötigt man, bis die Investition sich rentiert.
+
+In Innsbruck etwa über 45 Jahre, mit Renovierungen und bei gröberen Schäden erhöht sich diese Zahl (in Innsbruck) so weit, dass es sich nicht lohnt (in Innsbruck) eine Wohnung zu kaufen.
