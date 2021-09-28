@@ -121,13 +121,14 @@ In Innsbruck etwa über 45 Jahre, mit Renovierungen und bei gröberen Schäden e
 
 Ü2.8<br>
 
-|:--- | ---:|:---:| ---:|
-| Betriebskosten | 500€ * 12Monate | = | 6000,- € |
-| Anschaffungskosten | 85000€ / 5Jahre | = | 17000,- € |
-| Personalkosten | 23€/h * 1750h | = | 40250,- € |
-| Verpackung und Vertriebskosten | (1,75 + 0,35)€/Schachtel * 40000 Schachteln | = | 84000,- € |
-| Kosten |   |   | 147250,- €
-|   |   |   |   |
-| Einnahmen | 40000Schachteln * 3,95€/Schachtel | = | 158000,- € |
-|   |   |   |   |
-| Rentabilität | 100 * 10750 / (85000 / 2) | = | 25,2941% |
+| Beschriftung                   | Rechnung                                    |     | Ergebnis   |
+|:------------------------------:|:-------------------------------------------:|:---:|:----------:|
+| Betriebskosten                 | 500€ * 12Monate                             |  =  | 6000,- €   |
+| Anschaffungskosten             | 85000€ / 5Jahre                             |  =  | 17000,- €  |
+| Personalkosten                 | 23€/h * 1750h                               |  =  | 40250,- €  |
+| Verpackung und Vertriebskosten | (1,75 + 0,35)€/Schachtel * 40000 Schachteln |  =  | 84000,- €  |
+| Kosten                         |                                             |     | 147250,- € |
+|                                |                                             |     |            |
+| Einnahmen                      | 40000Schachteln * 3,95€/Schachtel           |  =  | 158000,- € |
+|                                |                                             |     |            |
+| Rentabilität                   | 100 * 10750 / (85000 / 2)                   |  =  | 25,2941%   |
