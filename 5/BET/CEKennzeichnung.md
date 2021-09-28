@@ -3,7 +3,7 @@
 
 ---
 
-#### Arbeitsplatz und Betriebsstättenplanung
+#### CE-Zertifizierung
 
 ##### Sie sind GF eines Unternehmes, welches ... produziert. Ihre Wirtschaftsingenieure haben einen Vorschlag, wie man mit einer selbst gefertigten Anlage einen Fertigungsschritt vereinfachen kann und damit Qualitätsverbessern und Fertigungszeit vermindern kann. Worauf müsen Sie als GF bei der Anlage achten?
 
