@@ -11,5 +11,5 @@ These are my documents i wrote in my HTL-Time
 
 ### [Moodle IDs](./moodle/ID.md)
 
-What happens [if...](./..) (one direcetory up)
+What happens [if...](./..) (one <br> direcetory up)
 What happens another [if...](./.) (this direcetory)
