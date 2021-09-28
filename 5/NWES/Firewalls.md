@@ -17,7 +17,11 @@ Depacket Inspection (DPI)
 - Bis ins letzte bit auf Layer 7 wird das Packet auseinander genommen und analysiert
 - Problem: 
    - Geschwindigkeit
-      - Firewall entpackt alles, sieht alles durch, muss entscheiden, ob genehmigt oder nicht, packt zusammen und muss richtig wieder weiterleiten
+      1. Firewall entpackt alles
+	  2. Sieht alles durch
+	  3. Muss entscheiden, ob genehmigt oder nicht
+	  4. Packt zusammen
+	  5. Muss richtig wieder weiterleiten
 
 ---
 
