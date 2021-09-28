@@ -133,3 +133,5 @@ Normen.. Fragen ausarbeiten
 
 ###### Unterschied zwischen Standard und Norm
 
+- Standard ist eine technische Vorgabe, wie etwas zu sein hat.
+- Norm ist eine rechtliche Vorgabe, wie etwas zu sein hat. Hier geht es um Sicherheiten.
