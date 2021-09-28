@@ -119,16 +119,33 @@ In Innsbruck etwa über 45 Jahre, mit Renovierungen und bei gröberen Schäden e
 
 ###### Beispiel von Rentabilitätsrechnung
 
-Ü2.8<br>
+##### Ü2.8<br>
 
-| Beschriftung                   | Rechnung                                    |     | Ergebnis   |
-|:------------------------------:|:-------------------------------------------:|:---:|:----------:|
-| Betriebskosten                 | 500€ * 12Monate                             |  =  | 6000,- €   |
-| Anschaffungskosten             | 85000€ / 5Jahre                             |  =  | 17000,- €  |
-| Personalkosten                 | 23€/h * 1750h                               |  =  | 40250,- €  |
-| Verpackung und Vertriebskosten | (1,75 + 0,35)€/Schachtel * 40000 Schachteln |  =  | 84000,- €  |
-| Kosten                         |                                             |     | 147250,- € |
-|                                |                                             |     |            |
-| Einnahmen                      | 40000Schachteln * 3,95€/Schachtel           |  =  | 158000,- € |
-|                                |                                             |     |            |
-| Rentabilität                   | 100 * 10750 / (85000 / 2)                   |  =  | 25,2941%   |
+Aufgabe A
+
+| Beschriftung                   | Rechnung                                    |     | Ergebnis    |
+|:------------------------------ |:-------------------------------------------:|:---:| -----------:|
+| Betriebskosten                 | 500€ * 12Monate                             |  =  | 6000,- €    |
+| Anschaffungskosten             | 85000€ / 5Jahre                             |  =  | 17000,- €   |
+| Personalkosten                 | 23€/h * 1750h                               |  =  | 40250,- €   |
+| Verpackung und Vertriebskosten | (1,75 + 0,35)€/Schachtel * 40000 Schachteln |  =  | 84000,- €   |
+| Kosten                         |                                             |     | 147250,- €  |
+|                                |                                             |     |             |
+| Einnahmen                      | 40000Schachteln * 3,95€/Schachtel           |  =  | 158000,- €  |
+|                                |                                             |     |             |
+| Rentabilität                   | 100 * 10750 / (85000 / 2)                   |  =  | 25,2941%    |
+
+
+
+Aufgabe B
+
+| Beschriftung                   | Rechnung                                    |     | Ergebnis    |
+|:------------------------------ |:-------------------------------------------:|:---:| -----------:|
+| Kosten                         |                                             |     | 147250,- €  |
+| Abschreibungen                 |                                             |     | 17000,- €   |
+|                                | 147250€ - 17000€                            |  =  | 130250,- €  |
+|                                |                                             |     |             |
+| Einnahmen                      |                                             |     | 158000,- €  |
+|                                | 158000€ - 130250€                           |  =  | 27750,- €   |
+|                                |                                             |     |             |
+| Amortisationsdauer             | 85000€ / 27750€                             |  =  | 3,063 Jahre |
