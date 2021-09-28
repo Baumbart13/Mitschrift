@@ -1,8 +1,6 @@
 Übertragungsmedien Komponenten / Devices
 ====
 
-### Devices/Komponenten & Übertragungsmedien
-
 Devices/Komponenten
 ----
 
