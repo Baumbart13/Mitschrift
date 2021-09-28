@@ -30,6 +30,7 @@ Switch
 - Verbindet Geräte im lokalen Netz
 - Kann gleichzeitig Daten senden und empfangen
 - Switching (Tabelle, sendet -> Destination Mac, speichert SourceMac an Port)
+
 ![Switch](./Switch001.png)
 
 Router
@@ -38,6 +39,7 @@ Router
 - Verbindet Netzwerke auf Layer 3 des OSI-Modells
 - Leitet auf Basis der IP-Adresse Daten weiter
 - Im privaten Umfeld: Heimnetz -> Internet
+
 ![Router](./Router001.png)
 
 Hub
@@ -47,6 +49,7 @@ Hub
 - Unterschied vom Switch
    - Beim erhalt eines Datenpaketes -> kopiert es an alle Ports
    - Fungiert also als gemeinsamer Verbindungspunkt für Geräte
+
 ![Hub](./Hub001.png)
 
 Access Point
@@ -56,6 +59,7 @@ Access Point
    - In meisten Heimnetz-Routern integriert
 - Es empfängt das eingehende Signal vom Router und verbreitet es im WLAN-Netzwerk, welches vom AP aufgebaut wird
 - Mit Endgerät -> verbinden zu WLAN-Netzwerk möglich
+
 ![Access Point](./AccessPoint001.png)
 
 Übertragungsmedien
@@ -90,6 +94,7 @@ Twisted Pair
 - Immer 2 Leiter miteinander verdrillt
    - Besseren Schutz gegen Störfelder
 - 2 Arten: UTP und STP (wurde im Unterricht nicht genau besprochen)
+
 ![Twisted Pair](./TwistedPair001.png)
 
 Koaxialkabel
@@ -107,6 +112,7 @@ Koaxialkabel
          - Schützt Innenleiter vor elektromagnetischen Einflüssen	
    - Kabelmantel 
       - Äußerer Schutz eines Kabels
+
 ![Koxaialkabel](./Koaxialkabel.png)
 
 Glasfaser
