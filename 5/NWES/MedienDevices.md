@@ -111,7 +111,7 @@ Koaxialkabel
    - Kabelmantel 
       - Äußerer Schutz eines Kabels
 
-![Koxaialkabel](./Koaxialkabel.png)
+![Koaxialkabel](./Koaxialkabel001.png)
 
 Glasfaser
 ----
