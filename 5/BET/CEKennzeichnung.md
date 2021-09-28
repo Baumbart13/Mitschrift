@@ -13,11 +13,11 @@ Aufbau
 ---
 
 - Allgemeines
-- Wer ist für die CE-Kennzechnung verantwortlich?
+- Wer ist für die CE-Kennzeichnung verantwortlich?
 - Entwicklung und Funktion
 - Ziele dieser Zertifizierung
 - Beispiel einer Mschinenzertifizierung
-- Wichtige Merkamle der CE-Kennzechnung
+- Wichtige Merkamle der CE-Kennzeichnung
 - Anbringen der CE-Kennzeichen an Maschinen
 - Geltungsgebiet
 
@@ -32,3 +32,15 @@ Entwicklung und Funktion
 
 - Früher musste ein Produkt für jedes Land geprüft werden, ob es gerecht ist für alle Normen und Richtlinien
 - Heute wird einmal geprüft auf dem Niveau von CE und danach darf in allen Ländern, in denen dies gilt, das Produkt ausgeliefert und verkauft werden.
+- Ziel: frreier Warenverkehr und sichere Produkte innerhalb EWR
+- "Reisepass" im europäischen Binnenmarkt
+- Sicherheits- und Gesundheitsanforderungen als Mindestmaß dürfen keinesfalls unterschritten werden
+
+Ziel der Zertifizierung
+----
+
+- Einheitliche Kennzeichnung von Produkten
+- Beseitigung von Handelshemmnissen innerhalb der EU
+- Einheitliche Bestimmungen duch Gemeinschaftsregelung
+- Reduktion von Prüfkosten
+- Gegenseitige Anerkennung von Prüfzertiikaten
