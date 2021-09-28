@@ -130,6 +130,7 @@ Glasfaser
       - Licht einer LED
       - Mehrere Signale werden übertragen
       - Verwendung: Computernetze
+
 ![Glasfaser](./Glasfaser001.png)
 
 Wireless Local Area Network (WLAN)
