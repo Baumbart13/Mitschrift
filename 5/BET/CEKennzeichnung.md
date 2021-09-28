@@ -43,7 +43,7 @@ Ziel der Zertifizierung
 - Beseitigung von Handelshemmnissen innerhalb der EU
 - Einheitliche Bestimmungen duch Gemeinschaftsregelung
 - Reduktion von Prüfkosten
-- Gegenseitige Anerkennung von Prüfzertiikaten
+- Gegenseitige Anerkennung von Prüfzertifikaten
 
 Wer ist für die CE-Kennzeichnung verantwortlich?
 ----
@@ -54,3 +54,25 @@ Wer ist für die CE-Kennzeichnung verantwortlich?
 - Hersteller muss nicht im EU-Raum ansässig sein
 - MRA: Mutual Recognition Agreements
    - Für Abkommen zwischen zB Kanada und Europa
+
+---
+
+Fragen und Antworten
+----
+
+- Mit was muss der Hersteller rechnen, wenn die CE-Kennzeichnung nicht erfüllt wird
+   - Risikoanalyse, technische Unterlagen und Konformitätsprüfung sind zuerst zu übergeben
+      - Sollte man diese nicht vorzeigen können, so ist es möglich, dass man alles verliert, von Firma bis hin zu eigenem Haus, aufgrund vom Schadensersatz
+- Gibt es jemanden, der die Richtlinien überprüft?
+   - An sich nicht, aber es gibt das Arbeitsinspektorat
+      - Dieses überprüft regelmäßig, ob Unterlagen existieren, wie Konformitätsprüfung, technische Unterlagen und Risikoanalyse
+	  - Es wird im ersten Schritt nur überprüft, ob diese Unterlagen überhaupt existieren
+	  - Im zweiten Schritt kann überprüft werden - muss nicht immer sofort sein - ob alle Richtlinien eingehalten wurden.
+
+---
+
+Es gibt eigene Richtlinien für Spielzeuge innerhalb der EU
+
+Mithilfe der Normen kann dies überprüft werden, ob diese Richtlinien eingehalten werden
+
+---
