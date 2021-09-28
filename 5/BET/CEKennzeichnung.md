@@ -44,3 +44,13 @@ Ziel der Zertifizierung
 - Einheitliche Bestimmungen duch Gemeinschaftsregelung
 - Reduktion von Prüfkosten
 - Gegenseitige Anerkennung von Prüfzertiikaten
+
+Wer ist für die CE-Kennzeichnung verantwortlich?
+----
+
+- Grundsätzlich der Hersteller
+- Niederspannungsrichtlinie
+- Manchmal der Erstimporteur n den europäischen Raum
+- Hersteller muss nicht im EU-Raum ansässig sein
+- MRA: Mutual Recognition Agreements
+   - Für Abkommen zwischen zB Kanada und Europa
