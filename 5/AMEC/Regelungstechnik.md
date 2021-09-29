@@ -86,4 +86,13 @@ Das Störverhalten ist zB ein geöffnetes Fesnter im Winter, wenn man Heizen mö
 | Bsp1 | **x** = Drehzahl | **Z** = Lastdrehmoment |
 |   | **y** = Umdrehungen |   |
 
+Zu viel CO2 im Blut schneller Atem
+
+| Helligkeit | **x** = Lichteinfall im Auge | **Z** = illegale Substanzen |
+|   | **y** = Pupillenöffnung |   |
+| Helligkeit | **x** = Zuckergehalt im Blut | **Z** = Zucker |
+|   | **y** = Insulinproduktion |   |
+
+
 ----
+
