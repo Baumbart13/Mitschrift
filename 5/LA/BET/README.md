@@ -3,7 +3,7 @@
 Indexes of topics (chronogical order)
 -------------------------------------
 
-1. [Schutz von geistigem Eigentum und Urheberrecht](./Urheberrecht.md) 
+1. [Schutz von geistigem Eigentum und Urheberrecht](./SchutzGeistigesEigentum.md) 
 
 ----
 ----
