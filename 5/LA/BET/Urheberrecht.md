@@ -31,3 +31,21 @@ Sollte sich der Staat dagegen wehren eine Vorgabe aufzunehmen, wird ein Strafver
 ##### [Urheberrecht](https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001848)
 ###### **Abschnitt VIa. Sondervorschriften für Computerprogramme**
 ###### **§40a bis §40h**
+
+Eine Sicherheitskopie dar immer erstellt werden. Wird diese aber weitergegeben, gilt dies als Raubkopie, unabhängig davon, ob die Weitergabe gegen Entschädigung geschieht.
+
+# Unwissenheit schützt vor Straffreiheit nicht
+
+Urheberrecht ist ein "schwaches Gesetz", obwohl es sogar mehrfach geschützt wreden kann (unter anderem über Patente) 
+
+---
+
+### Marke:
+
+- Wortmarke
+- Bildmarke
+- Wort-Bildmarke
+- 3D-Marke
+- Geruchsmarke
+- Bewegungsmarke
+- Farbmarke
