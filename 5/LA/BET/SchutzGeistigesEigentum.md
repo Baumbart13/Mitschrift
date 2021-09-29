@@ -55,3 +55,13 @@ Urheberrecht ist ein "schwaches Gesetz", obwohl es sogar mehrfach geschützt wre
    - Klasse 9 - Brillen
 
 Patente durchsuchen beim österreichischen [Patentamt](https://www.patentamt.at/de/downloads/publikationen/) bzw [hier](https://www.patentamt.at/marken/recherche/)
+
+### Geschmacksmuster (Design)
+In Österreich: [*Musterschutzgesetz*](https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10002963)
+
+[Muster anzeigen](https://www.patentamt.at/downloads/publikationen/)
+
+> (1) Für Muster, die neu sind und Eigenart haben (§§ 2, 2a) und weder gegen § 2b noch die öffentliche Ordnung oder die guten Sitten verstoßen, kann nach diesem Bundesgesetz Musterschutz erworben werden. Muster, die unter das Doppelschutzverbot (§ 3) fallen, werden nicht geschützt.
+
+- Neuheit
+- Locarno-Klassen
