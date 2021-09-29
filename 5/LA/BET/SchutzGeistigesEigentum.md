@@ -49,3 +49,9 @@ Urheberrecht ist ein "schwaches Gesetz", obwohl es sogar mehrfach geschützt wre
 - Geruchsmarke
 - Bewegungsmarke
 - Farbmarke
+- Hörmarke
+- Nizza-Klassen
+   - Düngemittel
+   - Klasse 9 - Brillen
+
+Patente durchsuchen beim österreichischen [Patentamt](https://www.patentamt.at/de/downloads/publikationen/) bzw [hier](https://www.patentamt.at/marken/recherche/)
