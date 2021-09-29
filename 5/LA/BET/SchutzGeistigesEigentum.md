@@ -59,9 +59,21 @@ Patente durchsuchen beim österreichischen [Patentamt](https://www.patentamt.at/
 ### Geschmacksmuster (Design)
 In Österreich: [*Musterschutzgesetz*](https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10002963)
 
+Gültigkeit beträgt 25 Jahre maximal
+
 > (1) Für Muster, die neu sind und Eigenart haben (§§ 2, 2a) und weder gegen § 2b noch die öffentliche Ordnung oder die guten Sitten verstoßen, kann nach diesem Bundesgesetz Musterschutz erworben werden. Muster, die unter das Doppelschutzverbot (§ 3) fallen, werden nicht geschützt.
 
 [Muster anzeigen](https://www.patentamt.at/downloads/publikationen/)
 
 - Neuheit
 - Locarno-Klassen
+
+---
+
+---
+
+Merken:
+- IPR
+- schwachesRecht
+- Nizza-Klassen
+- Muster-/Designschutz
