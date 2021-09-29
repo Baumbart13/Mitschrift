@@ -10,3 +10,20 @@ Wenn man ein Patent anmeldet gilt das Plagiat für maxmal 20 Jahre. Patent muss 
 Es gilt, dass wer zuerst die Anmeldung startet, der bekommt zuerst das Patent.
 <br><br><br>
 Es geht um mehrere Gesetze. Eines der betroffenen Gesetze ist das *Gesetz von unlauterem Wettbewerb*.
+
+Alle gewerblichen Schutzrechte haben 3 Sachen inkludiert:
+- Staatenbezogen
+   - territorial
+- Zeitlich begrenzt
+   - Ausnahme, welche man unbegrenzt erweitern darf ist die *Marke*
+- Verbietungsrecht
+   - Ich verbiete anderen das so zu tun, wie ich es tue.
+
+---
+
+EU-Vorgaben, bzw Verordnungen müssen in das Gesetz aufgenommen werden, damit eine Gültigkeit entsteht. 
+Sollte sich der Staat dagegen wehren eine Vorgabe aufzunehmen, wird ein Strafverfahren gestartet.
+
+---
+
+[IPR-Überblick.png](./IprTable001.png)
