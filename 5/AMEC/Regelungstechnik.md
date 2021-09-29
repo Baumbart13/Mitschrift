@@ -75,6 +75,8 @@ Das Störverhalten ist die Sprungantwort des ganzen Regelkreises im Bezug auf di
 
 Das Störverhalten ist zB ein geöffnetes Fesnter im Winter, wenn man Heizen möchte. 
 
+----
+
 |   | Beispiele |   |
 |:--- |:---:|:---:|
 | Bsp1 | **x** = Zimmertemperatur | **Z** = Wärmeverlust durch Außentemperatur |
@@ -84,4 +86,4 @@ Das Störverhalten ist zB ein geöffnetes Fesnter im Winter, wenn man Heizen mö
 | Bsp1 | **x** = Drehzahl | **Z** = Lastdrehmoment |
 |   | **y** = Umdrehungen |   |
 
-
+----
