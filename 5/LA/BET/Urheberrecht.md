@@ -28,4 +28,6 @@ Sollte sich der Staat dagegen wehren eine Vorgabe aufzunehmen, wird ein Strafver
 
 [IPR-Überblick.png](./IprTable001.png)
 
-###### [Urheberrecht](https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001848)
+##### [Urheberrecht](https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001848)
+###### **Abschnitt VIa. Sondervorschriften für Computerprogramme**
+###### **§40a bis §40h**
