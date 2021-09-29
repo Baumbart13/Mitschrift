@@ -43,3 +43,33 @@ Sollte man die Dusche einstellen und nicht weiter ändern, so ist das steuern. K
    - Führungsverhalten ist die Sprungantwort des ganzen Regelkreises im Bezug auf die Eingangsgröße *W*
 **Achtung:** Genau unterscheiden wovon man die Sprungantwort beachtet!
 Sprungantwort von Regler kann zwar sofort auf 100% gehen, aber Sprungantwort vom Sensor kann sehr träge sein
+
+Je nachdem wie sich der Regler verhält, verhält sich die Strecke und die Sensoren. Sie reagieren alle anders aber in Abhängigkeit der anderen Teile
+
+![Punkt zu Heizen/Abkühlen](./Heizen001.png)
+
+Schwarze Linie ist Abbau der Temperatur, Rot, ist der Aufbau
+<br><br>
+- Beispiel:
+   - Mit einer Heizung auf 20°C heizen. Bei 2 Heizungen "dauert" es halb so lang, allerdings gleich lange wie wenn man auf 40°C heizen würde.
+   - Praxis: Effekt sichtbar, da Dauer halbiert
+   - Theorie: Wenn 2 Heizungen verwendet werden, muss auch erwartete Temperatur verdoppelt werden (ALLES!), damit Sprungantwort am Ende die gleiche ist
+   - Verdopplun der Leistung = doppelt so hoher Sprung = habe Zeit
+
+![Heizen002.png](./Heizen002.png)
+
+----
+
+#### 2 Störverhalten
+
+- Störfaktoren
+   - Lampen
+   - Menschen
+   - Fenster
+   - EDV-Geräte
+   - Raumgröße (wirkt auf die Strecke, aber ist kein direkter Störfaktor)
+
+Auf die Strecke wirkt die Störgröße **Z**
+
+Das Störverhalten ist die Sprungantwort des ganzen Regelkreises im Bezug auf die Eingangsgröße **Z**
+
