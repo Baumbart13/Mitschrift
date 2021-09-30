@@ -11,7 +11,7 @@ Sie bildet die Geschehen der Wirklichkeit möglichst realitätsnah nach.
 Klassifizierung
 ----
 
-|   |   |   |
+|:---:|:--- |:--- |
 | 1 | Physikalisches Modell (Windkanal) | abstraktes Modell (Planspiel) |
 | 2 | Modelle mit menschlicher Entscheidung (militärische Sandkatenspiele) | ohne menschliche Entscheidung (Automatensteuerung) |
 | 3 | deterministische Modelle (Wärmeflussgleichungen) | stochastische Modelle (mindestens 1 Zeitpunkt ist zufällig; bsp Molekularbewegung) |
