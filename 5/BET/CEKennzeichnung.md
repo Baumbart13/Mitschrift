@@ -77,4 +77,21 @@ Mithilfe der Normen kann dies überprüft werden, ob diese Richtlinien eingehalt
 
 ---
 
-[Maschinenrichtlinien](./Maschinenrichtlinien.md)
+<details>
+<summary>Maschinenrichtlinien</summary>
+
+---
+| ![Maschinenrichtlinien001.png](./Maschinenrichtlinie001.png) |
+| ![Maschinenrichtlinien002.png](./Maschinenrichtlinie002.png) |
+| ![Maschinenrichtlinien003.png](./Maschinenrichtlinie003.png) |
+| ![Maschinenrichtlinien004.png](./Maschinenrichtlinie004.png) |
+| ![Maschinenrichtlinien005.png](./Maschinenrichtlinie005.png) |
+| ![Maschinenrichtlinien006.png](./Maschinenrichtlinie006.png) |
+| ![Maschinenrichtlinien007.png](./Maschinenrichtlinie007.png) |
+| ![Maschinenrichtlinien008.png](./Maschinenrichtlinie008.png) |
+| ![Maschinenrichtlinien009.png](./Maschinenrichtlinie009.png) |
+| ![Maschinenrichtlinien010.png](./Maschinenrichtlinie010.png) |
+| ![Maschinenrichtlinien011.png](./Maschinenrichtlinie011.png) |
+---
+
+</details>
