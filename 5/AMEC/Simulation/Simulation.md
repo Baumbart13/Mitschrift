@@ -40,3 +40,12 @@ Eigenschaften eines Modells (Simulation)
    - strukturelle Gültigkeit (ist das Modell so genau wie nötig? ist das Modell so ungenau wie möglich?)
    - zeitliche Gültigkeit (ist das akkurat in Zusammenhang mit der Zeit? Auch im Verlauf der Zeit korrekt?)
    - Überprüfung der Gültigkeit nennt man <u>Validierung</u>
+
+Simulationskreis
+----
+
+|     |     |     |
+|:---:|:---:|:---:|
+| reales System | ➡➡ Reduktion / Abstraktion ➡➡ | Simulationsmodell (Animationen) |
+| ⬆⬆ Anwenden ⬆⬆ |     | ⬇⬇ Experimente ⬇⬇ |
+| Folgerungen für das reale System | ⬅⬅ Übertragung / Interpretation ⬅⬅ | formale Ergebnisse |
