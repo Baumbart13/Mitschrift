@@ -96,7 +96,6 @@ Mithilfe der Normen kann dies überprüft werden, ob diese Richtlinien eingehalt
 ![Maschinenrichtlinien011.png](./Maschinenrichtlinie011.png) <br>
 
 </details>
-
 <details>
 <summary>Text</summary>
 
@@ -165,7 +164,6 @@ Mithilfe der Normen kann dies überprüft werden, ob diese Richtlinien eingehalt
 - Wann ist die Risikobeurteilung abgeschlossen?
    - Alle relevanten Gefährdungen wurden identifiziert
    - Für **alle** relevanten Gefährdungen wurde das (Rest-)Risko durch geeignete Maßnahmen hinreichend vermindert und die getroffenen Maßnahmen dokumentiert.
-
 
 </details>
 </details>
