@@ -76,3 +76,5 @@ Es gibt eigene Richtlinien für Spielzeuge innerhalb der EU
 Mithilfe der Normen kann dies überprüft werden, ob diese Richtlinien eingehalten werden
 
 ---
+
+![Maschinenrichtlinien001.png](./Maschinenrichtlinien001.png)
