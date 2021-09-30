@@ -35,3 +35,8 @@ Eigenschaften eines Modells (Simulation)
    - semantische Korrektheit (=logische Korrektheit)
       - entspricht der Korrektheit des Codes selber, dass zB eine Schleife über Array iteriert und nicht darüber hinaus beim Programmiern
    - Überprüfung der Korrektheit nennt man <u>Verifikation</u>
+> "Das Modell wird richtig erstellt"
+- Gültigkeit (Entsprechung der Realität)
+   - strukturelle Gültigkeit (ist das Modell so genau wie nötig? ist das Modell so ungenau wie möglich?)
+   - zeitliche Gültigkeit (ist das akkurat in Zusammenhang mit der Zeit? Auch im Verlauf der Zeit korrekt?)
+   - Überprüfung der Gültigkeit nennt man <u>Validierung</u>
