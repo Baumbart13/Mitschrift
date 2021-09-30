@@ -144,7 +144,28 @@ Mithilfe der Normen kann dies überprüft werden, ob diese Richtlinien eingehalt
 | Gefährdungen | Gefährdungsereignisse |
 |:--- |:--- |
 | Mechanische Gefährdungen | Kontakt mit rauen Oberflächen |
-| Elektrische Gefährdungen | Kontakt mit scharfen Kanten
+| Elektrische Gefährdungen | Kontakt mit scharfen Kanten und Ecken, vortehenden Teilen. |
+| Thermische Gefährdungen | Verlust der Standfestigkeit/-sicherheit |
+| Lärmgefährdungen | Bruch während des Betriebs |
+| Schwingungsgefährdungen | ungeseteuerte Bewegungen |
+| Strahlungsgefährdungen | Ursprung in Zusammenhang stehend mit der pneumatischen, hydraulischen oder elektrischen Ausrüstung |
+| Material-/Substanzgefährdungen | unbeabsichtigter/unerwarteter Nalauf |
+| Ergonomische Gefährdungen | ... u.v.a.m.!!! |
+| Gefährdungen im Zusammenhang mit der Einsatzumgebung der Maschine |   |
+| Kombination von Gefährdungen |   |
+
+- Wahl der geeigneten Maßnahmen
+   - 3-stufiger Prozess zur Risikominderung
+      1. Inhärentsichere Konstruktion
+      2. Technische Schutzmaßnahmen
+      3. Benutzerinformation
+   - Maßnahmen
+      1. Schutztür anbringen
+	  2. Steuerungstechnische Überwachung
+- Wann ist die Risikobeurteilung abgeschlossen?
+   - Alle relevanten Gefährdungen wurden identifiziert
+   - Für **alle** relevanten Gefährdungen wurde das (Rest-)Risko durch geeignete Maßnahmen hinreichend vermindert und die getroffenen Maßnahmen dokumentiert.
+
 
 </details>
 </details>
