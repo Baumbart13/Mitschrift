@@ -16,7 +16,7 @@ These are my documents i wrote in my HTL-Time
 ### Contributing
 
 1. Look for your wanted correction/addition
-2. Look if your correction/addition is already being discussed in the issues
+2. Look if your correction/addition is already being discussed in the issues or is already a request to be merged
 3. If it is not there and not being done already, continue with
 4. Fork the repository
 5. Apply your changes
