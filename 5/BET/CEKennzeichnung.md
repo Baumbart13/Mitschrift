@@ -108,7 +108,7 @@ Mithilfe der Normen kann dies überprüft werden, ob diese Richtlinien eingehalt
 	  - die **Gefährdungen auszuschalten oder** durch Anwednung von Schutzmaßnahmen die mit diesen Gefährdungen verbundenen Risiken in der in Nummer 1.1.2 Buchstabe b gestgelegte Rangfolge **zu mindern**
 - Schritt üfr Schritt zur rechtskonformen Maschine
    1. Einstufung des Erzeugnisses
-   2. Anwednung weiterer Richtlinien klären
+   2. Anwendung weiterer Richtlinien klären
    3. Freiwillige Anwednung von Normen klären
    4. Risikobeurteilung durchführen
       - Schwerpunkt in diesem Kapitel / Seminar
