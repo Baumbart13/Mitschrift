@@ -151,3 +151,54 @@ Aufgabe B
 | Einnahmenüberschuss            | 158000€ - 130250€                           |  =  | 27750,- €   |
 |                                |                                             |     |             |
 | Amortisationsdauer             | 85000€ / 27750€                             |  =  | 3,063 Jahre |
+
+----
+
+3 Dynamische Verfahren der Investitionsrechnung
+====
+
+Bei kurzfristigen Investitionen lohnt sich ein dynamisches Verfahren keinen Sinn, weil viel Aufwand für kleines Ergebnis. Daumenregel als Minimum für dynamisches Verfahren: 3 Jahre.
+
+#### Inflation
+
+Der Wert des Geldes sinkt im Laufe der Jahre dadurch, dass mehr Geld als Güter vorhanden sind.
+
+- Jährlicher Warenkorb
+   - Alle 5 Jahre wird der Warenkorb aktualisiert, man beginnt mit dem Wert 100 und rechnet dann hoch
+      - Aktualisiert wird dieser mithilfe von 4-köpfigen Familien.
+	     - Diese Familien dokumentieren ein ganzes Jahr lang **alle** ihre Ausgaben
+	  - Es entstehen Gewichtungen und Durchschnitte
+	  - Es gilt der Grundsatz
+	     > Vertraue nie einer Statistik, die du nicht selbst gefälscht hast.
+
+Schwachpunkt bei dynamischen Verfahren ist die Berücksichtigung von Zinsen und Inflation. Diese sind nicht voraussehbar. Früher entwickelten sich diese sehr parallel, doch heutzutage entwickeln sie sich entgegen.
+
+| Das sind nur Schätzungen!!! |     |
+|:--- |:---:|
+| Prä-Corona Inflationsrate | 1,5% bis 2% |
+| Inflationsrate | 6% |
+
+Bei einer Investition ist mehr zu zahlen wegen den Zinsen, nicht wegen der Inflation.
+
+#### Kapitalwertmethode
+
+Der Unterschied hier zu den statischen Methoden ist, dass die einzelnen, anfallenden Zahlungsströme wert,äßig mit der Zinseszinsrechnung berücksichtigt wird.
+
+1. Schritt - Einnahmenüberschuss _EÜ\[Z\]_
+   - Vorraussichtliche Investitionskosten, zukünftige Einnahemn und Ausgaben, die in Zusammenhang mit dem Investitionsobjekt stehen ermitteln.
+   - Aus den Einnahmen und Ausgaben lässt sich der Zeitwert der Einnahmenüberschüsse in den einzelnen Jahren berechnen
+      - Zeitwert = betragsmäßiger Wert einer Zahlung zum Zahlungszeitpunkt
+2. Schritt - Aufzinsen / Abzinsen
+   - Dies muss erledigt werden, damit Zahlungen auch eine gemeinsame Basis als Zeitpunkt haben.
+   - **Abzinsen**, wenn man den neuen Betrag hat und den alten will
+      - K\[0\] = K\[n\] / ( (1 + i) ^ t )
+   - **Aufzinnsen**, wenn man den alten Betrag hat und den neuen will
+      - K\[n\] = K\[0\] \* ( (1+i) ^ t)
+3. Schritt - Einnahmenüberschuss Barwert EÜ\[B\]
+   - 
+
+#### Annuitätenmethode
+
+
+#### Interne Zinssatzmethode
+
