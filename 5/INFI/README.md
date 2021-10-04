@@ -9,6 +9,7 @@ Databases
 
 1. [ORM](./ORM.md) 
 2. [ORM JPA](./ORM_JPA.md)
+3. [ORM JPA POJO](./ORM_JPA_POJO.md)
 
 ----
 ----
