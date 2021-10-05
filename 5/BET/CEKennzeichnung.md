@@ -5,8 +5,6 @@
 
 #### CE-Zertifizierung
 
-##### Sie sind GF eines Unternehmes, welches ... produziert. Ihre Wirtschaftsingenieure haben einen Vorschlag, wie man mit einer selbst gefertigten Anlage einen Fertigungsschritt vereinfachen kann und damit Qualitätsverbessern und Fertigungszeit vermindern kann. Worauf müsen Sie als GF bei der Anlage achten?
-
 ---
 
 Aufbau
@@ -167,3 +165,17 @@ Mithilfe der Normen kann dies überprüft werden, ob diese Richtlinien eingehalt
 
 </details>
 </details>
+
+----
+
+##### Sie sind GF eines Unternehmes, welches ... produziert. Ihre Wirtschaftsingenieure haben einen Vorschlag, wie man mit einer selbst gefertigten Anlage einen Fertigungsschritt vereinfachen kann und damit Qualitätsverbessern und Fertigungszeit vermindern kann. Worauf müsen Sie als GF bei der Anlage achten?
+
+1. Verantwortung GF für Scherheit und Anlagen
+2. Sicherheitskennzeichnung ist vorgeschrieben durch CE-Kennzeichnung, auch bei Einzelanlagen
+3. Schritt 1 - Welche EU-Richtlinien sind einzuhalten?
+   1. Was sind EU-Richtlinien - Einbindung in Österreichisches Rechtssystem
+   2. Richtlinien sind sehr umfangreich - wie kann ich für die konkrete Maschine/Anlage die Einhaltung sicherstellen?
+   3. Normen - Normen im Österreichischen Rechtssystem
+4. CE wesentliche Schritte
+5. Risikoanalyse - Beispiel
+6. Technische Unterlagen - Beispiel
