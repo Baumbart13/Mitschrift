@@ -77,7 +77,6 @@ Mithilfe der Normen kann dies überprüft werden, ob diese Richtlinien eingehalt
 
 <details>
 <summary>Maschinenrichtlinien</summary>
-
 <details>
 <summary>Bilder</summary>
 
@@ -92,11 +91,8 @@ Mithilfe der Normen kann dies überprüft werden, ob diese Richtlinien eingehalt
 ![Maschinenrichtlinien009.png](./Maschinenrichtlinie009.png) <br>
 ![Maschinenrichtlinien010.png](./Maschinenrichtlinie010.png) <br>
 ![Maschinenrichtlinien011.png](./Maschinenrichtlinie011.png) <br>
-
-</details>
-<details>
+</details><details>
 <summary>Text</summary>
-
 - Risikobeurteilung und Risikominderung
    - Bei den vorgenannten iterativen Verfahren der Risikobeurteilung und Risikominderung hat der Hersteller oder sein Bevollmächtigter
       - die **Grenzen der Maschine** zu bestimmen, was ihre bestimmungsmäßige Verwendung und jede vernünftigungerweise vorhersehbare Fehlanwednung einschließt;
