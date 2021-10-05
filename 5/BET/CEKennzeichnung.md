@@ -168,7 +168,7 @@ Mithilfe der Normen kann dies überprüft werden, ob diese Richtlinien eingehalt
 
 ----
 
-##### Sie sind GF eines Unternehmes, welches ... produziert. Ihre Wirtschaftsingenieure haben einen Vorschlag, wie man mit einer selbst gefertigten Anlage einen Fertigungsschritt vereinfachen kann und damit Qualitätsverbessern und Fertigungszeit vermindern kann. Worauf müsen Sie als GF bei der Anlage achten?
+#### Sie sind GF eines Unternehmes, welches ... produziert. Ihre Wirtschaftsingenieure haben einen Vorschlag, wie man mit einer selbst gefertigten Anlage einen Fertigungsschritt vereinfachen kann und damit Qualitätsverbessern und Fertigungszeit vermindern kann. Worauf müsen Sie als GF bei der Anlage achten?
 
 1. Verantwortung GF für Scherheit und Anlagen
 2. Sicherheitskennzeichnung ist vorgeschrieben durch CE-Kennzeichnung, auch bei Einzelanlagen
