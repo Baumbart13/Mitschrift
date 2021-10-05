@@ -199,6 +199,21 @@ Der Unterschied hier zu den statischen Methoden ist, dass die einzelnen, anfalle
 
 #### Annuitätenmethode
 
+Wird bei Investitionsalternativen mit unterschiedlichen Nutzungsdauern angewandt (eher der Praxisfall).
 
 #### Interne Zinssatzmethode
+
+----
+
+4 Berücksichtigung von Unsicherheiten
+====
+
+Wenn gewisse Unsicherheiten absehbar sind, sind diese auch einzuberechnen. Sogar Szenaioanalysen sind damit praktizierbar.
+
+Möglich sind
+- Best-Case-Szenario
+- Normal-Case-Szenario
+- Worst-Case-Szenario
+
+Je weiter die Investition sich auf die Zukunft auswirkt, desto weiter spreitzen sich auch die Szenarien, da sich immer mehr Möglichkeiten von Unfällen, aber auch von Glücksfällen öffnen.
 
