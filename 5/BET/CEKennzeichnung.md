@@ -179,3 +179,4 @@ Mithilfe der Normen kann dies überprüft werden, ob diese Richtlinien eingehalt
 4. CE wesentliche Schritte
 5. Risikoanalyse - Beispiel
 6. Technische Unterlagen - Beispiel
+7. Konformitätserklärung unterschreiben und DOKU griffbereit halten.
