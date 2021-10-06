@@ -76,7 +76,7 @@ Das Störverhalten ist die Sprungantwort des ganzen Regelkreises in Bezug auf di
 
 Das Störverhalten ist zB ein geöffnetes Fenster im Winter, wenn man Heizen möchte. 
 
-[Störverhalten001.png](./Störverhalten001.png)
+![Störverhalten001.png](./Störverhalten001.png)
 
 Der Störfaktor **Z[0]** weist einen Einheitssprung auf (Ein Fenster wird geöffnet) \
 Dadurch sinkt die Temperatur (**x** steigt) \
@@ -188,3 +188,4 @@ Beispiel: Handy ausschalten: Ausschalten-Knopf gewisse Zeit gedrückt lassen, bi
 	     - Tank
 		    - Zufluss ist linear
 			- Füllstand ist das Integral vom Wasserstand
+- Wenn man regelungstechnische Elemente allgemein betrachtet (nicht auf eine konkrete Anwendung bezogen, so sind die Eingangs- und Ausgangsgrößen immer dimensionslos)
