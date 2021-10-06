@@ -162,3 +162,29 @@ Positive Rückkopplung ≘ **x** steigt, **W** steigt; und anders herum
 
 Positive Rückkopplung ist in der Wirtschaft meistens eine Blase => Nachfrage steigt, Preis steigt. \
 Bis zum Kippen der Richtung. Nach dem Kippen sinkt die Nachfrage und der Preis sinkt.
+
+----
+
+#### 3 Typische Regelstrecken (regelungstechnische Elemente)
+
+##### P-Element (Proportionalelement)
+
+- Nicht mehr proprotional dazu ist zB die Motordrehzahl, weill das Fahrzeug beschleunigt werden muss.
+- **A(t)** = **k[p]** \* **E(t)**
+- Ausgangswert = Proprotionalitätsfaktor des p-Elements \* Eingangswert
+
+##### Totzeit-Element
+
+Siehe Förderband: Kies wird auf Förderband gelegt und benötigt eine gewisse Zeit (= Verzögerung), damit der Kies im System ist.
+
+Beispiel: Handy ausschalten: Ausschalten-Knopf gewisse Zeit gedrückt lassen, bis sich das Handy ausschaltet. Diese Verzögerung ist die **Totzeit** und das Bauelement ist das **Totzeit-Element**
+
+##### Integrierer (I-Glied (ohne Verluste))
+
+- Für was brauchen wir Integration?
+   - Wenn man auf etwas warten möchte
+   - Wenn man eine Fläche berechnen möchte (= Integrieren in a nutshell)
+      - Was bringt das?
+	     - Tank
+		    - Zufluss ist linear
+			- Füllstand ist das Integral vom Wasserstand
