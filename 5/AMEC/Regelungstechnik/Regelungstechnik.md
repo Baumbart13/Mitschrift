@@ -159,3 +159,6 @@ Die Preisbildung durch Angebot & Nachfrage ist ein Beispiel für negative Rückk
 
 Negative Rückkopplung ≘ **x** steigt, **W** sinkt; und anders herum \
 Positive Rückkopplung ≘ **x** steigt, **W** steigt; und anders herum
+
+Positive Rückkopplung ist in der Wirtschaft meistens eine Blase => Nachfrage steigt, Preis steigt. \
+Bis zum Kippen der Richtung. Nach dem Kippen sinkt die Nachfrage und der Preis sinkt.
