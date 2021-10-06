@@ -156,3 +156,6 @@ Die Preisbildung durch Angebot & Nachfrage ist ein Beispiel für negative Rückk
       <td>€</td>
    </tr>
 </table>
+
+Negative Rückkopplung ≘ **x** steigt, **W** sinkt; und anders herum \
+Positive Rückkopplung ≘ **x** steigt, **W** steigt; und anders herum
