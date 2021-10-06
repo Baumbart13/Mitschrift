@@ -76,6 +76,13 @@ Das Störverhalten ist die Sprungantwort des ganzen Regelkreises in Bezug auf di
 
 Das Störverhalten ist zB ein geöffnetes Fenster im Winter, wenn man Heizen möchte. 
 
+[Störverhalten001.png](./Störverhalten001.png)
+
+Der Störfaktor **Z[0]** weist einen Einheitssprung auf (Ein Fenster wird geöffnet) \
+Dadurch sinkt die Temperatur (**x** steigt) \
+Dann wird **y** so eingestellt, dass der gestiegene Störfaktor kompensiert wird (**x** sinkt wieder runter) \
+Im Idealfall sinkt **x** dadurch auf den originalen, gewünschten Wert herunter. In der Praxis kann dies nicht umgesetzt werden, lediglich eine Näherung.
+
 ----
 
 |      | Beispiele                         |                                            |
@@ -111,7 +118,41 @@ Zu viel CO2 im Blut schneller Atem
       <td><strong>y</strong> = Insulinproduktion</td>
       <td></td>
    </tr>
-</table
+</table>
 
 ----
 
+Negative Rückkoplung:
+
+Die Preisbildung durch Angebot & Nachfrage ist ein Beispiel für negative Rückkopplung. Ein bestimmter Effekt (geringe Nachfrage) hat eine Konsequenz, die diesem entgegengerichtet ist. => System pendelt sihc in einen stabilen Zustand ein.
+
+
+<table>
+   <tr>
+      <td></td>
+	  <td style="text-align: center">
+	     <strong>Beispiel Laptop-Verkauf</strong>
+	  </td>
+	  <td></td>
+   </tr>
+   <tr>
+      <td>W</td>
+      <td>gewünschter Preis</td>
+      <td>€</td>
+   </tr>
+   <tr>
+      <td>y</td>
+      <td>Angebot</td>
+      <td>Stück</td>
+   </tr>
+   <tr>
+      <td>x</td>
+      <td>aktueller Preis</td>
+      <td>€</td>
+   </tr>
+   <tr>
+      <td>E</td>
+      <td>W - x</td>
+      <td>€</td>
+   </tr>
+</table>
