@@ -39,25 +39,27 @@ Transferstraße
 
 ----
 
-##### Arbeitsteilung
+Arbeitsteilung
+----
 
 - Mengenteilung
    - Parallele Fertigung
 - Artteilung
    - Sequentielle Fertigung
 
-##### Fertigungsart
+Fertigungsart
+----
 
 - Einzelfertigung
 - Serienfertigung
 - Massenfertigung
 
-##### Fertigungsprinzip
+Fertigungsprinzip
+----
 
 <details><summary>Werkstattfertigung</summary>
 
-Video Werkstattfertigung
-----
+**Video Werkstattfertigung**
 
 - Ist eine Art von Produktionstyp
 - Funktioniert nach dem Funktionsprinzip
