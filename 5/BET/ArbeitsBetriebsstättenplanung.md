@@ -82,3 +82,21 @@ Transferstraße
 - wenig flexibel
    - Leider nur 1 bestimmte Größe von zB Bohrung möglich
 - Ausfall einer Maschine -> Produktionsstopp
+
+##### Arbeitsteilung
+
+- Mengenteilung
+   - Parallele Fertigung
+- Artteilung
+   - Sequentielle Fertigung
+
+##### Fertigungsart
+- Einzelfertigung
+- Serienfertigung
+- Massenfertigung
+
+##### Fertigungsprinzip
+- Werkstattfertigung
+- Fließfertigung
+- Reihenfertigung
+- Baustellenfertigung
