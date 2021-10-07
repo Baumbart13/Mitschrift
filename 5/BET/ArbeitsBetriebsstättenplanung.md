@@ -48,14 +48,11 @@ Video Reihenproduktion
    - kein Zeitdruck dank Puffer
 - keine langen Transportwege, da Prdoukt von einer Station zur nächsten fährt über Fließband
 - einhetilicher Materialflusss
-
 - ohne zeitliche Bindung
 - kurze Transportwege
 - unbeschränkter Puffer
    - kein Zeitdruck
    - Stationen können zeitlich unabhängig voneinander arbeiten
-
-
    
 Fließfertigung
 ----
@@ -67,7 +64,6 @@ Fließfertigung
 - einhetilicher, getakteter Materialfluss
 - hohe Produktivität
 - Materialfluss asynchron
-
 
 Transferstraße
 ----
