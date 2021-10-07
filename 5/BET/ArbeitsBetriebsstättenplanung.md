@@ -8,7 +8,6 @@ Oft wird das [RIS](https://www.ris.bka.gv.at/ "ris.bka.gv.at") verwendet.
 
 Arbeitsplätze ohne ausreichend Beleuchtung, Belüftung ist nicht gestattet. Kellerräume als Arbeitsplätze zu verwenden ist nicht so einfach, wie man sich erwarten würde.
 
-
 Zusammenfassung Video Nr1
 ----
 
