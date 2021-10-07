@@ -19,52 +19,6 @@ Zusammenfassung Video Nr1
 - Kann man einen Betrieb in solchen Bereichen auch sinnvoll führen?
 - Raumverwinklung ist nicht gut
 
-Video Werkstattfertigung
-----
-
-- Ist eine Art von Produktionstyp
-- Funktioniert nach dem Funktionsprinzip
-   - Arbeitssystem wird nach Arbeitsschritt geregelt
-      1 Werkstatt "Stanzen" -> Schlagschere
-      2 Werkstatt "Bohren" -> Löcher bohren
-      3 Werkstatt "Drehen" -> Bauteil drehen
-      4 Werkstatt "Schleifen" -> Bauteil schleifen
-- Eigenschaften:
-   - Keinserienproduktion
-   - breites Erzeugnisspektrum, verschiedene Produkte, schwankende Nachfragen
-   - knappe Ressourcen
-   - lange Transportwege, hohe Lagerkosten
-   - vernetzter Materialfluss
-      - Sollte mal Schere kapuut sein, dann kann sie in die Werkstatt "Schleifen" gegeben werden
-
-Video Reihenproduktion
-----
-
-- Ist eine Art von Produktionstyp
-- Im Prinzip Fließband-arbeit
-- Funktioniert nach dem Objektprinzip
-   - Dreht sich alles ums Produkt
-- Zwischen Maschinen ist kleines Lager als Puffer
-   - kein Zeitdruck dank Puffer
-- keine langen Transportwege, da Prdoukt von einer Station zur nächsten fährt über Fließband
-- einhetilicher Materialflusss
-- ohne zeitliche Bindung
-- kurze Transportwege
-- unbeschränkter Puffer
-   - kein Zeitdruck
-   - Stationen können zeitlich unabhängig voneinander arbeiten
-   
-Fließfertigung
-----
-
-- Objektprinzip
-- Werkstücke bewegen sich unabhängig
-- kein gekoppelter Materialfluss
-- Puffer zwischen Stationen möglich
-- einhetilicher, getakteter Materialfluss
-- hohe Produktivität
-- Materialfluss asynchron
-
 Transferstraße
 ----
 
@@ -83,6 +37,8 @@ Transferstraße
    - Leider nur 1 bestimmte Größe von zB Bohrung möglich
 - Ausfall einer Maschine -> Produktionsstopp
 
+----
+
 ##### Arbeitsteilung
 
 - Mengenteilung
@@ -91,12 +47,65 @@ Transferstraße
    - Sequentielle Fertigung
 
 ##### Fertigungsart
+
 - Einzelfertigung
 - Serienfertigung
 - Massenfertigung
 
 ##### Fertigungsprinzip
-- Werkstattfertigung
-- Fließfertigung
-- Reihenfertigung
-- Baustellenfertigung
+
+<details><summary>Werkstattfertigung</summary>
+
+Video Werkstattfertigung
+----
+
+- Ist eine Art von Produktionstyp
+- Funktioniert nach dem Funktionsprinzip
+   - Arbeitssystem wird nach Arbeitsschritt geregelt
+      1 Werkstatt "Stanzen" -> Schlagschere
+      2 Werkstatt "Bohren" -> Löcher bohren
+      3 Werkstatt "Drehen" -> Bauteil drehen
+      4 Werkstatt "Schleifen" -> Bauteil schleifen
+- Eigenschaften:
+   - Keinserienproduktion
+   - breites Erzeugnisspektrum, verschiedene Produkte, schwankende Nachfragen
+   - knappe Ressourcen
+   - lange Transportwege, hohe Lagerkosten
+   - vernetzter Materialfluss
+      - Sollte mal Schere kapuut sein, dann kann sie in die Werkstatt "Schleifen" gegeben werden
+</details>
+<details><summary>Fließfertigung</summary>
+
+Fließfertigung
+----
+
+- Objektprinzip
+- Werkstücke bewegen sich unabhängig
+- kein gekoppelter Materialfluss
+- Puffer zwischen Stationen möglich
+- einhetilicher, getakteter Materialfluss
+- hohe Produktivität
+- Materialfluss asynchron
+</details>
+<details><summary>Reihenfertigung</summary>
+
+Video Reihenproduktion
+----
+
+- Ist eine Art von Produktionstyp
+- Im Prinzip Fließband-arbeit
+- Funktioniert nach dem Objektprinzip
+   - Dreht sich alles ums Produkt
+- Zwischen Maschinen ist kleines Lager als Puffer
+   - kein Zeitdruck dank Puffer
+- keine langen Transportwege, da Prdoukt von einer Station zur nächsten fährt über Fließband
+- einhetilicher Materialflusss
+- ohne zeitliche Bindung
+- kurze Transportwege
+- unbeschränkter Puffer
+   - kein Zeitdruck
+   - Stationen können zeitlich unabhängig voneinander arbeiten
+</details>
+
+<details><summary>Baustellenfertigung</summary>
+</details>
