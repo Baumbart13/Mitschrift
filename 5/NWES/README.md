@@ -9,6 +9,7 @@ Indexes of topics (chronogical order)
 4. [Firewalls](./Firewalls.md)
 5. [Adressierung/ Subnetting](./AdressierungSubnetting.md)
 6. [Switching](./Switching.md)
+7. [Administrative Distanz und Metrik](./Metrik.md)
 
 ----
 ----
