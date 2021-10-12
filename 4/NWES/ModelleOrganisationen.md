@@ -37,7 +37,7 @@ NGO, Anbieter neutral
 - TIA (Telecommunications Industry Association)
 
 #### Wiederholung:
-![Wiederholung_NWES001.png](./Wiederholung_NWES001.png)
-![Wiederholung_NWES002.png](./Wiederholung_NWES002.png)
-![Wiederholung_NWES003.png](./Wiederholung_NWES003.png)
-![Wiederholung_NWES004.png](./Wiederholung_NWES004.png)
+![Wiederholung_NWES001.png](./images/Wiederholung_NWES001.png)
+![Wiederholung_NWES002.png](./images/Wiederholung_NWES002.png)
+![Wiederholung_NWES003.png](./images/Wiederholung_NWES003.png)
+![Wiederholung_NWES004.png](./images/Wiederholung_NWES004.png)

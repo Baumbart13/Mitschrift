@@ -80,17 +80,17 @@ Mithilfe der Normen kann dies überprüft werden, ob diese Richtlinien eingehalt
 <details>
 <summary>Bilder</summary>
 
-![Maschinenrichtlinien001.png](./Maschinenrichtlinie001.png) <br>
-![Maschinenrichtlinien002.png](./Maschinenrichtlinie002.png) <br>
-![Maschinenrichtlinien003.png](./Maschinenrichtlinie003.png) <br>
-![Maschinenrichtlinien004.png](./Maschinenrichtlinie004.png) <br>
-![Maschinenrichtlinien005.png](./Maschinenrichtlinie005.png) <br>
-![Maschinenrichtlinien006.png](./Maschinenrichtlinie006.png) <br>
-![Maschinenrichtlinien007.png](./Maschinenrichtlinie007.png) <br>
-![Maschinenrichtlinien008.png](./Maschinenrichtlinie008.png) <br>
-![Maschinenrichtlinien009.png](./Maschinenrichtlinie009.png) <br>
-![Maschinenrichtlinien010.png](./Maschinenrichtlinie010.png) <br>
-![Maschinenrichtlinien011.png](./Maschinenrichtlinie011.png) <br>
+![Maschinenrichtlinien001.png](./images/Maschinenrichtlinie001.png) <br>
+![Maschinenrichtlinien002.png](./images/Maschinenrichtlinie002.png) <br>
+![Maschinenrichtlinien003.png](./images/Maschinenrichtlinie003.png) <br>
+![Maschinenrichtlinien004.png](./images/Maschinenrichtlinie004.png) <br>
+![Maschinenrichtlinien005.png](./images/Maschinenrichtlinie005.png) <br>
+![Maschinenrichtlinien006.png](./images/Maschinenrichtlinie006.png) <br>
+![Maschinenrichtlinien007.png](./images/Maschinenrichtlinie007.png) <br>
+![Maschinenrichtlinien008.png](./images/Maschinenrichtlinie008.png) <br>
+![Maschinenrichtlinien009.png](./images/Maschinenrichtlinie009.png) <br>
+![Maschinenrichtlinien010.png](./images/Maschinenrichtlinie010.png) <br>
+![Maschinenrichtlinien011.png](./images/Maschinenrichtlinie011.png) <br>
 </details><details>
 <summary>Text</summary>
 

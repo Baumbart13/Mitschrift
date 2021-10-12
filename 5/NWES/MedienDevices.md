@@ -29,7 +29,7 @@ Switch
 - Kann gleichzeitig Daten senden und empfangen
 - Switching (Tabelle, sendet -> Destination Mac, speichert SourceMac an Port)
 
-![Switch](./Switch001.png)
+![Switch](./images/Switch001.png)
 
 Router
 ----
@@ -38,7 +38,7 @@ Router
 - Leitet auf Basis der IP-Adresse Daten weiter
 - Im privaten Umfeld: Heimnetz -> Internet
 
-![Router](./Router001.png)
+![Router](./images/Router001.png)
 
 Hub
 ----
@@ -48,7 +48,7 @@ Hub
    - Beim erhalt eines Datenpaketes -> kopiert es an alle Ports
    - Fungiert also als gemeinsamer Verbindungspunkt für Geräte
 
-![Hub](./Hub001.png)
+![Hub](./images/Hub001.png)
 
 Access Point
 ----
@@ -58,7 +58,7 @@ Access Point
 - Es empfängt das eingehende Signal vom Router und verbreitet es im WLAN-Netzwerk, welches vom AP aufgebaut wird
 - Mit Endgerät -> verbinden zu WLAN-Netzwerk möglich
 
-![Access Point](./AccessPoint001.png)
+![Access Point](./images/AccessPoint001.png)
 
 Übertragungsmedien
 ----
@@ -93,7 +93,7 @@ Twisted Pair
    - Besseren Schutz gegen Störfelder
 - 2 Arten: UTP und STP (wurde im Unterricht nicht genau besprochen)
 
-![Twisted Pair](./TwistedPair001.png)
+![Twisted Pair](./images/TwistedPair001.png)
 
 Koaxialkabel
 ----
@@ -111,7 +111,7 @@ Koaxialkabel
    - Kabelmantel 
       - Äußerer Schutz eines Kabels
 
-![Koaxialkabel](./Koaxialkabel001.png)
+![Koaxialkabel](./images/Koaxialkabel001.png)
 
 Glasfaser
 ----
@@ -135,7 +135,7 @@ Glasfaser
       - Mehrere Signale werden übertragen
       - Verwendung: Computernetze
 
-![Glasfaser](./Glasfaser001.png)
+![Glasfaser](./images/Glasfaser001.png)
 
 Wireless Local Area Network (WLAN)
 ----

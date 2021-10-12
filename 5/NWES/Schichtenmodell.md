@@ -28,7 +28,7 @@ TCP/IP-Modell / OSI-Modell
 - Layer 3 TCP -> Layer 4 OSI
 - Layer 4 TCP -> Layer 5-7
 
-![TCP-Layer](../../4/NWES/Wiederholung_NWES002.png)
+![TCP-Layer](../../4/NWES/images/Wiederholung_NWES002.png)
 
 #### Layers des OSI-Model
 
@@ -138,7 +138,7 @@ TCP/IP-Modell / OSI-Modell
       - Flag (Fragmentierung)
       - Checksum (verlorene Bits)
 
-![Protkoll-Header](./ProtokollHeader001.png)
+![Protkoll-Header](./images/ProtokollHeader001.png)
 
 #### Encapsulation
 
@@ -157,4 +157,4 @@ TCP/IP-Modell / OSI-Modell
    - zuletzt das Data-Frame mit Ethernet Header
 - Weiterleitung durch Layer 1
 
-![Layer Encapsulation](./LayerEncapsulation001.png)
+![Layer Encapsulation](./images/LayerEncapsulation001.png)
