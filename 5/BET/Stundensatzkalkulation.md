@@ -7,7 +7,7 @@ Why calculate an hourly rate?
 - Very important for the company's existence.
 - In order to calculate the manufactoring costs of the products or services provided by the company,...
 
-#### ** How do we calculate it? What does an hourly rate include?**
+#### **How do we calculate it? What does an hourly rate include?**
 
 What does an hourly rate include?
 ----
