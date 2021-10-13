@@ -46,7 +46,7 @@ Finally...
 | Anwesenheitszeit | 1656 | h/Jahr |
 | Stundensatz | 22,17 | €/h |
 
-MASCHINENSTUNDENSATZ
+Maschinenstundensatz
 ====
 
 The aim of machine hourly rate & Example
