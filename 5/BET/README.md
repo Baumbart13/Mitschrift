@@ -8,6 +8,8 @@ Indexes of topics (chronogical order)
 3. [Arbeitsplatz und Betriebsstättenplanung](./ArbeitsBetriebsstättenplanung.md)
 4. [REFA/MTM](./RefaMtm.md)
 5. [Optimale Bestellmenge](./Beschaffungsmenge.md)
+6. [Stundensatzkalkulation](./Stundensatzkalkulation.md)
+7. [Materialbedarfsplanung](./Materialbedarfsplanung.md)
 
 ----
 
