@@ -189,3 +189,47 @@ Beispiel: Handy ausschalten: Ausschalten-Knopf gewisse Zeit gedrückt lassen, bi
 		    - Zufluss ist linear
 			- Füllstand ist das Integral vom Wasserstand
 - Wenn man regelungstechnische Elemente allgemein betrachtet (nicht auf eine konkrete Anwendung bezogen, so sind die Eingangs- und Ausgangsgrößen immer dimensionslos)
+- Ein I-Glied wird durch **k[I]** charakterisiert, bis die Ausgangsgröße gleich 1 ist.
+- Ein weiteres Beispiel für ein I-Glied ist das Aufheizen einer Box, wenn diese keinen Energieverlust an die Umgebung hat (Thermobox)
+
+##### Integrierer mit Verlust
+
+- zB Tank mit Abfluss mit Füllmenge = proprotional zu Füllhöhe.
+   - Maximale Füllhöhe ist erreicht, wenn ``h \* k[p] = "``. Das heißt es fließt gleich viel ab, wie zu.
+- Nähert sich asymptotisch an ``k[S] = Sprungantwort`` an
+- Anderes Beispiel:
+   - Zimmertemperatur steigt durch Heizleistung an -> Verlustwärme geht an Umgebung und ist immer präsent
+- Desto näher man am Sollwert ist, desto langsamer nähert man sich dem Sollwert.
+
+![IntegriererVerlust001.png](./images/IntegriererVerlust001.png)
+![IntegriererVerlust002.png](./images/IntegriererVerlust002.png)
+
+##### PT1-Element (Differenzialgleichungselement, Zahl steht für die Ordnung der Gleichung)
+
+- Regelungstechnische Elemente lassen sich durch Differntialgleichungen beschreiben
+   - unabhängige Variable = Zeit ``t``
+   - Lösungsfunktion = Ausgangsgröße
+   - Störfunktion = Eingangsgröße
+
+![PT1001.png](./images/PT1001.png)
+
+**Bemerkung:** \
+**Wir werden nur Fälle betrachten, wo PT1-Elemente zum Startzeitpunkt und Ausgang den Wert 0 haben. Bei ANA-Simualtionen ließe sch ein entsprechender Startwert vorgeben**
+
+##### PT2-Element
+
+Dies wird für Schwingungen verwendet.
+
+Im Grunde sind Schwingungen unerwünscht, außer man möchte schnell den Sollwert erreichen. \
+Einer der besten Fälle wäre der _aperiodische Grenzfall_, wo der Istwert ein mal überschwingt und dann direkt auf den Sollwert schwingt.
+
+- Anwendungsbeispiel
+   - Aluminium-Hartlöten
+      - Kleiner Temperaturbereich
+	  - Wenn zu kalt, dann ist Aluminium hart
+	  - Wenn zu heiß, dann ist 1 Aluminium-Klumpen
+
+##### nicht schwingungsfähiges PT2-Element
+
+Verhält sich gleich wie zwei PT1-Elemente in Serie. **NUR wenn nicht schwingungsfähig** \
+Lösung der Differntialgleichung enthält keine Winkelfunktion
