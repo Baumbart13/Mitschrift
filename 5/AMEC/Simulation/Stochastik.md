@@ -13,4 +13,4 @@ Hierunter ist die Fläche noch nicht ``1``. Zuerst standardisieren, dann ist die
 
 Es sind Umrechnungen und Annäherungen zwischen sämtlichen Verteilungen möglich:
 
-![Stochastik001.png](./images/Stochastik001.png)
+![Stochastik001.png](https://massmatics.de/de/files/2013/06/verteilungen.jpg)
