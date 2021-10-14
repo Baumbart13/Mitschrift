@@ -64,83 +64,86 @@ Beispiel für eine Stücklistenauflösung
 ----
 
 <table>
-	<td><tr><strong>Produkt P1</strong></tr></td>
-	<td>
-		<tr><strong>Teil</strong></tr>
-		<tr><strong>Menge</strong></tr>
-	</td>
-	<td>
-		<tr>K1</tr>
-		<tr>3 Stück</tr>
-	</td>
-	<td>
-		<tr>K2</tr>
-		<tr>2 Stück</tr>
-	</td>
-	<td>
-		<tr>K3</tr>
-		<tr>5 Stück</tr>
-	</td>
-	<td>
-		<tr>T1</tr>
-		<tr>1 Stück</tr>
-	</td>
-	<td>
-		<tr>T2</tr>
-		<tr>2 Stück</tr>
-	</td>
+    <tr>
+        <td><strong>Produkt P1</strong></td>
+    </tr>
+    <tr>
+        <td><strong>Teil</strong></td>
+        <td><strong>Menge</strong></td>
+    </tr>
+    <tr>
+        <td>K1</td>
+        <td>3 Stück</td>
+    </tr>
+    <tr>
+        <td>K2</td>
+        <td>2 Stück</td>
+    </tr>
+    <tr>
+        <td>K3</td>
+        <td>5 Stück</td>
+    </tr>
+    <tr>
+        <td>T1</td>
+        <td>1 Stück</td>
+    </tr>
+    <tr>
+        <td>T2</td>
+        <td>2 Stück</td>
+    </tr>
+</table>
+
+<table>
+    <tr><td><strong>Teil T1</strong></td></tr>
+    <tr>
+        <td>R1</td>
+        <td>0,6m²</td>
+    </tr>
+    <tr>
+        <td>R2</td>
+        <td>1,4m²</td>
+    </tr>
 </table>
 <table>
-	<td><tr><strong>Teil T1</strong></tr></td>
-	<td>
-		<tr>R1</tr>
-		<tr>0,6m²</tr>
-	</td>
-	<td>
-		<tr>R2</tr>
-		<tr>1,4m²</tr>
-	</td>
+    <tr><td><strong>Teil T2</strong></td></tr>
+    <tr>
+        <td>R3</td>
+        <td>0,9m²</td>
+    </tr>
 </table>
 <table>
-	<td><tr><strong>Teil T2</strong></tr></td>
-	<td>
-		<tr>R3</tr>
-		<tr>0,9m²</tr>
-	</td>
+    <tr><td><strong>Produkt P1</strong></td></tr>
+    <tr>
+        <td><strong>Teil</strong></td>
+        <td><strong>Menge</strong></td>
+    </tr>
+    <tr>
+        <td>K1</td>
+        <td>3 Stück</td>
+    </tr>
+    <tr>
+        <td>K2</td>
+        <td>2 Stück</td>
+    </tr>
+    <tr>
+        <td>T1</td>
+        <td>1 Stück</td>
+    </tr>
 </table>
 <table>
-	<td><tr><strong>Produkt P1</strong></tr></td>
-	<td>
-		<tr><strong>Teil</strong></tr>
-		<tr><strong>Menge</strong></tr>
-	</td>
-	<td>
-		<tr>K1</tr>
-		<tr>3 Stück</tr>
-	</td>
-	<td>
-		<tr>K2</tr>
-		<tr>2 Stück</tr>
-	</td>
-	<td>
-		<tr>T1</tr>
-		<tr>1 Stück</tr>
-	</td>
-</table>
-<table>
-	<td><tr><strong>Teil T1</strong></tr></td>
-	<td>
-		<tr><strong>Teil</strong></tr>
-		<tr><strong>Menge</strong></tr>
-	</td>
-	<td>
-		<tr>R1</tr>
-		<tr>0,6m²</tr>
-	</td>
-	<td>
-		<tr>R2</tr>
-		<tr>1,4m²</tr>
-	</td>
+    <tr><td><strong>Teil T1</strong></td></tr>
+    <tr>
+        <td><strong>Teil</strong></td>
+        <td><strong>Menge</strong></td>
+    </tr>
+    <tr>
+        <td>R1</td>
+        <td>0,6m²</td>
+    </tr>
+    <tr>
+        <td>R2</td>
+        <td>1,4m²</td>
+    </tr>
 </table>
 
 Es sollen 50 Stück des Produktes P1 hergestellt werden
