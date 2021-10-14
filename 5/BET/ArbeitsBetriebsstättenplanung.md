@@ -157,6 +157,7 @@ Vorabweg: Hängt viel mit Qulaitätsmanagement zusammen
    - Hier muss bekannt sein, ob zB eine Werkstattfertigung oder ein Reihenproduktion benutzt werden wird.
 4. Betriebsmittelplanung
 
+##### **Kapazitätsbedarfsplanung**
 
 Produktionsprogramm + Stücklisten + Arbeitspläne => Kapazitätsbedarfsplanung \
 Kapazitätsbedarfsplanung => Personalbedarf (Qualifikation, Anzahl) \
@@ -168,3 +169,22 @@ Wenn ein Bedarf besteht, muss auch das Angebot ermittelt werden. Das sind im Gru
 Ein guter Anhaltspunkt ist die Andler'sche Formel
 
 Der Unterpunkt der Kapazitätsbedarfsplanung ist in der entsprechenden [Datei](./Materialbedarfsplanung.md) besser nachzuschlagen.
+
+##### **Standortfestlegung**
+
+- Möglichkeit: Nutzwertanalyse
+   - Kann überall eingesetzt werden
+   - Auch bei Partnersuche ?!?!!
+      - Alter
+	  - Aussehen
+	  - Familienstand
+	  - Charakter
+	  - Humor
+	  - Vermögen
+	  - Wünscht sich Kinder
+	  - Heiratswillig
+   - Alle Kriterien müssen gesamt 100% ergeben
+   - Für jede Option können dann Punkte vergeben werden
+   - Die Punkte werden nach dem Prinzip vergeben:
+      - ``x`` von 10 Punkten werden vergeben in der Kategorie
+	  - Diese Punkte werden mit der Gewichtung in Prozent mulitpliziert. Eg ``3Punkte \* 1,1`` -> ``1,1`` weil diese Kategorie ``10%`` besitzt
