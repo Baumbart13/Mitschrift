@@ -19,24 +19,6 @@ Zusammenfassung Video Nr1
 - Kann man einen Betrieb in solchen Bereichen auch sinnvoll führen?
 - Raumverwinklung ist nicht gut
 
-Transferstraße
-----
-
-- Arbeiter machen nur Qualtiätskontrolle und achten darauf, dass alles intakt ist
-- Fließproduktion
-- Maschinen und Roboter arbeiten
-- Objektprinzip
-- funktioniert komplett automatisch
-- einheitlicher, getakteter Materialfluss
-- synchroner Materialfluss
-- kurze Durchlaufzeiten und Transportwege
-- keine Kosten durch Zwischenlagerung
-- hohe Produktivität
-   - Dadurch Massenproduktion leicht möglich
-- wenig flexibel
-   - Leider nur 1 bestimmte Größe von zB Bohrung möglich
-- Ausfall einer Maschine -> Produktionsstopp
-
 ----
 
 Arbeitsteilung
@@ -56,6 +38,28 @@ Fertigungsart
 
 Fertigungsprinzip
 ----
+
+<details><summary>Transferstraße</summary>
+
+Transferstraße
+----
+
+- Arbeiter machen nur Qualtiätskontrolle und achten darauf, dass alles intakt ist
+- Fließproduktion
+- Maschinen und Roboter arbeiten
+- Objektprinzip
+- funktioniert komplett automatisch
+- einheitlicher, getakteter Materialfluss
+- synchroner Materialfluss
+- kurze Durchlaufzeiten und Transportwege
+- keine Kosten durch Zwischenlagerung
+- hohe Produktivität
+   - Dadurch Massenproduktion leicht möglich
+- wenig flexibel
+   - Leider nur 1 bestimmte Größe von zB Bohrung möglich
+- Ausfall einer Maschine -> Produktionsstopp
+
+</details>
 
 <details><summary>Werkstattfertigung</summary>
 
