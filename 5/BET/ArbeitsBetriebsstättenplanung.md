@@ -60,7 +60,6 @@ Transferstraße
 - Ausfall einer Maschine -> Produktionsstopp
 
 </details>
-
 <details><summary>Werkstattfertigung</summary>
 
 **Video Werkstattfertigung**
@@ -115,6 +114,57 @@ Video Reihenproduktion
 
 <details><summary>Baustellenfertigung</summary>
 </details>
+<details><summary>Toyota-Prinzip</summary>
+
+Einschub Toyota-Prinzip
+----
+
+Vorabweg: Hängt viel mit Qulaitätsmanagement zusammen
+
+- Deises Prinzip begann in Firma Toyota
+- Dient dazu die Verschwendung in einer Firma zu eliminieren
+- Beschreibt 7 Möglichkeiten, wie Verschwendung in Firma zustande kommt und vermieden werden könnte:
+   - **T**ransport
+      - Möglichst nahe Lieferanten haben
+   - **I**nventory
+      - Möglichst wenig im Lager haben
+	  - Möglichst JIT (Just-in-time) benutzen
+	  - Zeit zwischen Auftrag und Geld minimieren
+   - **M**otion
+      - Mitarbeiter an Maschinen sollen sich möglichst wenig bewegen
+	  - Dadurch wenig Fehler möglich
+   - **W**aiting
+      - Das schlimmste, was passieren kann ist, dass ein Mitarbeiter wartet
+	  - Wenn Maschinen wartet, ist es kein Problem, aber Mitarbeiter muss arbeiten
+   - **O**verproduction
+      - Man sollte nie zu viel herstellen (geht Hand-in-Hand mit **I**nventory
+   - **O**verprocessing
+      - Produkt nur so genau gestalten, wie man es benötigt
+	  - Nichts einbauen, was man nicht benötigt
+   - **D**efects
+      - Fehlerhafte Produkte sind schlecht
+	  - Diese Produkte sollen erst überhaupt nicht entstehen
+
+</details>
 
 ----
 
+#### Phasen der Betriebsstättenplanung
+
+1. Kapazitätsbedarfsplanung
+2. Standortfestlegung
+3. Materialfluss- und Layoutplanung
+   - Hier muss bekannt sein, ob zB eine Werkstattfertigung oder ein Reihenproduktion benutzt werden wird.
+4. Betriebsmittelplanung
+
+
+Produktionsprogramm + Stücklisten + Arbeitspläne => Kapazitätsbedarfsplanung \
+Kapazitätsbedarfsplanung => Personalbedarf (Qualifikation, Anzahl) \
+Kapazitätsbedarfsplanung => Betriebsmittelbedarf (Art, Anzahl)
+
+Kapazitätsbedarfsplanung hängt zusammen mit optimaler Fertigungslosgröße
+
+Wenn ein Bedarf besteht, muss auch das Angebot ermittelt werden. Das sind im Grunde nur einfache Mulitplikationen und Divisionen. \
+Ein guter Anhaltspunkt ist die Andler'sche Formel
+
+Der Unterpunkt der Kapazitätsbedarfsplanung ist in der entsprechenden [Datei](./Materialbedarfsplanung.md) besser nachzuschlagen.
