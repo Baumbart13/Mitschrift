@@ -170,6 +170,10 @@ Ein guter Anhaltspunkt ist die Andler'sche Formel
 
 Der Unterpunkt der Kapazitätsbedarfsplanung ist in der entsprechenden [Datei](./Materialbedarfsplanung.md) besser nachzuschlagen.
 
+Beispiel:
+
+<iframe width=90% height=514px src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQC1VP_JNIKvXnvoKsoHOQ-6dy6TdxGJYLdPrognf5bTk4pApAjQqj9MilhJ2snqPwYX5CWLt7VHBjk/pubhtml?gid=343184432&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+
 ##### **Standortfestlegung**
 
 - Möglichkeit: Nutzwertanalyse
