@@ -27,9 +27,3 @@ These are my documents i wrote in my HTL-Time
 6. Request a merge
 
 All contributions like corrections and additions are welcome
-
----
-
-What happens [if...](./..) (one direcetory up)<br>
-What happens another [if...](./.) (this direcetory)
-### Torben isch da JAAAAAA
