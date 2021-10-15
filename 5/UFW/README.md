@@ -16,4 +16,6 @@ Indexes of topics (chronogical order)
 
 - Teststoff 1
    - Rechnungswesen bis inklusive **12. Oktober 2021**
+      - Abschreibungen
+	  - Einnahmen-Ausgaben-Journal (Kassabuch)
    - Investitionen
