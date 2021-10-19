@@ -18,7 +18,7 @@ Lernkarteien
 Tests
 ----
 
-1. Test
+**1. Test - 21. Oktober 2021**
    - Alle Methoden der Grundzeitermittlung
    - Herleitung der optimalen Fertigungslosgröße
    - Normung und CE
