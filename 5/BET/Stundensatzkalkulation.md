@@ -35,7 +35,7 @@ Finally...
    - ```Stundensatz[€/h] = Jahrespersonalkosten[€/Jahr] / Anwesenheitszeit[h/Jahr]```
 - Example:
 
-> Okan: Kannst du noch Jahrespersonalkosten und Stundensätze berechnen? Ich hätte nach Abschluss der Schule gerne einmal 2.000,-€ Bruttogehalt als Angestellter. Wie hoch wären in diesem Fall für das Unternehmen die Jahrespersonalkosten und wie viel würde der Stundensatz bringen?
+> Okan: Kannst du noch Jahrespersonalkosten und Stundensätze berechnen? Ich hätte nach Abschluss der Schule gerne einmal 2.000,-€ Bruttogehalt als Angestellter. Wie hoch wären in diesem Fall für das Unternehmen die Jahrespersonalkosten und wie viel würde der Stundensatz bringen? \
 > Mbappe: Das ist nicht schwierig, schau her!
 
 |     | Angestellter | Einheit |

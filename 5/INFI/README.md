@@ -14,6 +14,13 @@ Databases
 4. [ORM JPA Zusammengesetzt Schlüssel](./ORM_JPA_ZusammengesetzteSchluessel.md)
 5. [ORM JPA Mehrere Tabellen für ein Entity](./ORM_JPA_MultipleTables.md)
 
+##### JPA Entity Manager
+
+6. [JPA Zustand eines Entity](./ZustandEntity.md)
+7. [JPA Arbeiten mit dem Entity Manager](./ArbeitenEntityManager.md)
+8. [JPA Abbildung von Datentypen](./AbbildungDatentypen.md)
+9. [JPA Objekte und Beziehungen](./ObjekteBeziehungen.md)
+
 ----
 
 [GitLab](https://gitlab.com/AmaMark) (Eclipse)

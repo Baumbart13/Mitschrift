@@ -57,7 +57,7 @@ Stücklistenauflösung
 
 - Primärbedarf wird mit der Mengenangabe des jeweiligen Produkts multipliziert
 - Ermittlung des Sekundärbedarf von Eigenfertigungsteilen, Rohstoffen und Zukaufteilen
-- Primärbedarf * Menge laut Stückliste = Sekundärbedarf
+> Primärbedarf * Menge laut Stückliste = Sekundärbedarf
 - Nicht für Hilfs- und Betriebsstoffe anwendbar, da diese nicht in der Stückliste angeführt sind
 
 Beispiel für eine Stücklistenauflösung
@@ -193,7 +193,7 @@ B … Bedarfsprognose
 Gleitender Mittelwert
 ----
 
--Bestimmte Anzahl an Perioden herangezogen
+- Bestimmte Anzahl an Perioden herangezogen
 
 ![Bedarfsplanung002.png](./images/Bedarfsplanung002.png)
 
