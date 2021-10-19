@@ -45,54 +45,30 @@
 | roh | raw |
 | Rohstoff, Rohmaterial | Raw material |
 | begleiten | fellow |
-hart, zäh, schwierig, widerstandsfähig 
-
-konsequent, gleichbleibend, einheitlich, konstant vs unvereinbar, widersprüchlich, uneinheitlich 
-
-erzeugen, erstellen, generieren 
-generate/create
-absagen, stornieren 
-
-Stornierung, Annullierung
-
-entstehen, aufstehen, auftreten 
-summon
-Fortschritte machen; Annäherungsversuche machen 
-
-im Vorhinein
-
-vorantreiben, Fortschritte machen
-To make progress
-Ursprung 
-
-ausgehen von, entstehen; stammen von
-
-Probe, Muster, Stichprobe 
-example
-probieren, kosten
-taste
-Kern 
-core
-Hauptfächer
-Core-...
-Bewertung, Beurteilung 
-rating
-bewerten, beurteilen 
-To rate
-ängstlich; bestrebt; besorgt 
-anxious
-ernsthaft, schwer, stark 
-severe
-eine schwere Krankheit
-A severe illness
-Einkommen 
-income
-Einkommenssteuern
-income-taxes
-darstellen; Modell stehen 
-To model
-daher, deswegen 
-
+| hart, zäh, schwierig, widerstandsfähig |    |
+| konsequent, gleichbleibend, einheitlich, konstant vs unvereinbar, widersprüchlich, uneinheitlich  |    |
+| erzeugen, erstellen, generieren | generate/create |
+| absagen, stornieren |    |
+| Stornierung, Annullierung |    |
+| entstehen, aufstehen, auftreten |summon |
+| Fortschritte machen; Annäherungsversuche machen |    |
+| im Vorhinein|    |
+| vorantreiben, Fortschritte machen| To make progress |
+| Ursprung |    |
+| ausgehen von, entstehen; stammen von |    |
+| Probe, Muster, Stichprobe | example |
+| probieren, kosten | taste |
+| Kern |core |
+| Hauptfächer | Core-... |
+| Bewertung, Beurteilung  | rating |
+| bewerten, beurteilen | To rate |
+| ängstlich; bestrebt; besorgt| anxious |
+| ernsthaft, schwer, stark | severe |
+| eine schwere Krankheit| A severe illness |
+| Einkommen | income |
+| Einkommenssteuern | income-taxes |
+| darstellen; Modell stehen | To model |
+| daher, deswegen |    |
 Rechnung; Banknote
 bill
 jem. eine Rechnung stellen/ schicken
