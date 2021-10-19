@@ -192,3 +192,9 @@ Beispiel:
    - Die Punkte werden nach dem Prinzip vergeben:
       - ``x`` von 10 Punkten werden vergeben in der Kategorie
 	  - Diese Punkte werden mit der Gewichtung in Prozent mulitpliziert. Eg ``3Punkte \* 1,1`` -> ``1,1`` weil diese Kategorie ``10%`` besitzt
+
+
+- Beispiel:
+   - Ich möchte Autohändler werden und suche mir einen neuen Standort
+      - Entscheidung: Standort bauen, wo niemand ist, oder wo bereits jemand ist
+	  - Antwort: Dort, wo bereits jemand ist, da ich keine großen Werbe-Aktionen starten muss. Die Kunden sind nämlich schon neben mir, bei der Konkurrenz.
