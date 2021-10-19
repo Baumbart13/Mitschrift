@@ -3,6 +3,7 @@
 ### [AMEC](./AMEC/README.md)
 ### [BET](./BET/README.md)
 ### [D](./D/README.md)
+### [E](./E/README.md)
 ### [NWES](./NWES/README.md)
 ### [UFW](./UFW/README.md)
 ### [INFI](./INFI/README.md)
