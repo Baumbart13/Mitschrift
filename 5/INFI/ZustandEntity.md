@@ -47,9 +47,9 @@ Zustand eines Entity (Java SE-Anwendung)
 ----
 
 ![ZustandEntity001.png](./images/ZustandEntity001.png)
-- Java SE Anwendungen haben eine main() Methode um den Client Code aufzurufen.
-- Hier wird das JPA Framework initialisiert um die Datenbank Operationen ausführen zu können.
 
+- Java SE Anwendungen haben eine ``main()``-Methode um den Client Code aufzurufen.
+- Hier wird das JPA Framework initialisiert um die Datenbank Operationen ausführen zu können.
 ```JAVA
 EntityManagerFactory emf = Persistance.CreateEntityManagerFactory(Bank);
 EntityManager em = emf.CreateEntityManager();
@@ -59,35 +59,38 @@ em.close()
 emf.close();
 ```
 
-- Speichern von Entities
 
+- Speichern von Entities
+```JAVA
 em.getTransaction().begin();
 Kunde NewKunde = new Kunde();
 em.persist(NewKunde);
-
-Kunde ist nun im Persistenzkontext vorhanden aber noch nicht in der Datenbank. Erst am Ende der Transaktion wird mit commit() mit der Datenbank synchronisiert.
+```
+- ``Kunde`` ist nun im Persistenzkontext vorhanden aber noch nicht in der Datenbank. Erst am Ende der Transaktion wird mit ``commit()`` mit der Datenbank synchronisiert.
+```JAVA
 em.getTransaction().committ();
-
-Die Methode flush() synchronsiert den kompletten Kontext mit der Datenbank programmatisch.
+```
+- Die Methode ``flush()`` synchronsiert den kompletten Kontext mit der Datenbank programmatisch.
+```JAVA
 em.flush();
+```
 
-Zustand eines Entity (Java SE-Anwendung)
-Laden von Entities
+
+- Laden von Entities
+```JAVA
 Kunde NewKunde = em.find(Kunde.class, 66);
+```
+- Die ``find()`` Methode sucht zuerst im Persistenzkontext nach dem entsprechenden Entity. Falls es vorhanden ist wird dieses Objekt zurückgegeben. Nur wenn sich das Objekt nicht im Persistenzkontext befindet, wird eine ``SELECT``-Anweisung an die Datenbank geschickt. 
+- Daher wiederholte ``find()``–Aufrufe mit dem selben Primärschlüssel führen nur zu einem ``SELECT``.
+- Der Persistenzkontext agiert daher als JPAs _First-Level-Cache_.
 
-Die find() Methode sucht zuerst im Persistenzkontext nach dem entsprechenden Entity. Falls es vorhanden ist wird dieses Objekt zurückgegeben. Nur wenn sich das Objekt nicht im Persistenzkontext befindet, wird eine SELECT-Anweisung an die Datenbank geschickt. 
 
-Daher wiederholte find() – Aufrufe mit dem selben Primärschlüssel führen nur zu einem SELECT.
-
-Der Persistenzkontext agiert daher als JPAs First-Level-Cache.
-
-Zustand eines Entity (Java SE-Anwendung)
-Aktualisieren von Entities
-Entities werden im Persistenzkontext überwacht, der Entity-Manager ist dafür verantwortlich Änderungen mit der Datenbank zu synchronisieren.
-
+- Aktualisieren von Entities
+   - Entities werden im Persistenzkontext überwacht, der Entity-Manager ist dafür verantwortlich Änderungen mit der Datenbank zu synchronisieren.
+```JAVA
 em.getTransaction().begin();
 Kunde NewKunde = em.find(Kunde.class, 66);
 NewKunde.setNachname(„Mustermann“);
 em.getTransaction().commit();
-
-Obwohl nur die find()-Methode aufgerufen wurde, wird vor dem Ende der Transaktion eine UPDATE-Anweisung an die Datenbank abgesetzt, um dem den Nachnamen zu aktualisieren.
+```
+- Obwohl nur die ``find()``-Methode aufgerufen wurde, wird vor dem Ende der Transaktion eine ``UPDATE``-Anweisung an die Datenbank abgesetzt, um dem den Nachnamen zu aktualisieren.
