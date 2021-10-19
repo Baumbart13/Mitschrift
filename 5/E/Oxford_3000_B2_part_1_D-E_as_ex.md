@@ -69,16 +69,11 @@
 | Einkommenssteuern | income-taxes |
 | darstellen; Modell stehen | To model |
 | daher, deswegen |    |
-Rechnung; Banknote
-bill
-jem. eine Rechnung stellen/ schicken
-To send somebody a bill
-Heilung, Kur, Heilmittel 
-
-heilen, auskurieren; (aushärten)
-To heal (strengthen)
-Herausforderung 
-challenge
+| Rechnung; Banknote| bill |
+| jem. eine Rechnung stellen/ schicken| To send somebody a bill |
+| Heilung, Kur, Heilmittel |    |
+| heilen, auskurieren; (aushärten) | To heal (strengthen) |
+| Herausforderung | challenge |
 eine Herausforderung bewältigen/ akzeptieren
 
 herausfordern; infrage stellen, anfechten
