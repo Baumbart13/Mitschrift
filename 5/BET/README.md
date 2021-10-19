@@ -26,12 +26,18 @@ Tests
 	  - MTM
 	     - Theorie
 		 - Praxis
-	  - 
    - Herleitung der optimalen Fertigungslosgröße
    - Normung und CE
+      > _I zwing euch nid, dass es de Beispiel-Norm können müssts. Was da drin steht, haben wir weder besprochen, no hat es an Sinn zu lernen, was da drin steht. Des is ned meine Aufgabe abzuprüfen, was is da drinnen_ \
+	  > _Die Inhalte von so einer Norm is unnötig auswendig zu wissen_
+	  - Sicherstellen, ob Normen eingehalten?
+	  - Was beduetet es eine Konformitätserklärung zu unterschreiben
    - Grundlagen der Arbeits- und Betriebsstättenplanung
       - Begriffe
 	  - Videos
+	  - Andler'sche Losgrößenformel ist herzuleiten!
+	     > _Das ist selbstverständlich!_ \
+		 > _A erste Ableitung sollt möglich sein. Das sollte möglich sein in der 5ten._
    - Kapazitätsbedarfsplanung S160 bis S165
 
 Vorträge
