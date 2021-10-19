@@ -193,7 +193,7 @@ B … Bedarfsprognose
 Gleitender Mittelwert
 ----
 
--Bestimmte Anzahl an Perioden herangezogen
+- Bestimmte Anzahl an Perioden herangezogen
 
 ![Bedarfsplanung002.png](./images/Bedarfsplanung002.png)
 
