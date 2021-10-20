@@ -26,7 +26,7 @@ Sollte sich der Staat dagegen wehren eine Vorgabe aufzunehmen, wird ein Strafver
 
 ---
 
-[IPR-Überblick.png](./images/IprTable001.png)
+![IPR-Überblick.png](./images/IprTable001.png)
 
 ##### [Urheberrecht](https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001848)
 
