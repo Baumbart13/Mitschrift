@@ -26,7 +26,7 @@ Sollte sich der Staat dagegen wehren eine Vorgabe aufzunehmen, wird ein Strafver
 
 ---
 
-[IPR-Überblick.png](./IprTable001.png)
+[IPR-Überblick.png](./mages/IprTable001.png)
 
 ##### [Urheberrecht](https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001848)
 
@@ -155,12 +155,18 @@ Das Gebrauchsmuster gilt aber für elektrische Schaltungen. ABER Prozessoren unt
       - Gibt den aktuellen Zustand 
    
 
-- espacenet ⇔ Europäisches Patentamt
-- depatisnet ⇔ Deutsches Patentamt
+- Espacenet ⇔ Europäisches Patentamt
+- Depatisnet ⇔ Deutsches Patentamt
 - see.ip ⇔ Österreichisches Patentamt
 - **Google patents!!** [Link](https://patents.google.com)
 
+Übungen
 ----
+
+#### Nr 1 - [Patentrecherche](./Patentrecherche.md)
+
+
+
 ----
 
 Merken:
