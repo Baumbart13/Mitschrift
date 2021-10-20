@@ -58,13 +58,13 @@ _"Eine Norm ist ein Dokument, das mit Konsens erstellt und von einer anerkannten
 2.4 Herkunft und Bezechnung von ÖNORMEN
 ---
 
-ÖNORM EN 14309
-ÖVE/ÖNORM (EN) 4517
-ONORM ETS 2130
-ÖNORM ISO 218
-ÖNORM And 154
-ÖNORM national 2096
-ON-Regel ONR 567
+- ÖNORM EN 14309
+- ÖVE/ÖNORM (EN) 4517
+- ONORM ETS 2130
+- ÖNORM ISO 218
+- ÖNORM And 154
+- ÖNORM national 2096
+- ON-Regel ONR 567
 
 2.4.1 Nationale Normen
 ---
