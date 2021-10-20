@@ -189,7 +189,7 @@ public class KundeTransient {
 ```
 
 - Beispiel **``class KundeTransient``**
-- Ohne @Transient Annotation geht JPA von folgenden Properties aus:
+- Ohne ``@Transient`` Annotation geht JPA von folgenden Properties aus:
 
 <table>
 	<tr>
@@ -205,7 +205,7 @@ public class KundeTransient {
 POJO – @Column-Annotation
 ----
 
-- Die @Column-Annotation beschreibt wie ein einzelnes Property auf eine Tabellenspalte abgebildet wird.
+- Die ``@Column``-Annotation beschreibt wie ein einzelnes Property auf eine Tabellenspalte abgebildet wird.
 
 | Attribut | Typ | Default | Beschreibung |
 |:--- |:--- |:--- |:--- |
@@ -238,7 +238,7 @@ private String Vorname;
 ```
 
 - Mit dem Attribute columnDefinition kann der DDL-Code zur Definition der Spalte angegeben werden.
-- Beispiel: String Property als CHARACTER(30) not nullable 
+- Beispiel: String Property als ``CHARACTER(30) not nullable``
 
 ```JAVA
 @Column (columnDefinition = "CHARACTER(30) NOT NULL")

@@ -17,7 +17,7 @@ Projekt in Eclipse anlegen
 - EclipseLink Version 2.7.6 Download
    - https://www.eclipse.org/downloads/download.php?file=/rt/eclipselink/releases/2.7.6/eclipselink-2.7.6.v20200131-b7c997804f.zip
    
-   ![Eclipse001.png.png](./Eclipse001.png)
+   ![Eclipse001.png.png](./images/Eclipse001.png)
 
 - Ablage im Workspace unter 
    - Libraries
@@ -33,7 +33,7 @@ JPA Project Konfiguration
    - New Project -> JPA-> JPA Projekt 
    - Projektname = JPATest
 
-![Eclipse002.png](./Eclipse002.png)
+![Eclipse002.png](./images/Eclipse002.png)
 
 - Projektname festlegen
    - JPATest
