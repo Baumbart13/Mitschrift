@@ -33,8 +33,8 @@ Sollte man die Dusche einstellen und nicht weiter ändern, so ist das steuern. K
 - Was generell?
 - Muss zur Strecke passen      auch Heizung, etc dabei
 
-#### Was wollen wir?
-##### 1 Das Führungsverhalten
+### Was wollen wir?
+#### 1 Das Führungsverhalten
 
 ![Führungsverhalten](./images/Führungsverhalten.png)
 - Unter _Führungsverhalten_ versteht man die zeitliche Reaktion des Regelkreises auf einen Sprung des Sollwertes.
@@ -204,6 +204,23 @@ Beispiel: Handy ausschalten: Ausschalten-Knopf gewisse Zeit gedrückt lassen, bi
 ![IntegriererVerlust001.png](./images/IntegriererVerlust001.png)
 ![IntegriererVerlust002.png](./images/IntegriererVerlust002.png)
 
+----
+
+#### Wiederholung Schwingungen aus Physik
+
+- Schwingfälle
+   - Schwingfall
+      - Schwingung schwingt über und wieder darunter.
+	  - Pendelt sich langsam in den Soll-Wert ein
+   - Kriechfall
+      - Schwingt niemals über den Soll-Wert.
+	  - Dauert relativ lange.
+   - Aperiodischer Grenzfall
+      - Schwingt einmal etwas über den Soll-Wert.
+	  - Pendelt sich nach einmaligem Überschwingen direkt auf den Soll-Wert ein.
+
+----
+
 ##### PT1-Element (Differenzialgleichungselement, Zahl steht für die Ordnung der Gleichung)
 
 - Regelungstechnische Elemente lassen sich durch Differntialgleichungen beschreiben
@@ -231,5 +248,58 @@ Einer der besten Fälle wäre der _aperiodische Grenzfall_, wo der Istwert ein m
 
 ##### nicht schwingungsfähiges PT2-Element
 
+Hier verwendet:
+   - PT1_1 ... erstes PT1-Element
+   - PT1_2 ... zweites PT1-Element
+   - PT1_N ... N-tes PT1-Element
+
 Verhält sich gleich wie zwei PT1-Elemente in Serie. **NUR wenn nicht schwingungsfähig** \
 Lösung der Differntialgleichung enthält keine Winkelfunktion
+
+Bei PT1_1 passiert ein Einheitssprung und ein Kriechfall folgt daraus. \
+Der Ausgang von PT1_1 (=Kriechfall) ist der Eingang von PT1_2 und somit fällt der Einheitssprung weg. \
+Der Ausgang von PT1_2 ist somit noch flacher als der Ausgang von PT1_1
+
+Bsp. Kochtopf:
+   - Strom ein -> Herd erwärmt sich nicht schlagartig (= PT1_1)
+   - Herdplatte erwärmt sich langsam -> Summe erwärmt sich (= PT1_2)
+Bsp. Induktions-Herd:
+   - Strom ein -> Kochtopf erwärmt sich schnell (= PT1_1)
+
+Anwendungsbeispiel:
+   - zwei hintereinander geschaltene Druckluftbehälter mit einer (sehr) dünnen Verbindungsleitung.
+
+###### **_Die beiden PT1 können unterschiedliche Zeitkonstanten haben._**
+
+![SprungantwortPT2.png](./images/Sprungantwort_PT2.png)
+
+```
+T[U] ... Verzugszeit
+T[G] ... Ausgleichszeit
+```
+
+Eine Strecke ist umso schwieriger zu regeln, je größer ``T[U]`` ist (= Träge Reaktion der Regelung) und je kleiner ``T[G]`` (= Strecke reagiert stark) ist. \
+Wenn ``T[G] = 0``, dann passiert ein _Einheitssprung_ mit einer _Totzeit_ von ``T[U]``.
+
+Parameter für Regelbarkeit:
+```T[U] / T[G]```
+
+Tendenziell eine kurze Verzugszeit und große Ausgleichszeit. Damit sind schnelle und genaue Änderungen realisierbar.
+
+Bsp. Dusche:
+   - Beim Drehen soll möglichst schnell eine Änderung passieren. (= kleine Verzugszeit)
+   - Beim Drehen soll die Änderung nicht sofort so heiß sein, wie eingestellt. (= große Ausgleichszeit)
+
+**Wichtig:**
+   - Die Sprungantwort eines PT2-Elements beginnt immer mit einer horizontalen Tangente, die Sprungantwort eines PT1-Elements mit einer gewissen Steigung**!**
+
+##### Schwingungsfähige PT2-Elemente
+
+PT2-Element nähert sich dem Sollwert langsam an. Es pendelt sich langsam ein.
+
+Die Abweichung vom Soll-Wert wird nach jeder Periode weniger.
+
+Bsp.:
+   - Last an einem Kranhaken verhält sich wie ein gedämpftes Pendel
+
+Eine gut eingestellte Regelung lässt keine Schwingung zu.
