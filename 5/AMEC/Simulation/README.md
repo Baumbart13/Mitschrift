@@ -1,6 +1,6 @@
 # AMEC
 
-Indexes of topics (chronogical order)
+Indexes of topics (chronological order)
 -------------------------------------
 
 1. [Simulation](./Simulation.md) 

@@ -1,6 +1,6 @@
 # INFI Fifth school year (2021 - 2022)
 
-Indexes of topics (chronogical order)
+Indexes of topics (chronological order)
 -------------------------------------
 
 ---
@@ -16,10 +16,10 @@ Databases
 
 ##### JPA Entity Manager
 
-6. [JPA Zustand eines Entity](./ZustandEntity.md)
-7. [JPA Arbeiten mit dem Entity Manager](./ArbeitenEntityManager.md)
-8. [JPA Abbildung von Datentypen](./AbbildungDatentypen.md)
-9. [JPA Objekte und Beziehungen](./ObjekteBeziehungen.md)
+1. [JPA Zustand eines Entity](./ZustandEntity.md)
+2. [JPA Arbeiten mit dem Entity Manager](./ArbeitenEntityManager.md)
+3. [JPA Abbildung von Datentypen](./AbbildungDatentypen.md)
+4. [JPA Objekte und Beziehungen](./ObjekteBeziehungen.md)
 
 ----
 

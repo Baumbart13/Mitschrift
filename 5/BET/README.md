@@ -1,6 +1,6 @@
 # BET Fifth school year (2021 - 2022)
 
-Indexes of topics (chronogical order)
+Indexes of topics (chronological order)
 ----
 
 1. [Normen](./Normen.md) 
@@ -43,10 +43,10 @@ Tests
 Vorträge
 ----
 
-4. [REFA/MTM](./RefaMtm.md)
-5. [Optimale Bestellmenge](./Beschaffungsmenge.md)
-6. [Stundensatzkalkulation](./Stundensatzkalkulation.md)
-7. [Materialbedarfsplanung](./Materialbedarfsplanung.md)
+1. [REFA/MTM](./RefaMtm.md)
+2. [Optimale Bestellmenge](./Beschaffungsmenge.md)
+3. [Stundensatzkalkulation](./Stundensatzkalkulation.md)
+4. [Materialbedarfsplanung](./Materialbedarfsplanung.md)
 
 
 ----
