@@ -16,7 +16,7 @@ y ... Stellgröße {Ausgang des Reglers zB 70%}
 E ... Regelabweichung = W - x
 ```
 
-![Grafik001.png](./Grafik001.png)
+![Grafik001.png](./images/Grafik001.png)
 
 Regelung hat immer eine Rückkopplung. \
 Ziel ist immer die Strecke zu verändern.
@@ -36,7 +36,7 @@ Sollte man die Dusche einstellen und nicht weiter ändern, so ist das steuern. K
 #### Was wollen wir?
 ##### 1 Das Führungsverhalten
 
-![Führungsverhalten](./Führungsverhalten.png)
+![Führungsverhalten](./images/Führungsverhalten.png)
 - Unter _Führungsverhalten_ versteht man die zeitliche Reaktion des Regelkreises auf einen Sprung des Sollwertes.
 
 **Sprungantwort**
@@ -47,7 +47,7 @@ Sprungantwort von Regler kann zwar sofort auf 100% gehen, aber Sprungantwort vom
 
 Je nachdem wie sich der Regler verhält, verhält sich die Strecke und die Sensoren. Sie reagieren alle anders, aber in Abhängigkeit der anderen Teile
 
-![Punkt zu Heizen/Abkühlen](./Heizen001.png)
+![Punkt zu Heizen/Abkühlen](./images/Heizen001.png)
 
 Schwarze Linie ist Abbau der Temperatur, Rot ist der Aufbau
 <br><br>
@@ -57,7 +57,7 @@ Schwarze Linie ist Abbau der Temperatur, Rot ist der Aufbau
    - Theorie: Wenn 2 Heizungen verwendet werden, muss auch erwartete Temperatur verdoppelt werden (ALLES!), damit Sprungantwort am Ende die Gleiche ist
    - Verdopplung der Leistung = doppelt so hoher Sprung = halbe Zeit
 
-![Heizen002.png](./Heizen002.png)
+![Heizen002.png](./images/Heizen002.png)
 
 ----
 
@@ -76,7 +76,7 @@ Das Störverhalten ist die Sprungantwort des ganzen Regelkreises in Bezug auf di
 
 Das Störverhalten ist zB ein geöffnetes Fenster im Winter, wenn man Heizen möchte. 
 
-![Störverhalten001.png](./Störverhalten001.png)
+![Störverhalten001.png](./images/Störverhalten001.png)
 
 Der Störfaktor **Z[0]** weist einen Einheitssprung auf (Ein Fenster wird geöffnet) \
 Dadurch sinkt die Temperatur (**x** steigt) \
