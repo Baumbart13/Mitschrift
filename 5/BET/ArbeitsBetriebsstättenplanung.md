@@ -191,8 +191,50 @@ Beispiel:
    - Für jede Option können dann Punkte vergeben werden
    - Die Punkte werden nach dem Prinzip vergeben:
       - ``x`` von 10 Punkten werden vergeben in der Kategorie
-	  - Diese Punkte werden mit der Gewichtung in Prozent mulitpliziert. Eg ``3Punkte \* 1,1`` -> ``1,1`` weil diese Kategorie ``10%`` besitzt
-
+	  - Diese Punkte werden mit der Gewichtung in Prozent mulitpliziert. Eg ``3Punkte * 0,1`` -> ``0,3`` weil diese Kategorie eine Gewichtung von ``10%`` besitzt
+	  - Die Summe der Gewichteten Bewertung gilt nun als Entscheidungsgrundlage
+	     - Je höher die Summe, desto eher wird die Alternative als die "richtige" angesehen
+- Grundlagen
+   - Wann
+      - Gründung
+	  - Expansion
+	  - Standortverlagerung
+	     - aufgrund von wirtschaftlichen und rechtlichen Umständen
+   - Welche Arten
+      - Außerbetrieblich
+	     - bergen hohes Risiko für Fehlentscheidungen
+		 - freie Standortwahl
+		    - Infrastruktur
+			- staatliche Förderungen
+			- Steuern
+			- Forschungsreinrichtungen
+			- politische Faktoren
+			- Entscheidung geht nach dem Unternehmen
+		 - gebundene Standortwahl
+		    - Klima
+			- Mineralien
+			- Ortsgebunden
+			   - Weinbau
+			   - Ölabbau
+			   - Bergmine
+	  - Innerbetrieblich
+   - Einflussgrößen / Faktoren
+      - Harte Faktoren
+	     - sind kalkulierbar
+		    - Infrastruktur
+	  - Weiche Faktoren
+	     - sind nicht kalkulierbar
+		    - politische Verhältnisse
+			- personenbezogene Faktoren
+	  - Input-Faktoren
+	     - Beschaffung
+		    - Kontakte
+			- Potential
+		 - Transformation
+	  - Output-Faktoren
+	     - Güterabsatz
+		    - Absatzpotential
+			- Absatzkontakte
 
 - Beispiel:
    - Ich möchte Autohändler werden und suche mir einen neuen Standort
