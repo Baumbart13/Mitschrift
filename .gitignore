@@ -78,3 +78,5 @@ cython_debug/
 *.idea*
 */.idea
 *.idea/*
+
+*/Arena_x64.zip
