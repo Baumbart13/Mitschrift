@@ -271,7 +271,7 @@ Anwendungsbeispiel:
 
 ###### **_Die beiden PT1 können unterschiedliche Zeitkonstanten haben._**
 
-![SprungantwortPT2.png](./images/Sprungantwort_PT2.png)
+![SprungantwortPT2.png](./images/Sprungantwort_PT2.PNG)
 
 ```
 T[U] ... Verzugszeit
