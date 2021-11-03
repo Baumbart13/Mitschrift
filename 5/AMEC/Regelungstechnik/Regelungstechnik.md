@@ -291,7 +291,7 @@ Bsp. Dusche:
    - Beim Drehen soll die Änderung nicht sofort so heiß sein, wie eingestellt. (= große Ausgleichszeit)
 
 **Wichtig:**
-   - Die Sprungantwort eines PT2-Elements beginnt immer mit einer horizontalen Tangente, die Sprungantwort eines PT1-Elements mit einer gewissen Steigung**!**
+   - Die Sprungantwort eines PT2-Elements beginnt immer mit einer horizontalen Tangente, die Sprungantwort eines PT1-Elements mit einer gewissen Steigung<strong>!</strong>
 
 ##### Schwingungsfähige PT2-Elemente
 
