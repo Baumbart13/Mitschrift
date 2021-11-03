@@ -33,8 +33,9 @@ Sollte man die Dusche einstellen und nicht weiter ändern, so ist das steuern. K
 - Was generell?
 - Muss zur Strecke passen      auch Heizung, etc dabei
 
-### Was wollen wir?
-#### 1 Das Führungsverhalten
+# Was wollen wir?
+
+## 1 Das Führungsverhalten
 
 ![Führungsverhalten](./images/Führungsverhalten.png)
 - Unter _Führungsverhalten_ versteht man die zeitliche Reaktion des Regelkreises auf einen Sprung des Sollwertes.
@@ -61,7 +62,7 @@ Schwarze Linie ist Abbau der Temperatur, Rot ist der Aufbau
 
 ----
 
-#### 2 Störverhalten
+## 2 Störverhalten
 
 - Störfaktoren
    - Lampen
@@ -165,21 +166,21 @@ Bis zum Kippen der Richtung. Nach dem Kippen sinkt die Nachfrage und der Preis s
 
 ----
 
-#### 3 Typische Regelstrecken (regelungstechnische Elemente)
+## 3 Typische Regelstrecken (regelungstechnische Elemente)
 
-##### P-Element (Proportionalelement)
+### P-Element (Proportionalelement)
 
 - Nicht mehr proprotional dazu ist zB die Motordrehzahl, weill das Fahrzeug beschleunigt werden muss.
 - **A(t)** = **k[p]** \* **E(t)**
 - Ausgangswert = Proprotionalitätsfaktor des p-Elements \* Eingangswert
 
-##### Totzeit-Element
+### Totzeit-Element
 
 Siehe Förderband: Kies wird auf Förderband gelegt und benötigt eine gewisse Zeit (= Verzögerung), damit der Kies im System ist.
 
 Beispiel: Handy ausschalten: Ausschalten-Knopf gewisse Zeit gedrückt lassen, bis sich das Handy ausschaltet. Diese Verzögerung ist die **Totzeit** und das Bauelement ist das **Totzeit-Element**
 
-##### Integrierer (I-Glied (ohne Verluste))
+### Integrierer (I-Glied (ohne Verluste))
 
 - Für was brauchen wir Integration?
    - Wenn man auf etwas warten möchte
@@ -192,7 +193,7 @@ Beispiel: Handy ausschalten: Ausschalten-Knopf gewisse Zeit gedrückt lassen, bi
 - Ein I-Glied wird durch **k[I]** charakterisiert, bis die Ausgangsgröße gleich 1 ist.
 - Ein weiteres Beispiel für ein I-Glied ist das Aufheizen einer Box, wenn diese keinen Energieverlust an die Umgebung hat (Thermobox)
 
-##### Integrierer mit Verlust
+### Integrierer mit Verlust
 
 - zB Tank mit Abfluss mit Füllmenge = proprotional zu Füllhöhe.
    - Maximale Füllhöhe ist erreicht, wenn ``h \* k[p] = "``. Das heißt es fließt gleich viel ab, wie zu.
@@ -206,7 +207,7 @@ Beispiel: Handy ausschalten: Ausschalten-Knopf gewisse Zeit gedrückt lassen, bi
 
 ----
 
-#### Wiederholung Schwingungen aus Physik
+### Wiederholung Schwingungen aus Physik
 
 - Schwingfälle
    - Schwingfall
@@ -221,7 +222,7 @@ Beispiel: Handy ausschalten: Ausschalten-Knopf gewisse Zeit gedrückt lassen, bi
 
 ----
 
-##### PT1-Element (Differenzialgleichungselement, Zahl steht für die Ordnung der Gleichung)
+### PT1-Element (Differenzialgleichungselement, Zahl steht für die Ordnung der Gleichung)
 
 - Regelungstechnische Elemente lassen sich durch Differntialgleichungen beschreiben
    - unabhängige Variable = Zeit ``t``
@@ -233,7 +234,7 @@ Beispiel: Handy ausschalten: Ausschalten-Knopf gewisse Zeit gedrückt lassen, bi
 **Bemerkung:** \
 **Wir werden nur Fälle betrachten, wo PT1-Elemente zum Startzeitpunkt und Ausgang den Wert 0 haben. Bei ANA-Simualtionen ließe sch ein entsprechender Startwert vorgeben**
 
-##### PT2-Element
+### PT2-Element
 
 Dies wird für Schwingungen verwendet.
 
@@ -246,7 +247,7 @@ Einer der besten Fälle wäre der _aperiodische Grenzfall_, wo der Istwert ein m
 	  - Wenn zu kalt, dann ist Aluminium hart
 	  - Wenn zu heiß, dann ist 1 Aluminium-Klumpen
 
-##### nicht schwingungsfähiges PT2-Element
+### nicht schwingungsfähiges PT2-Element
 
 Hier verwendet:
    - PT1_1 ... erstes PT1-Element
@@ -293,7 +294,7 @@ Bsp. Dusche:
 **Wichtig:**
    - Die Sprungantwort eines PT2-Elements beginnt immer mit einer horizontalen Tangente, die Sprungantwort eines PT1-Elements mit einer gewissen Steigung<strong>!</strong>
 
-##### Schwingungsfähige PT2-Elemente
+### Schwingungsfähige PT2-Elemente
 
 PT2-Element nähert sich dem Sollwert langsam an. Es pendelt sich langsam ein.
 
