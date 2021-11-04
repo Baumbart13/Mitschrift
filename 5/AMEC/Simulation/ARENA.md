@@ -26,3 +26,16 @@ Einführung ARENA
 </details>
 
 </details>
+
+Arena - Input Analyzer
+----
+
+- Zufallszahlengenerator mit verschiedenen Verteilungsfunktionen / Dichtefunktionen (Excel: nur Gleichverteilung [0...1]
+- aus Daten wird Dichtefunktion ermittelt
+   - mithilfe von Regression wird die _optimale_ Dichtefunktion ermittelt
+   - Methode: kleinstes Fehlerquadrat
+      1. Kurve wird angelegt
+	  2. Abstand zu Messwerten wird ermittelt (Fehler werden ermittelt)
+	  3. Quadrierung der Fehler
+	     - Fehler werden positiv
+		 - Fehler werden gewichtet
