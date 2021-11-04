@@ -304,3 +304,4 @@ Bsp.:
    - Last an einem Kranhaken verhält sich wie ein gedämpftes Pendel
 
 Eine gut eingestellte Regelung lässt keine Schwingung zu.
+
