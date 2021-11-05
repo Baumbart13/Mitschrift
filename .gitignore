@@ -80,3 +80,6 @@ cython_debug/
 *.idea/*
 
 *Arena_x64.zip
+
+*/INFI/IS/*.aux
+*/INFI/IS/*.synctex.gz
