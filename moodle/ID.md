@@ -15,12 +15,12 @@ BET5A
 
 ---
 
-### LA_AMEC ID=[113](https://moodle2.htlinn.ac.at/course/view.php?id=113)
+### LA_BET ID=[113](https://moodle2.htlinn.ac.at/course/view.php?id=113)
 LAAMEC-FI
 
 ---
 
-### AMEC ID=[263](https://moodle2.htlinn.ac.at/course/view.php?id=263)
+### AMEC Simulation ID=[263](https://moodle2.htlinn.ac.at/course/view.php?id=263)
 AMEC-FI
 
 ---
