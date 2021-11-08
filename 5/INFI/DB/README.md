@@ -42,3 +42,5 @@ Indexes of topics (chronological order)
    - Im Endeffekt die Folien, die bis dahin geamcht wurden (Siehe von **Databases 1.** bis inklusive **JPA Entity Manager 4.**)
    - Es wird ein Multiple-Choice-Test
    - Eventuell wird es ein Moodle-Test
+   - Man wird keine Annotations auswendig wissen müssen
+   - Man muss keinen Programmcode schreiben müssen
