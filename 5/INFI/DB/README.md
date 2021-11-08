@@ -11,7 +11,7 @@ Indexes of topics (chronological order)
 
 ---
 
-Databases
+##### Databases
 
 1. [ORM](./ORM.md) 
 2. [ORM JPA](./ORM_JPA.md)
@@ -29,10 +29,16 @@ Databases
 
 ----
 
-[GitLab](https://gitlab.com/AmaMark) (Eclipse)
-
+[GitLab](https://gitlab.com/AmaMark) (Eclipse) <br/>
 [Github](https://github.com/Baumbart13/HTL_INFI_DB) (IntelliJ Ultimate needed)
 
 ----
 
 ##### [1 Directory up](./../README.md)
+
+----
+
+#### **1. Test - 22. November 2021 - Stoff erhalten am 08.11.2021**
+   - Im Endeffekt die Folien, die bis dahin geamcht wurden (Siehe von **Databases 1.** bis inklusive **JPA Entity Manager 4.**)
+   - Es wird ein Multiple-Choice-Test
+   - Eventuell wird es ein Moodle-Test
