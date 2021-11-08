@@ -44,3 +44,5 @@ Indexes of topics (chronological order)
    - Eventuell wird es ein Moodle-Test
    - Man wird keine Annotations auswendig wissen müssen
    - Man muss keinen Programmcode schreiben müssen
+   - Keine Parameterlsiten müssen auswendig gelernt werden
+   - Es werden Verständnisfragen gefragt
