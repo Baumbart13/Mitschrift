@@ -84,6 +84,11 @@ cython_debug/
 */INFI/IS/*/*.aux
 */INFI/IS/*/*.synctex.gz
 
-*/NWES/packetTracer/extensions
-*/NWES/packetTracer/templates
+*/NWES/packetTracer/extensions/*
+*/NWES/packetTracer/logs/*
+*/NWES/packetTracer/templates/*
+*/NWES/packetTracer/nets
+*/NWES/packetTracer/uuid
+!*/NWES/packetTracer/abgaben/*
+!*/NWES/packetTracer/saved/*
 */NWES/packetTracer/PT.conf
