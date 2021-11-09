@@ -1,7 +1,7 @@
 Hoch- und Tiefpass
 ====
 
-The [PDF](./Laborbericht.pdf) file.
+The [PDF](./HochTiefpass/Laborbericht.pdf) file.
 
 ----
 ----
