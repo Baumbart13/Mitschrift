@@ -19,6 +19,9 @@ Indexes of topics (chronogical order)
 8. [Inter-VLAN Routing / VLANs](./InterVlanRouting.md)
 9. [Administrative Distanz und Metrik](./Metrik.md)
 10. [Security](./Security.md)
+11. [Protokolle](./Protokolle.md)
+12. [NAT/PAT](./NatPat.md)
+
 
 ----
 ----
