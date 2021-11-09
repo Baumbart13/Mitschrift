@@ -83,3 +83,7 @@ cython_debug/
 
 */INFI/IS/*/*.aux
 */INFI/IS/*/*.synctex.gz
+
+*/NWES/packetTracer/extensions
+*/NWES/packetTracer/templates
+*/NWES/packetTracer/PT.conf
