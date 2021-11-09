@@ -153,7 +153,7 @@ Router(config-if)# ip nat outside
    -  PAT muss Port übersetzten um Eindeutigkeit am Router zu garantieren
 
 
-![NatPat004.png](.images/NatPat004.png)
+![NatPat004.png](./images/NatPat004.png)
 
 
 Konfiguration PAT
