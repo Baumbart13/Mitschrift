@@ -72,10 +72,14 @@ Statisches NAT - Konfiguration
 ----
 
 1. Mapping zw. Inside Local Adresse und der Inside Global Adresse herstellen
-   ```Router(config)# ip nat inside source static local-ip global-ip```
+   ```
+   Router(config)# ip nat inside source static local-ip global-ip
+   ```
 2. Dem Router angeben welche Interfaces zur Innenseite und welche zur Außenseite gehören
-   ```Router(config-if)# ip nat inside 
-   Router(config-if)# ip nat outside```
+   ```
+   Router(config-if)# ip nat inside 
+   Router(config-if)# ip nat outside
+   ```
 
 
 In unserem Vorherigen Beispiel würde die Konfiguration wie folgt aussehen:
