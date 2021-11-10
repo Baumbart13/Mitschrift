@@ -305,3 +305,43 @@ Bsp.:
 
 Eine gut eingestellte Regelung lässt keine Schwingung zu.
 
+### D-Element
+
+![DElement000.png](./images/DElement000.png)
+
+```
+k[s] ... Sollwert
+T    ... Periodendauer
+t    ... Zeit
+```
+
+Das Element gibt die ``e``-Potenz an, mit der Schwingungsmaxima abfallen
+
+![DElementSprungantwort000.png](./images/DElementSprungantwort000.png)
+
+Mit Steigung kann starke/schnelle Regelabweichung frühzeitig erkannt werden.
+
+### DT1-Element = Vorhalteglied
+
+![DElement001.png](./images/DElement001.png)
+
+Ist im Prinzip ein verzögertes D-Element
+
+Kann zum Abschalten verwendet, wo nicht sofort alles fertig sein soll.
+
+- ZB.:
+   - Beim Wasserhahn kann passieren, dass Knall entsteht, wenn Hahn schnell ganz zugedreht. Dadurch entsteht Wasserschlag, Rohre erfahren Erschütterung und können kaputt werden.
+
+### Reglertypen
+
+- Unstetige Regler
+   - Ausgang kann nur bestimmte Werte annehmen
+   - zB Entweder 0 oder 10
+   - Typen
+      - Zwei-Punkt-Regler
+	     - Kann nur 2 Werte haben
+		 - zB logisch 1 oder logisch 0
+		 - Wenn Sollwert in einem bestimmten Bereich, springt Regelwert permanent zwischen diesen beiden Werten
+- Stetige Regler
+   - Ausgang kann beliebige Zwischnwerte annehmen
+   - zB Alle (ganzzahligen) Werte von 0 bis inklusive 10
