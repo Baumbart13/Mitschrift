@@ -14,7 +14,7 @@ Indexes of topics (chronogical order)
 
 ----
 
-##### [1 Directory up](./../README.md)
+##### [1 Directory u](./../README.md)[p](https://archive.org/details/Electro_Freddy_1984_Amsoft)
 
 ----
 
