@@ -42,3 +42,7 @@ Arena - Input Analyzer
 	  3. Quadrierung der Fehler
 	     - Fehler werden positiv
 		 - Fehler werden gewichtet
+
+
+- Trennzeichen in einer CSV für Arena ist wissentlich gültig:
+   - NewLine (CR LF)
