@@ -28,4 +28,4 @@ Indexes of topics (chronogical order)
 
 ----
 
-##### [1 Directory up](./../README.md)
+##### [1 Directory up](./../)

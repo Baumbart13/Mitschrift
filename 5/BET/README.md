@@ -47,6 +47,10 @@ Tests
 		 > _A erste Ableitung sollt möglich sein. Das sollte möglich sein in der 5ten._
    - Kapazitätsbedarfsplanung S160 bis S165
 
+
+#### **2. Test - NA - Stoff erhalten am NA**
+- Betriebsstättenplanung
+
 Vorträge
 ----
 
@@ -58,4 +62,4 @@ Vorträge
 
 ----
 
-##### [1 Directory up](./../README.md)
+##### [1 Directory up](./../)

@@ -1,15 +1,15 @@
 # Fifth school year (2021 - 2022)
 
-### [AMEC](./AMEC/README.md)
-### [BET](./BET/README.md)
-### [D](./D/README.md)
-### [E](./E/README.md)
-### [INFI](./INFI/README.md)
-### [LA](./LA/README.md)
-### [Maths](./MATH/README.md)
-### [NWES](./NWES/README.md)
-### [SWP](./SWP/README.md)
-### [UFW](./UFW/README.md)
+### [AMEC](./AMEC/)
+### [BET](./BET/)
+### [D](./D/)
+### [E](./E/)
+### [INFI](./INFI/)
+### [LA](./LA/)
+### [Maths](./MATH/)
+### [NWES](./NWES/)
+### [SWP](./SWP/)
+### [UFW](./UFW/)
 
 ----
 

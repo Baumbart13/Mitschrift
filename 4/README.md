@@ -1,10 +1,10 @@
 # Fifth school year (2021 - 2022)
 
-### [BET](./BET/README.md)
-### [NWES](./NWES/README.md)
-### [UFW](./UFW/README.md)
+### [BET](./BET/)
+### [NWES](./NWES/)
+### [UFW](./UFW/)
 
 ----
 ----
 
-##### [1 Directory up](./../README.md)
+##### [1 Directory up](./../)
