@@ -157,7 +157,7 @@ Vorabweg: Hängt viel mit Qulaitätsmanagement zusammen
    - Hier muss bekannt sein, ob zB eine Werkstattfertigung oder ein Reihenproduktion benutzt werden wird.
 4. Betriebsmittelplanung
 
-##### **Kapazitätsbedarfsplanung**
+##### **1. Kapazitätsbedarfsplanung**
 
 Produktionsprogramm + Stücklisten + Arbeitspläne => Kapazitätsbedarfsplanung \
 Kapazitätsbedarfsplanung => Personalbedarf (Qualifikation, Anzahl) \
@@ -174,7 +174,7 @@ Beispiel:
 
 <iframe width=90% height=514px src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQC1VP_JNIKvXnvoKsoHOQ-6dy6TdxGJYLdPrognf5bTk4pApAjQqj9MilhJ2snqPwYX5CWLt7VHBjk/pubhtml?gid=343184432&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
-##### **Standortfestlegung**
+##### **2. Standortfestlegung**
 
 - Möglichkeit: Nutzwertanalyse
    - Kann überall eingesetzt werden
@@ -240,3 +240,57 @@ Beispiel:
    - Ich möchte Autohändler werden und suche mir einen neuen Standort
       - Entscheidung: Standort bauen, wo niemand ist, oder wo bereits jemand ist
 	  - Antwort: Dort, wo bereits jemand ist, da ich keine großen Werbe-Aktionen starten muss. Die Kunden sind nämlich schon neben mir, bei der Konkurrenz.
+
+##### **3. Materialfluss- und Layoutplanung**
+
+**Transport Matrix**
+
+Um die innerbetrieblichen Materialflüsse in übersichtlicher Form erfassen und analysieren zu können, wird oft eine Transport-Matrix erstellt.
+
+<br/>
+**Sankey Diagramm**
+
+Pfeil zeigt von Quelle nach Ziel <br/>
+Breite des Pfeils = Transportmenge <br/>
+
+Dient dazu, dass betriebliche (innerlich, als auch äißerlich) Transporte leicht aufgezeigt werden können.
+
+Bsp:
+- In eineum neu zu errichtenden Produktionsbetrieb sind 6 unterschiedliche Maschinen-, bzw. Montagearbeitsplätze anzuordnen (1100, 2100, 2200, 3100, 3200, 4100). Kirterium für die räumliche Anordnung ist eine möglichst effiziente Durchführung der Materialtransporte uzwischen den einzelnen Arbeitsplätzen.
+- Eine Analyse der voraussichtlichen Materialflüsse kam zu folgendem Ergebnis (von Arbeitsplatz/nach Arbeitsplatz/Menge in Tonnen pro Woche)
+
+| Von Arbeitsplatz | Nach Arbeitsplatz | Menge in Tonnen pro Woche |
+|:-------------- |:------------ |:------------ |
+| extern | 1100   | [55]|
+| 2100   | 4100   | [15] |
+| 3200   | 3100   | [10] |
+| 1100   | 2100   | [40] |
+| 2200   | 4100   | [25] |
+| 3200   | 4100   | [15] |
+| 1100   | 2200   | [15] |
+| 3100   | 2200   | [10] |
+| 4100   | extern | [55] |
+| 2100   | 3200   | [25] |
+
+TransportMatrix:
+
+
+Abschreibung
+----
+
+- Kalkulatorische Abschreibung
+   - Unabhängig von Handels-/Steuerrechtlichen Verordnungen
+   - Ist realistisch geschätzt
+   - Dient zu internen Zwecken
+   - Ist realistisch
+   - Formel:
+      - ```
+	    Abschreibung = (Wiederbeschaffungswert - Schrottwert) / tatsächliche Nutzungsdauer
+	    ```
+	  - Formel Wiederbeschaffungswert:
+	     - ```
+		   Wiederbeschaffungswert = Anschaffungswert * (1+(Inflationsrate^Nutzungsdaer))
+		   ```
+- Bilanzielle Abschreibung
+   - Ist aus AfA entnommen
+   - Dient zu Buchalterischen Zwecken
