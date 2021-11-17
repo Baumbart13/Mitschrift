@@ -1,0 +1,35 @@
+Feinstaubsensorik
+====
+
+- Feinstaub
+   - Staub ist prinzipiell feste Teilchen in der Luft
+   - flüssige Teilchen in der Luft nennt man _Aerosole_
+   - Feinstaub sind feste (und flüssige) Partikel mit bestimmter Größe
+   - Die Größe wird in Klassen angegeben (Klassierung)
+      - Einheit ist ``µg/m³``
+      - PM10
+	     - Größe bei etwa <= 10µm
+		 - Meist in den Medien
+      - PM2,5
+	     - etwa <= 2,5µm
+	  - ...
+	  - PM0,1
+	     - Ultra-Feinstaub
+		 - etwa <= 0,1µm
+      - Gefährlichkeit steigt, wenn Partikel kleiner werden (Lungengängigkeit steigt)
+- Messprinzipien
+   - gravimetrisch
+      - Luft wird durch mehrere Filter gepumpt
+	     - Filter manchmal auch statisch geladen
+	  - Filter werden dann nach Masse gemessen
+	  - Verschiedene Filter, damit Daten für verschiedene Partikelgrößen entstehen
+   - optische Verfahren
+      - Streuung von einem Laserstrahl
+	  - Sensorname lautet ``SDS011``
+- Sensor SDS011
+   - kann messen
+      - PM10
+	  - PM2,5
+   - Signalausgabe
+      - UART (3.3V)
+	  - analog als PWM (*P*uls*w*eiten*m*odulation)

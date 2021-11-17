@@ -1,0 +1,32 @@
+Robotik
+====
+
+- Ziel von Robotern ist, dass sie möglichst viele Freiheitsgrade besitzen
+- Kenngrößen
+   - Bauart
+   - Anzahl Achsen
+   - Nennlast
+   - Geschwindigkeit
+   - maximale Traglast
+   - Positioniergenauigkeit
+      - Die Abweichung von angefahrenem Soll-Punkt zu Ist-Punkt
+	  - Ist an sich kleiner als die Wiederholgenauigkeit
+   - Wiederholgenauigkeit
+      - Wenn Roboter wiederholt auf den gleichen Punkt fährt, entstehen diese Abweichungen
+	  - Ist wichtiger als Positioniergenauigkeit
+- Belehren des Roboters
+   - Teach-In
+      - Roboter werden Punkte übergeben
+   - Implizit
+      - Geometriedaten können Programm übergeben werden
+	  - Programm rechnet sich weitgehend alleine die Punkte aus
+- Kinematik
+   - Antriebe
+      - Elektromotoren
+	     - Servomotoren
+		 - selten Schrittmotoren, da diese einrasten
+   - Gelenke
+   - serielle Gelenke
+      - Greifarm-Roboter
+   - parallele Gelenke
+      - Bouncing ball-Roboter
