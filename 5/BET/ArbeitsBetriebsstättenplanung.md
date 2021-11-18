@@ -299,6 +299,8 @@ Abschreibung
 Materialflussanalyse
 ----
 
+Aufgabe 4.8
+
 | **von Werkstatt** | **nach Werkstatt** | **Menge [t/Monat]** |
 |:----------------- |:------------------ |:-------------------:|
 | extern (Materialeingang) | Lager | 400 |
@@ -317,9 +319,34 @@ Materialflussanalyse
 Transportmatrix:
 
 <table>
-  <tbody>
-    <tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+    <td colspan="7"><strong>von Arbeitsplatz</strong></td>
     <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+    <td>extern (Materialeingang)</td>
+    <td>Lager</td>
+    <td>Zuschnitt</td>
+    <td>Montage</td>
+    <td>Fertigung</td>
+    <td>Abfall</td>
+    <td>Qualitätsprüfung</td>
+    <td>extern (Warenausgang)</td>
+  </tr>
+  <tr>
+	<td>
+    <td>extern (Materialeingang)</td>
+    <td>Lager</td>
+    <td>Zuschnitt</td>
+    <td>Montage</td>
+    <td>Fertigung</td>
+    <td>Abfall</td>
+    <td>Qualitätsprüfung</td>
+    <td>extern (Warenausgang)</td>
+  </tr>
+  <tr>
     <td>&nbsp;</td>
     <td>&nbsp;</td>
     <td>&nbsp;</td>
@@ -329,9 +356,9 @@ Transportmatrix:
     <td>&nbsp;</td>
     <td>&nbsp;</td>
     <td>&nbsp;</td>
-    </tr>
-    <tr>
     <td>&nbsp;</td>
+  </tr>
+  <tr>
     <td>&nbsp;</td>
     <td>&nbsp;</td>
     <td>&nbsp;</td>
@@ -341,9 +368,9 @@ Transportmatrix:
     <td>&nbsp;</td>
     <td>&nbsp;</td>
     <td>&nbsp;</td>
-    </tr>
-    <tr>
     <td>&nbsp;</td>
+  </tr>
+  <tr>
     <td>&nbsp;</td>
     <td>&nbsp;</td>
     <td>&nbsp;</td>
@@ -353,9 +380,9 @@ Transportmatrix:
     <td>&nbsp;</td>
     <td>&nbsp;</td>
     <td>&nbsp;</td>
-    </tr>
-    <tr>
     <td>&nbsp;</td>
+  </tr>
+  <tr>
     <td>&nbsp;</td>
     <td>&nbsp;</td>
     <td>&nbsp;</td>
@@ -365,9 +392,9 @@ Transportmatrix:
     <td>&nbsp;</td>
     <td>&nbsp;</td>
     <td>&nbsp;</td>
-    </tr>
-    <tr>
     <td>&nbsp;</td>
+  </tr>
+  <tr>
     <td>&nbsp;</td>
     <td>&nbsp;</td>
     <td>&nbsp;</td>
@@ -377,9 +404,9 @@ Transportmatrix:
     <td>&nbsp;</td>
     <td>&nbsp;</td>
     <td>&nbsp;</td>
-    </tr>
-    <tr>
     <td>&nbsp;</td>
+  </tr>
+  <tr>
     <td>&nbsp;</td>
     <td>&nbsp;</td>
     <td>&nbsp;</td>
@@ -389,9 +416,9 @@ Transportmatrix:
     <td>&nbsp;</td>
     <td>&nbsp;</td>
     <td>&nbsp;</td>
-    </tr>
-    <tr>
     <td>&nbsp;</td>
+  </tr>
+  <tr>
     <td>&nbsp;</td>
     <td>&nbsp;</td>
     <td>&nbsp;</td>
@@ -401,9 +428,9 @@ Transportmatrix:
     <td>&nbsp;</td>
     <td>&nbsp;</td>
     <td>&nbsp;</td>
-    </tr>
-    <tr>
     <td>&nbsp;</td>
+  </tr>
+  <tr>
     <td>&nbsp;</td>
     <td>&nbsp;</td>
     <td>&nbsp;</td>
@@ -413,42 +440,25 @@ Transportmatrix:
     <td>&nbsp;</td>
     <td>&nbsp;</td>
     <td>&nbsp;</td>
-    </tr>
-    <tr>
     <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    </tr>
-    <tr>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    </tr>
-    <tr>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    </tr>
-  </tbody>
+  </tr>
 </table>
+
+----
+
+Arbeitsstättenplanung
+----
+
+1. Festlgeung der Raumgröße der einzelnen Arbeitsplätze <br/>
+   - Hilfsmittel
+   - Erfahrung
+   - VDI-Tabelle)
+2. Prüfen der arbeitsrechtlichen Notwendigkeiten
+   - Gänge
+   - Schutzräume
+   - Toilleten
+   - Raumhöhe
+   - etc
+3. Zeichnen des Layouts
+-> Im Anschluss
+   - Konzept des Arbeitsplatzes selbst (Ergonomie)
