@@ -467,4 +467,4 @@ Nach Materialflussanalyse
    - etc
 3. Zeichnen des Layouts
 -> Im Anschluss
-   - Konzept des Arbeitsplatzes selbst (Ergonomie)
+   - Konzeption des Arbeitsplatzes selbst (Ergonomie)
