@@ -446,7 +446,7 @@ Transportmatrix:
 
 ----
 
-Arbeitsstättenplanung
+Nach Materialflussanalyse
 ----
 
 1. Festlgeung der Raumgröße der einzelnen Arbeitsplätze <br/>
