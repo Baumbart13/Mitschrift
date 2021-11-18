@@ -447,6 +447,9 @@ Transportmatrix:
 </table>
 </div>
 
+![SankeyDiagram000.png](./images/SankeyDiagram000.png) <br/>
+![SankeyDiagram001.png](./images/SankeyDiagram001.png)
+
 ----
 
 Nach Materialflussanalyse
