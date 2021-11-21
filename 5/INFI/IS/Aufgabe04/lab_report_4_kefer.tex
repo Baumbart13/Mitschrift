@@ -1,0 +1,164 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% University/School Laboratory Report
+% LaTeX Template
+% Version 3.1 (25/3/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Linux and Unix Users Group at Virginia Tech Wiki 
+% (https://vtluug.org/wiki/Example_LaTeX_chem_lab_report)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{article}
+\usepackage{float}
+\usepackage[version=3]{mhchem} % Package for chemical equation typesetting
+\usepackage{siunitx} % Provides the \SI{}{} and \si{} command for typesetting SI units
+\usepackage{graphicx} % Required for the inclusion of images
+\usepackage{natbib} % Required to change bibliography style to APA
+\usepackage{amsmath} % Required for some math elements 
+\usepackage{fullpage} %use smaller top and bottom margins
+\usepackage[utf8]{inputenc} %TODO hier ev.  latin1 setzen
+%\headheight = 20pt
+\headsep = 35pt %space between headline and body text
+%\voffset = 0pt
+
+\usepackage{listings}
+\usepackage{courier}
+\usepackage{color}   
+\usepackage{titling}
+\usepackage{url}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\setlength\parindent{0pt} % Removes all indentation from paragraphs
+
+\renewcommand{\labelenumi}{\alph{enumi}.} % Make numbering in the enumerate environment by letter rather than number (e.g. section 6)
+
+%\usepackage{times} % Uncomment to use the Times New Roman font
+
+
+
+\lstset{ %
+	language=R,                     % the language of the code
+	basicstyle=\footnotesize,       % the size of the fonts that are used for the code
+	numbers=left,                   % where to put the line-numbers
+	numberstyle=\tiny\color{gray},  % the style that is used for the line-numbers
+	stepnumber=1,                   % the step between two line-numbers. If it's 1, each line
+	% will be numbered
+	numbersep=5pt,                  % how far the line-numbers are from the code
+	backgroundcolor=\color{white},  % choose the background color. You must add \usepackage{color}
+	showspaces=false,               % show spaces adding particular underscores
+	showstringspaces=false,         % underline spaces within strings
+	showtabs=false,                 % show tabs within strings adding particular underscores
+	frame=single,                   % adds a frame around the code
+	rulecolor=\color{black},        % if not set, the frame-color may be changed on line-breaks within not-black text (e.g. commens (green here))
+	tabsize=2,                      % sets default tabsize to 2 spaces
+	captionpos=b,                   % sets the caption-position to bottom
+	breaklines=true,                % sets automatic line breaking
+	breakatwhitespace=false,        % sets if automatic breaks should only happen at whitespace
+	title=\lstname,                 % show the filename of files included with \lstinputlisting;
+	% also try caption instead of title
+	keywordstyle=\color{blue},      % keyword style
+	commentstyle=\color{dkgreen},   % comment style
+	stringstyle=\color{mauve},      % string literal style
+	escapeinside={\%*}{*)},         % if you want to add a comment within your code
+	morekeywords={*,...}            % if you want to add more keywords to the set
+} 
+
+
+
+\setlength{\droptitle}{-10em}   % This is your set screw
+
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\title{Übung 04 \\ \texttt{Hypothesen testen} \\ Korrelation, Wilcoxon-test und Chi$^{2}$ in \textbf{R} \\ INFI-IS \\ 5xHWII} % TODO: Bitte den Namen eintragen
+\author{Albert Greinöcker, Thomas Kefer}
+\date{\today} % Date for the report
+
+\begin{document}
+	
+	\maketitle % Insert the title, author and date
+	
+	\begin{center}
+		
+		\includegraphics[width=10cm]{../images/logo.png}
+	\end{center}
+	\vspace{1cm}
+%----------------------------------------------------------------------------------------
+
+\section{Hypothesen testen}
+
+
+So wie im \texttt{Student Performance} - Datensatz besprochen soll nun ein etwas größerer Fragebogen kennengelernt und teilweise ausgeweitet werden. Ein Download des Datensatzes plus einem PDF in dem genaue Beschreibungen zu den Variablen zu finden sind, befindet sich im Moodle unter: \texttt{european social survey}.
+
+
+\subsection{Importieren des Datensatzes}
+
+Die entsprechende Datei entpacken und die Datei \texttt{ESS8e02.1\_F1.csv}  so wie im gemeinsamen Skript zum European Social Survey beschrieben, importieren.
+
+ \begin{lstlisting} 
+d <- read.csv("ESS8e02.1_F1.csv", sep=",", encoding="UTF-8") 
+ \end{lstlisting}
+
+Im Datensatz sind die einzelnen Variablen in Zahlen kodiert (so wie es sich gehört). Will man diesen Zahlen Beschriftungen zuordnen, macht man das auf diese Art:
+
+ \begin{lstlisting} [caption={Hier wird z.B. der Variable \texttt{gndr} (Geschlecht) die Werte \texttt{"Male","Female", "No Answer"} für die Zahlen \texttt{1,2,9} zugeordnet.}]
+d$gndr <- factor(d$gndr, levels=c(1,2,9), labels = c("Male","Female", "No Answer"))
+d$vote <- factor(d$vote, levels=c(1,2,3,7,8,9), labels = c("Yes","No", "Not eligible to vote", "Refusal", "Don't know", "No answer"))
+ \end{lstlisting}
+
+
+
+In einzelnen Auswertungen wird der Vergleich zwischen 2 Ländern oder die Situation in nur einem Land untersucht. Aus diesem Grund müssen Subsets mit nur diesen Ländern gebildet werden. Das geht z.B. so: \\
+
+ \begin{lstlisting} [caption={Hier wird 1x ein Datensatz aller Österreicher und 1x ein Datensatz mit Österreichern und Italienern erzeugt.}]
+d_at <- d[d$cntry == 'AT',]
+d_at_it <- d[d$cntry %in% c('AT','IT'),]
+ \end{lstlisting}
+
+Leider kann es dann sein, wenn - wie im Fall der Länder - schon Beschriftungen automatisch zugeordnet wurden, dass unbenutzte Labels (hier: die Länderkürzel für nicht mehr vorhandene Länder) in der Auswertung auftauchen. Diese kann man so löschen:
+
+ \begin{lstlisting}
+d_at_it$cntry <- droplevels(d_at_it$cntry) 
+\end{lstlisting}
+
+
+\subsection{Hypothesen Testen}
+
+In den eigentlichen Aufgabenstellungen sollen bestimmte Hypothesen getestet werden. Es soll bei jeder Hypthese...
+\begin{enumerate}
+	\item eine Aufbereitung der Daten gemacht werden,
+	\item eine grafische Veranschaulichung (sofern möglich) gemacht werden,
+	\item ein passender Hypothesentest ausgewählt und ausgeführt werden und
+	\item eine Interpretation der Ergebnisse erstellt werden.
+\end{enumerate}
+
+
+Hier die Hypothesen (in Klammern die betroffenen Variablen):
+
+
+\begin{enumerate}
+	\item Männer haben mehr Glauben in die Polizei (\texttt{rstplc, gender}).
+	\item Es besteht ein negativer Zusammenhang bei "mehr Strom aus nuklearer Energie" und "mehr Strom aus Solarenergie" (\texttt{elgnuc, elgsun}).
+	\item In Österreich ist der Eindruck, dass sich der Klimawandel schlecht auf die die Menschen auswirkt, stärker als in Ungarn (\texttt{ccgdbd}). 
+	\item Frauen stimmen einem bedingungslosen Grundeinkommen eher zu (\texttt{basinc}).
+\end{enumerate}
+
+Bitte noch 2 Hypothesen selbst wählen und überprüfen!
+
+\end{document}
