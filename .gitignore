@@ -1,6 +1,26 @@
 upload.py
 update.py
 
+#R
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+*-Ex.R
+/*.tar.gz
+/*.Rcheck/
+.Rproj.user/
+vignettes/*.html
+vignettes/*.pdf
+.httr-oauth
+*_cache/
+/cache/
+*.utf8.md
+*.knit.md
+.Renviron
+po/*~
+
+#Python
 __pycache__/
 *.py[cod]
 *$py.class
@@ -75,14 +95,15 @@ dmypy.json
 .pytype/
 cython_debug/
 
+# JetBrains
 *.idea*
 */.idea
 *.idea/*
 
-*Arena_x64.zip
-
+# Schoolfiles
 */INFI/IS/*/*.aux
 */INFI/IS/*/*.synctex.gz
+*/AMEC/Simulation/Arena_x64.zip
 
 */NWES/packetTracer/extensions/*
 */NWES/packetTracer/logs/*
