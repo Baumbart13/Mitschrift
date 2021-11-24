@@ -8,6 +8,7 @@ Indexes of topics (chronogical order)
 3. Rechnungswesen [2](./RechnungsWesen2.doc)
 4. Rechnungswesen [3](./RechnungsWesen3.doc)
 5. Rechnungswesen [4 Umsatzsteuer](./RechnungsWesen4UST.doc)
+6. [Bilanzanalyse](./Bilanzanalyse.md)
 
 ----
 
