@@ -468,3 +468,22 @@ Nach Materialflussanalyse
 3. Zeichnen des Layouts
 -> Im Anschluss
    - Konzeption des Arbeitsplatzes selbst (Ergonomie)
+
+
+Arbeitsplatzgestaltung
+----
+
+Ziel ist, dass Arbeitnehmer sich wohl fühlt, er sicher ist und somit möglichst lange Motivation und gute Leistungen erbringt.
+
+Komfortlüftung hilft bei Verbesserung des Arbeitsplatzes
+   - kalte Zuluft wird durch rotatorische oder plattenlüftungen in den Raum eingelassen
+      - Bei der Plattenbauweise wird die Luft durch 
+   - warme Zuluft 
+
+Lufttemperatur ist auch vorgeschrieben im Arbeitnehmerschutzgesetz, damit der Mitarbeiter die Arbeit auch aushalten kann.
+
+Auf Bau kann die Temperatur nicht vorgeschrieben werden, dementsprechend ist Schutzkleidung vorgeschrieben.
+
+Selbiges ist auch für Lärm gültig, dass gewisse Werte nicht überschritten werden dürfen.
+
+Arbeitszeiten sind vorgeschrieben. In der Schule gibt es das Schulzeit-gesetz, orin festgehalten wird, wie lange die Pausen sind und wie lange Unterricht am Stück stattfinden darf. Gleichermaßen gibt es solche Regelungen für Arbeitnehmer.
