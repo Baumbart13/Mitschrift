@@ -342,6 +342,10 @@ Kann zum Abschalten verwendet, wo nicht sofort alles fertig sein soll.
 	     - Kann nur 2 Werte haben
 		 - zB logisch 1 oder logisch 0
 		 - Wenn Sollwert in einem bestimmten Bereich, springt Regelwert permanent zwischen diesen beiden Werten
+		 - zB Bimetallstreifen reagiert unterschiedlich auf Temperatur
 - Stetige Regler
    - Ausgang kann beliebige Zwischnwerte annehmen
    - zB Alle (ganzzahligen) Werte von 0 bis inklusive 10
+   - Bei einer 2-Punkt geregelten PT2-Strecke schwingt der Istwert ``x`` über den Sollwert ``+/- (Hysterese) delta`` hinaus. Auch dur beliebiges verkleinern der Hysterese lässt dich das Überscwhingen nicht verhindern.
+      - Abhilfe: 2-Punkt-Regler mit interner Rückführung
+   - Bei der internen Rückführung wird die Stellgröße dazu verwendetn ein Signal zu generiern, welches einen anderen Istwert vortäuscht. Dadurch kann das Regelverhalten optimiert werden. Zum Beispiel wenn die Heizung aktiv ist, wird ein Wert von 2°C zum Istwert addiert -> dadurch schaltet die Heizung etwas früher aus und _somit kann Überschwingen verhindert werden._
