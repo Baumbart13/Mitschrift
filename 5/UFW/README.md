@@ -25,3 +25,10 @@ Indexes of topics (chronogical order)
       - Abschreibungen
 	  - Einnahmen-Ausgaben-Journal (Kassabuch)
    - Investitionen
+
+#### **2. Test - kurz vor Weihnachten 2021 - Stoff zum Teil erhalten am 30.11.2021**
+   - Arbeitsrecht
+   - RechnungsWesen
+	  - Teil 2
+	  - Teil 3
+	  - Teil 4
