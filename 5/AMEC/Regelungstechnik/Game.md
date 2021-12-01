@@ -1,5 +1,6 @@
-Regelungstechnik
+Control Theory Game - using Godot
 ================
+
 
 ### What is needed:
 
