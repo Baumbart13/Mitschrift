@@ -11,6 +11,9 @@ Regelungstechnik
    - Self-balancing robot?
 - For development and debugging, just start right into the level
 - Knobs like seen on [QUASAR](https://quasar.dev/vue-components/knob)
+- Physics
+- 2D or 3D?
+   - we don't know yet
 
 Supported Platforms
 ====
@@ -34,5 +37,19 @@ Level - Self-balancing robot
 Governors
 ----
 
+- Lower the plant (Störgröße)
 - Different governors have different prices
 - Each governor acts a bit different
+
+
+Disturbance variables
+----
+
+- Increase the plant (Störgröße)
+
+
+Plant
+----
+
+- The higher it is, the more likely the robot will fall
+- The higher it is, the more Governors are needed
