@@ -486,4 +486,77 @@ Auf Bau kann die Temperatur nicht vorgeschrieben werden, dementsprechend ist Sch
 
 Selbiges ist auch für Lärm gültig, dass gewisse Werte nicht überschritten werden dürfen.
 
-Arbeitszeiten sind vorgeschrieben. In der Schule gibt es das Schulzeit-gesetz, orin festgehalten wird, wie lange die Pausen sind und wie lange Unterricht am Stück stattfinden darf. Gleichermaßen gibt es solche Regelungen für Arbeitnehmer.
+Arbeitszeiten sind vorgeschrieben. In der Schule gibt es das Schulzeit-gesetz, worin festgehalten wird, wie lange die Pausen sind und wie lange Unterricht
+am Stück stattfinden darf. Gleichermaßen gibt es solche Regelungen für Arbeitnehmer.
+
+<strong>Lohnkosten pro Mitarbeiter im Jahr: ``Brutto * 14 * 1,32``</strong>
+
+----
+
+#### Belastung
+
+- Arbeitsaufgabe
+   - statische/dynamische Muskelarbeit, kontrollierende Tätigkeiten
+- Umgebungseinflüsse
+   - Lärm, Beleuchtung, Vibratonen, Klima, Schadstoffe
+- psycho-soziale Einflüsse
+
+----
+
+#### Leistungsanforderungen
+
+In jungen Jahren (20 bis in etwa ende 30) ist man leistungsfähiger und leistungsmotivierter als in den späteren Jahren.
+
+- körperliche Eignung
+   - Größe, Gewicht, Kraft, Aussehen
+- geistige Grundeigenschaften
+   - Geschicklichkeit, Konzentrationsfähigkeit, Kommunikation
+- erworbene Kenntnisse
+   - Ausbildung, Erfahrung, Weiterbildung, Übung
+
+----
+
+#### Richtlinien
+
+Es bestehen gewisse Richtwerte für **Lufttemperatur, Luftbewegung und Luftfeuchtigkeit**, die alle eingehalten werden müssen
+
+
+**Lärm**
+
+ist einer der wichtigsten Richtwerte. Eine Lärmsteigerung von 10dB wird vom Menschen als eine Verdopplung wahrgenommen.
+
+Es müssen Schutzmaßnahmen ergriffen werden, wie Ohrenschützer, lärmarme Maschinen und Verfahren,
+Verhinderung von Lärmausbreitung, etc
+
+
+**Beleuchtung**
+
+Beleuchtungsstärke ist in _Lux [lx]_ gemessen
+
+Beleuchtungsstärke ist abhängig von auszuführender Aufgabe, geregelt in ``ÖNORM EN 12464``
+
+
+**Schadstoffe**
+
+Schwebstoffe und Schadstoffe dürfen gewisse Grenzen nicht überschreiten ohne entsprechende Schutzmaßnahmen
+
+----
+
+#### Ergonomische Aspekte
+
+**Körpermaße**
+
+Gewisse Tätigkeiten erfordern gewisse Größen. Etwa kann ein großer Elektriker mehr erreichen, als ein kleiner, da dieser Hilfsmittel (etwa Leiter) benötigt.
+
+
+**Körperkräfte**
+
+Um möglichst lange den Körper zu schonen, werden die Körperkräfte auch in Betracht gezogen beim Arbeitnehmerschutzgesetz. Das ist der Grund, weshalb von den
+50kg-Zementsäcke auf die 25kg-Zementsäcke gewechselt wurde.
+
+
+**Körperhaltung**
+
+Mit zunehmenden Alter, spürt der Arbeitnehmer die schlechte Haltung mehr und wird somit weniger produktiv.
+
+----
