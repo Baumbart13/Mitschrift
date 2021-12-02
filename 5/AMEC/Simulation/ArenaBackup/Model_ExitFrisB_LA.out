@@ -1,0 +1,54 @@
+SIMAN Run Controller.
+
+0.21331074 Hours>
+                                      ARENA Simulation Results
+                                    Baumbart13 - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date :12/ 2/2021
+Analyst: Baumbart13                                                  Model revision date:12/ 2/2021
+
+Replication ended at time      : 0.21331074 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Lehrer.VATime                               .01137     (Insuf)    .00458     .02204          6    
+Lehrer.NVATime                              .00000     (Insuf)    .00000     .00000          6    
+Lehrer.WaitTime                             .00000     (Insuf)    .00000     .00000          6    
+Lehrer.TranTime                             .00000     (Insuf)    .00000     .00000          6    
+Lehrer.OtherTime                            .00000     (Insuf)    .00000     .00000          6    
+Lehrer.TotalTime                            .01137     (Insuf)    .00458     .02204          6    
+Schueler.VATime                             .01534     (Insuf)    .00350     .03123        162    
+Schueler.NVATime                            .00000     (Insuf)    .00000     .00000        162    
+Schueler.WaitTime                           .00000     (Insuf)    .00000     .00000        162    
+Schueler.TranTime                           .00000     (Insuf)    .00000     .00000        162    
+Schueler.OtherTime                          .00000     (Insuf)    .00000     .00000        162    
+Schueler.TotalTime                          .01534     (Insuf)    .00350     .03123        162    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Lehrer.WIP                                  .33402     (Insuf)    .00000     1.0000     1.0000    
+Schueler.WIP                                12.318     (Insuf)    .00000     18.000     15.000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Lehrer.NumberIn                             7.0000    
+Lehrer.NumberOut                            6.0000    
+Schueler.NumberIn                           177.00    
+Schueler.NumberOut                          162.00    
+System.NumberOut                            168.00    
+
+
+Simulation run time: 0.15 minutes.
+Simulation run complete.
