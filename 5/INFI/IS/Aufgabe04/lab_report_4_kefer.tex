@@ -38,6 +38,8 @@
 \usepackage{titling}
 \usepackage{url}
 
+\usepackage{fancyvrb}
+
 \definecolor{dkgreen}{rgb}{0,0.6,0}
 \definecolor{gray}{rgb}{0.5,0.5,0.5}
 \definecolor{mauve}{rgb}{0.58,0,0.82}
@@ -112,13 +114,13 @@ So wie im \texttt{Student Performance} - Datensatz besprochen soll nun ein etwas
 Die entsprechende Datei entpacken und die Datei \texttt{ESS8e02.1\_F1.csv}  so wie im gemeinsamen Skript zum European Social Survey beschrieben, importieren.
 
  \begin{lstlisting} 
-d <- read.csv("ESS8e02.1_F1.csv", sep=",", encoding="UTF-8") 
+d <- read.csv("../datasets/ESS8e02.1_F1.csv", sep=",", encoding ="UTF-8")
  \end{lstlisting}
 
 Im Datensatz sind die einzelnen Variablen in Zahlen kodiert (so wie es sich gehört). Will man diesen Zahlen Beschriftungen zuordnen, macht man das auf diese Art:
 
  \begin{lstlisting} [caption={Hier wird z.B. der Variable \texttt{gndr} (Geschlecht) die Werte \texttt{"Male","Female", "No Answer"} für die Zahlen \texttt{1,2,9} zugeordnet.}]
-d$gndr <- factor(d$gndr, levels=c(1,2,9), labels = c("Male","Female", "No Answer"))
+d$gndr <- factor(d$gndr, levels=c(1,2), labels = c("Male","Female"))
 d$vote <- factor(d$vote, levels=c(1,2,3,7,8,9), labels = c("Yes","No", "Not eligible to vote", "Refusal", "Don't know", "No answer"))
  \end{lstlisting}
 
@@ -140,7 +142,7 @@ d_at_it$cntry <- droplevels(d_at_it$cntry)
 
 \subsection{Hypothesen Testen}
 
-In den eigentlichen Aufgabenstellungen sollen bestimmte Hypothesen getestet werden. Es soll bei jeder Hypthese...
+In den eigentlichen Aufgabenstellungen sollen bestimmte Hypothesen getestet werden. Es soll bei jeder Hypothese...
 \begin{enumerate}
 	\item eine Aufbereitung der Daten gemacht werden,
 	\item eine grafische Veranschaulichung (sofern möglich) gemacht werden,
@@ -148,16 +150,108 @@ In den eigentlichen Aufgabenstellungen sollen bestimmte Hypothesen getestet werd
 	\item eine Interpretation der Ergebnisse erstellt werden.
 \end{enumerate}
 
+\newpage
 
 Hier die Hypothesen (in Klammern die betroffenen Variablen):
 
 
 \begin{enumerate}
 	\item Männer haben mehr Glauben in die Polizei (\texttt{rstplc, gender}).
+	\begin{lstlisting}
+table(d_gndr_2$gndr,d$trstplc)
+d_gender_plc <- d[d$trstplc <= 10,]
+table(d_gender_plc$gndr,d_gender_plc$trstplc)
+boxplot(d_gender_plc$trstplc, col="red")
+boxplot(d_gender_plc$trstplc~d_gender_plc$gndr,col="red")
+
+wilcox.test(trstplc~gndr, data=d_gender_plc)
+	\end{lstlisting}
+	\begin{lstlisting}
+		          0    1    2    3    4    5    6    7    8    9   10
+		Male    783  422  722 1015 1164 2642 2517 3700 4208 2258 1497
+		Female  622  347  696 1144 1320 3083 2866 4158 4711 2499 1684
+	\end{lstlisting}
+\begin{minipage}{0.42\textwidth}
+	\includegraphics[height=6cm]{./Hypothese1a.png}
+\end{minipage}
+\begin{minipage}{0.42\textwidth}
+	\includegraphics[height=6cm]{./Hypothese1b.png}
+\end{minipage}
+	\begin{Verbatim}[frame=single]
+Wilcoxon rank sum test with continuity correction
+data:  trstplc by gndr
+W = 238346250, p-value = 0.005222
+alternative hypothesis: true location shift is not equal to 0
+	\end{Verbatim}
+
+\newpage
+
 	\item Es besteht ein negativer Zusammenhang bei "mehr Strom aus nuklearer Energie" und "mehr Strom aus Solarenergie" (\texttt{elgnuc, elgsun}).
+	\begin{lstlisting}
+		d$elgsun <- factor (d$elgsun, levels=c(1,2,3,4,5))
+		d$elgnuc <- factor (d$elgnuc, levels = c(1,2,3,4,5))
+		
+		d_sun <- d[as.numeric(d$elgsun) <= 5,]
+		d_nuc <- d[as.numeric(d$elgnuc) <= 5,]
+		
+		d_sun$elgsun <- droplevels(d_sun$elgsun)
+		d_nuc$elgnuc <- droplevels(d_nuc$elgnuc)
+		
+		boxplot(d_sun$elgsun~d_nuc$elgnuc, col="green")
+		cor.test(as.numeric(d_sun$elgsun),as.numeric(d_nuc$elgnuc), method="kendall")
+	\end{lstlisting}
+\begin{minipage}{0.40\textwidth}
+	\begin{Verbatim}[frame=single]
+     1    2    3    4    5
+1 1137 1143 2059 3660 9140
+2  479 1886 2395 3694 5886
+3  400  937 1535 1211 1892
+4  295  470  568  565  903
+5   46   52   72   88  221
+	\end{Verbatim}
+\end{minipage}
+\begin{minipage}{0.45\textwidth}
+	\includegraphics[height=6cm]{./Hypothese2a.png}
+\end{minipage}
+\begin{Verbatim}[frame=single]
+	Kendall's rank correlation tau
+
+data:  as.numeric(d_sun$elgsun) and as.numeric(d_nuc$elgnuc)
+z = -36.255, p-value < 2.2e-16
+alternative hypothesis: true tau is not equal to 0
+sample estimates:
+tau 
+-0.1536407 
+\end{Verbatim}
+	
+
+\newpage
+
 	\item In Österreich ist der Eindruck, dass sich der Klimawandel schlecht auf die die Menschen auswirkt, stärker als in Ungarn (\texttt{ccgdbd}). 
+	\begin{lstlisting}
+		d_at_hu <- d[d$cntry %in% c("AT","HU"),]
+		d_at_hu <- d_at_hu[as.numeric(d_at_hu$ccgdbd) <= 10,]
+		d_at_hu$cntry <- droplevels(d_at_hu$cntry)
+		table(d_at_hu$cntry, d_at_hu$ccgdbd)
+		wilcox.test(ccgdbd~cntry, data=d_at_hu)
+	\end{lstlisting}
+	\begin{Verbatim}[frame=single]
+     0   1   2   3   4   5   6   7   8   9  10
+AT 209 173 329 361 288 230  89  86  71  20  13
+HU 267 183 269 246 177 206  78  55  17   3   3
+	\end{Verbatim}
+	\begin{Verbatim}[frame=single]
+    Wilcoxon rank sum test with continuity correction
+
+data:  ccgdbd by cntry
+W = 1579664, p-value = 3.86e-10
+alternative hypothesis: true location shift is not equal to 0
+	\end{Verbatim}
+	\newpage
+	
 	\item Frauen stimmen einem bedingungslosen Grundeinkommen eher zu (\texttt{basinc}).
 \end{enumerate}
+\newpage
 
 Bitte noch 2 Hypothesen selbst wählen und überprüfen!
 
