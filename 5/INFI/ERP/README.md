@@ -2,6 +2,20 @@
 
 ----
 
+#### **2. Test - 17. Januar 2022 - Stoff zum Teil geleakt am 06.12.2021**
+   - Einkauf/Verkauf
+   - Stammdaten von vorne bis hinten
+      - Kunden/Lieferanten erstellen
+      - Artikel erstellen
+   - Zahlen
+      - Zahlungsvorschlag
+      - FiBu
+      - evtl auf Kostenstellen aufteilen
+   - Mahnen
+      - Zahlungsvorschlag
+      - FiBu
+      - evtl auf Kostenstellen aufteilen
+
 ----
 
 Cheat Sheet
