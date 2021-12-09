@@ -1,8 +1,18 @@
 [RESOURCES]
+Direktor
 [VARIABLES]
 Ausgang CIM Lehrer.NumberOut
-Gehen am Gang.NumberIn
-Gehen am Gang.NumberOut
+AusgangHof?.NumberOut True
+AusgangHof?.NumberOut False
+Ausgang Anichstraﬂe.NumberOut
+Gehen am Gang Anichstraﬂe.NumberOut
+Gehen am Gang Anichstraﬂe.NumberIn
 Ausgang CIM Schueler.NumberOut
-Ausgang Pneumatik Schueler.NumberOut
+Gehen am Gang Hof.NumberIn
+Gehen am Gang Hof.NumberOut
+Verabschiedung beim Direktor.NumberOut
+Verabschiedung beim Direktor.NumberIn
+Ausgang Innrain.NumberOut
 Ausgang Hof.NumberOut
+Weniger als 5 Wartende?.NumberOut True
+Weniger als 5 Wartende?.NumberOut False
