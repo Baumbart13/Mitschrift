@@ -10,6 +10,7 @@ Indexes of topics (chronogical order)
 5. Rechnungswesen [4 Umsatzsteuer](./RechnungsWesen4UST.doc)
 6. [Bilanzanalyse](./Bilanzanalyse.md)
 7. [Arbeitsrecht](./AR.docx)
+8. Entrepreneur und [Innovation](./Entrepreneur_und_Innovation_1._Teil.docx)
 
 ----
 
