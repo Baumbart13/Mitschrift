@@ -1,0 +1,192 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% University/School Laboratory Report
+% LaTeX Template
+% Version 3.1 (25/3/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Linux and Unix Users Group at Virginia Tech Wiki 
+% (https://vtluug.org/wiki/Example_LaTeX_chem_lab_report)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{article}
+\usepackage{float}
+\usepackage[version=3]{mhchem} % Package for chemical equation typesetting
+\usepackage{siunitx} % Provides the \SI{}{} and \si{} command for typesetting SI units
+\usepackage{graphicx} % Required for the inclusion of images
+\usepackage{natbib} % Required to change bibliography style to APA
+\usepackage{amsmath} % Required for some math elements 
+\usepackage{fullpage} %use smaller top and bottom margins
+\usepackage[utf8]{inputenc} %TODO hier ev.  latin1 setzen
+%\headheight = 20pt
+\headsep = 35pt %space between headline and body text
+%\voffset = 0pt
+
+\usepackage{listings}
+\usepackage{courier}
+\usepackage{color}   
+\usepackage{titling}
+\usepackage{url}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\setlength\parindent{0pt} % Removes all indentation from paragraphs
+
+\renewcommand{\labelenumi}{\alph{enumi}.} % Make numbering in the enumerate environment by letter rather than number (e.g. section 6)
+
+%\usepackage{times} % Uncomment to use the Times New Roman font
+
+
+
+\lstset{ %
+	language=R,                     % the language of the code
+	basicstyle=\footnotesize,       % the size of the fonts that are used for the code
+	numbers=left,                   % where to put the line-numbers
+	numberstyle=\tiny\color{gray},  % the style that is used for the line-numbers
+	stepnumber=1,                   % the step between two line-numbers. If it's 1, each line
+	% will be numbered
+	numbersep=5pt,                  % how far the line-numbers are from the code
+	backgroundcolor=\color{white},  % choose the background color. You must add \usepackage{color}
+	showspaces=false,               % show spaces adding particular underscores
+	showstringspaces=false,         % underline spaces within strings
+	showtabs=false,                 % show tabs within strings adding particular underscores
+	frame=single,                   % adds a frame around the code
+	rulecolor=\color{black},        % if not set, the frame-color may be changed on line-breaks within not-black text (e.g. commens (green here))
+	tabsize=2,                      % sets default tabsize to 2 spaces
+	captionpos=b,                   % sets the caption-position to bottom
+	breaklines=true,                % sets automatic line breaking
+	breakatwhitespace=false,        % sets if automatic breaks should only happen at whitespace
+	title=\lstname,                 % show the filename of files included with \lstinputlisting;
+	% also try caption instead of title
+	keywordstyle=\color{blue},      % keyword style
+	commentstyle=\color{dkgreen},   % comment style
+	stringstyle=\color{mauve},      % string literal style
+	escapeinside={\%*}{*)},         % if you want to add a comment within your code
+	morekeywords={*,...}            % if you want to add more keywords to the set
+} 
+
+
+
+\setlength{\droptitle}{-10em}   % This is your set screw
+
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\title{Übung 05 \\ \texttt{Grafische Darstellung mit R} \\ Erste Anwendung von \textbf{qplot()} \\ INFI-IS \\ 5AHWII} 
+\date{\today} % Date for the report
+\author{Albert Greinöcker, Thomas Kefer}
+\begin{document}
+	\maketitle % Insert the title, author and date
+	
+	\begin{center}
+		\includegraphics[width=10cm]{../images/logo.png}
+	\end{center}
+	\vspace{1cm}
+	%----------------------------------------------------------------------------------------
+	
+	\section{Datensatz: Olypmische Spiele}
+	
+	Dieser historische Datensatz beinhaltet alle Ergebnisse der Olypischen Spiele von Athen 1896 bis Rio 2016. Quelle(n): \url{www.kaggle.com} bzw. \url{https://www.sports-reference.com}.
+	
+	
+	\subsection{Importieren des Datensatzes}
+	
+	Die entsprechende \texttt{zip}-Datei entpacken und wie gehabt importieren:
+	
+	\begin{lstlisting} 
+		setwd('/home/baumbart13/Desktop/Mitschrift_Lokal/Schule/GITHUB-ONLINE/Mitschrift/5/INFI/IS/Aufgabe05/')
+		o = read.csv("../datasets/athlete_events.csv", sep=",", header=T)
+	\end{lstlisting}
+	
+	Insgesamt sind es \texttt{271116} Einträge. Die einzelnen Variablen sind durch ihre Namensgebung selbsterklärend.
+	\newpage
+	\section{Bitte folgende Fragestellungen grafisch darstellen}
+	
+	Für die Grafiken soll\texttt{ qplot()} aus dem Paket \texttt{ggplot2} verwendet werden. Ähnliche Beispiele haben wir mit einem anderen Datensatz (\texttt{student}) gemeinsam gemacht. Ein entsprechendes Skript dazu ist in Moodle zu finden.
+	
+	\begin{enumerate}
+		\item Wie viele Teilnehmer gab es in den einzelnen Ländern im Jahr 1896? Hier wäre ein \texttt{barplot} sinnvoll. Am Besten hier das Länderkürzel (\texttt{NOC}) verwenden.
+		
+		\begin{lstlisting}
+			member <- o$NOC[as.numeric(o$Year) == "1896"]
+			qplot(member, geom=c("bar"))
+		\end{lstlisting}
+		\includegraphics[width=10cm]{2a.png}
+		\newpage
+		\item Altersverteilung der einzelnen Medaillengewinner. Am Besten soll ein Boxplot erstellt werden. Als Füllfarbe (\texttt{fill}) soll rot (\texttt{I("red")})gesetzt werden. Die Darstellung soll auf vertikal umgestellt werden: \texttt{coord\_flip()}.
+		
+		\begin{lstlisting}
+			ageMedal <- o$Age[(o$Medal) %in% c ("Bronze", "Silver","Gold")]
+			medal <- o[(o$Medal) %in% c("Bronze", "Silver","Gold"),]
+			qplot(ageMedal,medal$Medal, geom=c("boxplot"), fill=(I("red"))) + coord_flip()
+		\end{lstlisting}
+		\includegraphics[width=10cm]{2b.png}
+		\newpage
+		\item Dasselbe bitte als \texttt{violin}-plot. Welchen Informationsgewinn bekommen wir bei dieser Darstellungsform?
+		
+		\begin{lstlisting}
+			qplot(ageMedal,medal$Medal, geom=c("violin"), fill=(I("red"))) + coord_flip()
+		\end{lstlisting}
+		\includegraphics[width=10cm]{2c.png}
+		\newpage
+		\item Theoretische Frage (muss nicht in \texttt{R} gemacht werden, sondern der Lösungsansatz nur beschrieben): Die Ordnung der einzelnen Grafiken ist jetzt \texttt{Bronze}, \texttt{Gold}, \texttt{Silber}. Wie bekommt man die richtige Ordnung \texttt{Bronze},  \texttt{Silber}, \texttt{Gold}? \\ \underline{Hinweis}: Es hat etwas mit dem Datentyp zu tun.
+		
+		\begin{lstlisting}
+			factor(o$Medal, levels=c("Bronze", "Silver", "Gold"))
+		\end{lstlisting}
+		\newpage
+		\item Es gibt einige, die über 40 sind und eine Goldmedaille gewonnen haben. Interessant wäre, um welche Sportarten es sich handelt. \\
+		Es ist also notwendig, eine Auswahl aller über 40-Jährigen zu treffen, gemeinsam mit denen die Medaillen gewonnen haben. \\
+		\underline{Hinweis}: Für die Auswahl derer, die keine Medaille gewonnen haben, kann die Funktion \texttt{is.na} verwendet werden, also: \texttt{is.na(o\$Medal)}
+		Es soll auf der X-Achse (Ticks-Beschriftung alle 2 Jahre) die Jahre Beschriftet werden, auf Y die Sportarten, und die Medaillen in unterschiedlichen Farben. Mögliche Darstellung: Punktdiagramm.\\
+		
+		\begin{lstlisting}
+			goldMedal <- o[(o$Medal) %in% "Gold",]
+			goldMedal_40_up <- goldMedal[as.numeric(goldMedal$Age) >= 40 & !is.na(goldMedal$Age),]
+			goldMedal_40_up_sport <- goldMedal_40_up$Sport
+			qplot(Year,Sport,geom=c("boxplot"),xlab="Years between 1900 to 2016",col=Sport,data=goldMedal_40_up)
+		\end{lstlisting}
+		\includegraphics[width=10cm]{2e.png}
+		\newpage
+		\item Es wäre auch noch wünschenswert zu sehen ob sich das hohe Alter der Medaillengewinner über die Jahre verändert hat, d.h. ob die Zahl der älteren Gewinner über die Jahre abnimmt.
+		
+		\begin{lstlisting}
+			medalAge <- medal[!is.na(medal$Age),]
+			qplot(Year,Age,geom=c("point","smooth"),col=Age,data=medalAge)
+		\end{lstlisting}
+		\includegraphics[width=10cm]{2f.png}
+		\newpage
+		\item Wenn wir jetzt nur die österreichischen Teilnehmer betrachten, dann wäre die Medaillenentwicklung interessant. Es ist also notwendig, nur die österreichischen Teilnehmer mit Medaillen herauszufiltern und als Balkendiagramm darzustellen. Welche Medaille gewonnen wurde soll farblich im Balken dargestellt werden.
+		
+		\begin{lstlisting}
+			medalAt <- medal[medal$NOC == "AUT",]
+			qplot(medalAt$Medal,geom=c("bar"),xlab="Won Medals from Austria",ylab="Count of Medals", data = medalAt, fill = Medal)
+		\end{lstlisting}
+		\includegraphics[width=10cm]{2g.png}
+		\newpage
+		\item Bitte selbst noch eine Fragestellung finden und das Ergebnis grafisch darstellen. Wie ist die Verteilung der Medaillen unter den Erwachsenen Teilnehmer? Wie viele haben überhaupt keine Medaillen erhalten?
+		\begin{lstlisting}
+			grownUps <- o[o$Age >= 18,]
+			qplot(Year, geom=c("histogram"), data=grownUps, fill=Medal)
+		\end{lstlisting}
+		\includegraphics[width=10cm]{2h.png}
+		\end{enumerate}
+	
+	
+	Natürlich sollen alle Grafiken exportiert, ins Dokument eingefügt und interpretiert werden.
+	
+\end{document}
