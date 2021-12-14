@@ -21,32 +21,33 @@
 Cheat Sheet
 -----------
 
-<details><summary style="color:green">Mahnen</summary>
+<details><summary style="color:red">Mahnen</summary>
 
-1. **Cokpit: Mahnungen**
+1. _Vertrieb mit Bezahlung_ bis inklusive **Schritt 3**
+2. **Cockpit: Mahnungen**
    - Mahnvorschlag erzeugen
-2. **Mahnvorschlag erzeugen**
+3. **Mahnvorschlag erzeugen**
    - Mahnvorschlag erzeugen
    - Mahndatum ist NACH Rechnungsdatum und muss mehrere Tage in der Zukunft liegen
    - kleines gelbes Dreicek rechts oben
       - bestätigen
-	     - Ausgeben
-3. **Cockpit: Mahnungen**
+   - Ausgeben
+4. **Cockpit: Mahnungen**
    - Mahnvorschlag bearbeiten
-4. **Mahnvorschlag bearbeiten**
+5. **Mahnvorschlag bearbeiten**
    - sperren
    - freigeben
-5. **Cockpit: Mahnungen**
+6. **Cockpit: Mahnungen**
    - Mahnvorschlag prüfen
    - Mahnvorschlag durchführen
-   - Mahnungen asugeben
+   - Mahnungen ausgeben
    - Mahnungen stornieren
    
 </details>
 <br/>
 <details><summary style="color:green">Vertrieb mit Bezahlung</summary>
 
-1. **Vertrieb**
+1. **Vertriebsaufträge**
    - Rechnung mit Materialbuchungen
 2. **Cockpit: Ausgangsrechnungen**
    - Rechnung auswählen
@@ -54,16 +55,21 @@ Cheat Sheet
 3. **Cockpit: Buchungsläufe Finanzbuchhaltung**
    - Rechnung auswählen
    - Übernehmen und buchen
-4. **Vertrieb**
+4. **Vertriebsaufträge**
    - Belegkette Ausgangsrechnung anwählen und Betrag kopieren
 5. **Buchen Finanzbuchhaltung**
    - Belegart 300, Neu
    - Beliebige Nummer in Beleg
    - heute
    - Konto
-      - Eigenes Konto (bspw. Bank)
+      - Eigenes Konto (bspw. Bank=1200)
    - Buchungsbetrag
+      - kopierten Betrag einfügen
       - Eigenes Konto Soll/Haben
+   - Gegenkonto
+      - D
+      - Unternehmen einfügen
+   - OP-Zuordnung
    - Beleg buchen
 
 </details>
