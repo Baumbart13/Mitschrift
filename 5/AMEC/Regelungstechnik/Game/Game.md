@@ -15,6 +15,11 @@ Control Theory Game - using Godot
 - Physics
 - 2D or 3D?
    - we don't know yet
+- Programming Languages
+   - GDScript?
+   - C++?
+   - Rust?
+   - others?
 
 Supported Platforms
 ====
