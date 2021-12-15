@@ -4,6 +4,8 @@ Control Theory Game - using Godot
 
 ### What is needed:
 
+- Name of Game
+   - CTG (=Control Theory Game)?
 - Assets
 - Models
 - Graphics
