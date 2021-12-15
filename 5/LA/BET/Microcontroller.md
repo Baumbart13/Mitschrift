@@ -40,4 +40,24 @@ Besonderheit von ESP32
    - War eigentlich ein Start-up
    - _ESPRESSIF_
    - Chinesischer Hersteller
+- GPIO
+   - Manche sind für Touch-Sensor geeignet
 
+
+Informationen
+====
+
+Logikpegel
+----
+
+Hiermit ist definiert, ab welcher Spannung ein logisches ``HIGH`` und ab wann ein logisches ``LOW`` interpretiert wird.
+
+----
+
+SoC = System on Chip
+
+Nützliche Links
+====
+
+- [Random Nerd Tutorials](https://randomnerdtutorials.com/)
+- [Dronebot Workshop](https://dronebotworkshop.com/)
