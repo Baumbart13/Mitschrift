@@ -346,6 +346,22 @@ Kann zum Abschalten verwendet, wo nicht sofort alles fertig sein soll.
 - Stetige Regler
    - Ausgang kann beliebige Zwischnwerte annehmen
    - zB Alle (ganzzahligen) Werte von 0 bis inklusive 10
-   - Bei einer 2-Punkt geregelten PT2-Strecke schwingt der Istwert ``x`` über den Sollwert ``+/- (Hysterese) delta`` hinaus. Auch dur beliebiges verkleinern der Hysterese lässt dich das Überscwhingen nicht verhindern.
+   - Bei einer 2-Punkt geregelten PT2-Strecke schwingt der Istwert ``x`` über den Sollwert ``+/- (Hysterese) delta`` hinaus. Auch durch beliebiges verkleinern der Hysterese lässt sich das Überscwhingen nicht verhindern.
       - Abhilfe: 2-Punkt-Regler mit interner Rückführung
    - Bei der internen Rückführung wird die Stellgröße dazu verwendetn ein Signal zu generiern, welches einen anderen Istwert vortäuscht. Dadurch kann das Regelverhalten optimiert werden. Zum Beispiel wenn die Heizung aktiv ist, wird ein Wert von 2°C zum Istwert addiert -> dadurch schaltet die Heizung etwas früher aus und _somit kann Überschwingen verhindert werden._
+
+
+### Stetiger Regler
+
+- Kennlinie
+   - 2-Punkt Regler
+      - Steigende Flanke aktiviert die Heizung und liegt bei ``Sollwert + delta``
+      - Fallende Flanke deaktiviert die Heizung und liegt bei ``Sollwert - delta``
+   - 3-Punkt Regler
+      - Bsp.: Es gibt 3 Positionen: Heizen, Kühlen, nichts tun
+	  - Alle Bereiche sind voneinander getrennt
+	  - Anhand von Regelabweichung ist erkennbar, welche Aktion gerade durchgeführt wird (Heizen, Kühlen, nichts tun)
+	  - Auch Regelung mit bspw. den Stufen 0%, 80% und 100% sind möglich
+	     - Somit kann Überschwingen abgeschwächt werden
+		 - Es wird nicht immer zwischen Maximum und Minimum der Istwert gehalten (zwischen 80% und 100%, anstatt zwischen 0% und 100%)
+   - Kennlinien können somit Kennlinie von PWM-Signal widerspiegeln
