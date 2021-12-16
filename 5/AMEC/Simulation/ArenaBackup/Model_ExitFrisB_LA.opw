@@ -4,8 +4,8 @@ Direktor
 Ausgang CIM Lehrer.NumberOut
 AusgangHof?.NumberOut True
 AusgangHof?.NumberOut False
-Ausgang Anichstraﬂe.NumberOut
 Gehen am Gang Anichstraﬂe.NumberOut
+Ausgang Anichstraﬂe.NumberOut
 Gehen am Gang Anichstraﬂe.NumberIn
 Ausgang CIM Schueler.NumberOut
 Gehen am Gang Hof.NumberIn
