@@ -44,6 +44,21 @@ Besonderheit von ESP32
    - Manche sind für Touch-Sensor geeignet
 
 
+Funkübertragung
+====
+
+- Möglichkeiten der Informationsübertragung:
+   - Frequenzmodulation (meiste Radiosender)
+   - Amplitudenmodulation
+   - Phasenverschiebung (kaum gebräuchlich)
+- Arduino-Programm von Lehrer in Moodle-Kurs verfügbar unter _Funksteckdose Senden_
+   - Zu-Sendendes Signal kann über verschiedene Arten angegeben werden
+      - String mit binärem Inhalt
+	  - Integer mit Dezimalzahl und Länge des Binärcodes
+	  - Binärstring mit Haus-DIP-Code und Geräte-DIP-Code
+	  - Hexadezimalstring mit TriState-Code
+
+
 Informationen
 ====
 
