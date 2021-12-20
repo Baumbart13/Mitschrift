@@ -15,6 +15,23 @@
       - Zahlungsvorschlag
       - FiBu
       - evtl auf Kostenstellen aufteilen
+Beispiel:
+   - 20 Minuten Zeit
+      - Artikel erstellen
+         - Lagerort nur bei entsprechender Angabe einfügen
+   	     - Dispositionssicht muss nicht gepflegt werden
+      - Lieferant erstellen
+         - Bankverbindungen niht vergessen
+      - Beschaffung von neuem Artikel bei neuem Lieferant
+      - Eingangsrechnung
+         - auf 2 Kostenstellen verteilen
+      - Zahllauf
+   - 20 Minuten Zeit
+      - Artikel
+	  - Kunde
+	  - Vertrieb
+	  - Zahlung
+	  - Mahnung
 
 ----
 
