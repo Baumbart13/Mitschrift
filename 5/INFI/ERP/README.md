@@ -15,7 +15,7 @@
       - Zahlungsvorschlag
       - FiBu
       - evtl auf Kostenstellen aufteilen
-Beispiel:
+- Beispiel:
    - 20 Minuten Zeit
       - Artikel erstellen
          - Lagerort nur bei entsprechender Angabe einfügen
