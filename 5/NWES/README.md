@@ -6,6 +6,16 @@ Moodle ID=[422](https://moodle2.htlinn.ac.at/course/view.php?id=422)
 
 ----
 
+Matura-Pools
+====
+
+1. [x] OSI-Modell
+2. [x] Switching
+3. [x] Routing
+4. [ ] Network Security
+5. [ ] Cryptographic Concepts
+6. [ ] WiFi
+
 Indexes of topics (chronogical order)
 -------------------------------------
 
@@ -22,6 +32,25 @@ Indexes of topics (chronogical order)
 11. [Protokolle](./Protokolle.md)
 12. [NAT/PAT](./NatPat.md)
 13. [Firewall Systeme](./FirewallSysteme.md)
+
+Lehrerwechsel (21. December 2021)
+----
+
+14. [Handouts](./HandoutThemen.md)
+
+- **Lehrplan**
+   - [x] Routing (statisch/dynamisch)
+   - [x] VLANs
+   - [ ] Kryptografie
+   - [ ] WLAN
+   - [ ] IT Infrastruktur
+      - weniger relevant für Matura
+      - Kostenvoranschlag möglich sein
+   - [ ] Network-Security
+- **Note**
+   - Referat
+   - Handout
+   - Mitarbeit
 
 ----
 
