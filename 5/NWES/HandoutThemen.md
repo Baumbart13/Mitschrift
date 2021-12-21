@@ -1,6 +1,3 @@
-
-<details><summary style="color:green">List</summary>
-
 1. Symmetrische Verschlüsselung
    - Philipp Schuler
    - Manuel Repetschnig
@@ -34,13 +31,3 @@
    - Moritz Laichner
 13. WLAN 1
 14. WLAN 2
-
-</details>
-
-<details><summary style="color:green">Tabelle</summary>
-
-| Symmetrische Verschlüsselung | AES / DES | Asymmetrische Verschlüsselung | RSA | Hybride Verschlüsselung | Diffie-Hellmann | Digitale Signatur + Zertifikate (PKI) | Hashfunktionen | HTTPS - TLS | SALT + Angriffe | CHAP | AAA + RADIUS | WLAN 1 | WLAN 2 |
-|:----------------------------:|:---------:|:-----------------------------:|:---:|:-----------------------:|:---------------:|:-------------------------------------:|:--------------:|:-----------:|:---------------:|:----:|:------------:|:------:|:------:|
-|                              |           |                               |     |                         |                 |                                       |                |             |                 |      |              |        |        |
-
-</details>
