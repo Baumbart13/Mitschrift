@@ -48,7 +48,18 @@ Kostenrechnung
 1. Kontrollfunktion
    - Wofür verursache ich Kosten? (Worin investiere ich?)
 2. Entscheidungsgrundlage bei der Preisfindung
+   - Variable Kosten
+   - Fixe Kosten
+   - Unternehmen für Sondermaschinen kalkuliert nicht gleich wie Unternehmen für Waschmaschinen
 3. Kalkulation der Herstellkosten
+   - Kostenaufteilung
+      - **M**aterial**K**osten steht in
+	     - Stückliste
+	  - **F**ertigungs**K**osten steht in
+	     - Arbeitsplan
+		    - Ressourcen
+			   - Stundensatz
+			- Dauer
 4. Steuerung der Wirtschaftlichkeit
    - Optimierung von Geschäftsprozessen
    - Grundlage für die Personaleinsatzplanung und -steuerung bzw. Personalbeewertungen
