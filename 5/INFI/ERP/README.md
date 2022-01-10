@@ -33,10 +33,34 @@
 	  - Zahlung
 	  - Mahnung
 
+
 ----
 
+
+Theory
+====
+
+Kostenrechnung
+----
+
+### Aufgaben
+
+1. Kontrollfunktion
+   - Wofür verursache ich Kosten? (Worin investiere ich?)
+2. Entscheidungsgrundlage bei der Preisfindung
+3. Kalkulation der Herstellkosten
+4. Steuerung der Wirtschaftlichkeit
+   - Optimierung von Geschäftsprozessen
+   - Grundlage für die Personaleinsatzplanung und -steuerung bzw. Personalbeewertungen
+   - Ermittlung des optimalen Ersatzzeitpunktes für Anlagen und Maschinen
+   - Entscheidung zwischen Eigenleistung und Fremdbezug (make or buy)
+
+
+----
+
+
 Cheat Sheet
------------
+====
 
 <details><summary style="color:red">Mahnen</summary>
 
