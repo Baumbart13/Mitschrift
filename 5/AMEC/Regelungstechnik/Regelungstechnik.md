@@ -365,3 +365,27 @@ Kann zum Abschalten verwendet, wo nicht sofort alles fertig sein soll.
 	     - Somit kann Überschwingen abgeschwächt werden
 		 - Es wird nicht immer zwischen Maximum und Minimum der Istwert gehalten (zwischen 80% und 100%, anstatt zwischen 0% und 100%)
    - Kennlinien können somit Kennlinie von PWM-Signal widerspiegeln
+- P-Regler
+   - Der P-Regler ist ein stetiger Regler, weil er die Stellgröße auf beliebige Werte halten kann => Für einen bestimmten Sollwert ``W`` kann ``y`` einen konstanten Wert annehmen, welcher ``x``dauerhaft auf ``W`` hält.
+   - Kennlinie
+      - ![Kennlinie P-Regler](./images/PElement000.png)
+   - Innerhalb des regelbaren Bereiches ist ``y etwa E``, also ``y = k[R] * E = k[R] * (W -x )``
+   - Problem beim P-Regler bei Strecken mit Ausgleich (Verlust)
+      - Um ``y != 0`` zu halten benötigt der P-Regler eine stetige Abweichung
+
+
+### Statische Streckenkennlinie
+
+![StatischeStreckenkennlinie.png](./images/StatischeStreckenkennlinie000.png)
+
+Wenn zB die Stellgröße auf 60°C gestellt wird, ergibt sich nach einer bestimmten Zeit die Temperatur.
+
+Im Prinzip ist es wie ein Tabellenbuch.
+
+Wenn eine andere Störgröße vorhanden ist, verschiebt sich lediglich die Kennlinie parallel. Das Verhalten ändert sich dadurch nicht.
+( Heizleistung = 0, aber Außentemperatur ist unterschiedlich )
+
+Die Kennlinie ist NICHT die Sprungantwort.
+
+
+### Unstetige Regler
