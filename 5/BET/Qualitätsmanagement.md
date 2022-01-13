@@ -69,3 +69,19 @@ Leistungsstörungen
    - Leistund wurde fehlerhaft erbracht / das Produkt hat Fehler
 - Mangel
    - Die Leistung wurde mit Mängeln erbracht, das Produkt ist mangelhaft
+
+
+Fehlerarten
+----
+
+- Konsturktions-, bzw. Designfehler
+   - Bei Konstruktion sind Fehler vorhanden
+- Herstellungsfehler
+   - Bei Herstellung geschah ein Fehler
+   - z.B. falscher Lack aufgetragen
+- Instruktionsfehler
+   - z.B. ist die Gebrauchsanweisung falsch, oder nicht vollständig
+- systematischer Fehler
+   - Mittelwerte weichen andauernd um einen bestimmten wert vom Sollwert ab
+- zufälliger Fehler
+   - Mittelwert weicht kurzzeitig vom Sollwert ab
