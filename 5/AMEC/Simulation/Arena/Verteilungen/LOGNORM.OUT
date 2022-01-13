@@ -1,0 +1,32 @@
+
+	Distribution Summary
+
+Distribution:	Lognormal    
+Expression:	0.5 + LOGN(1.98, 1.81)
+Square Error:	0.011836
+
+
+	Data Summary
+
+Number of Data Points	= 14
+Min Data Value       	= 1
+Max Data Value       	= 5
+Sample Mean          	= 2.43
+Sample Std Dev       	= 1.4
+
+	Histogram Summary
+
+Histogram Range    	= 0.5 to 5.5
+Number of Intervals	= 5
+
+
+==================================================================
+Int.   No. of               Probability           Cumulative      
+No.    Data Pts.   x        Density               Distribution    
+------------------------------------------------------------------
+                            Data   Function       Data   Function   
+   0     4       1.00      0.286      0.312      0.286      0.312
+   1     5       2.00      0.357      0.344      0.643      0.655
+   2     2       3.00      0.143      0.166      0.786      0.821
+   3     1       4.00     0.0714     0.0801      0.857      0.902
+   4     2       5.00      0.143     0.0411       1.00      0.943
