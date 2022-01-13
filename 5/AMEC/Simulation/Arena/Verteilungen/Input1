@@ -2,17 +2,17 @@
 	Distribution Summary
 
 Distribution:	Lognormal    
-Expression:	0.5 + LOGN(1.98, 1.81)
-Square Error:	0.011836
+Expression:	0.5 + LOGN(1.95, 1.7)
+Square Error:	0.013754
 
 
 	Data Summary
 
-Number of Data Points	= 14
+Number of Data Points	= 15
 Min Data Value       	= 1
 Max Data Value       	= 5
-Sample Mean          	= 2.43
-Sample Std Dev       	= 1.4
+Sample Mean          	= 2.4
+Sample Std Dev       	= 1.35
 
 	Histogram Summary
 
@@ -25,11 +25,11 @@ Int.   No. of               Probability           Cumulative
 No.    Data Pts.   x        Density               Distribution    
 ------------------------------------------------------------------
                             Data   Function       Data   Function   
-   0     4       1.00      0.286      0.312      0.286      0.312
-   1     5       2.00      0.357      0.344      0.643      0.655
-   2     2       3.00      0.143      0.166      0.786      0.821
-   3     1       4.00     0.0714     0.0801      0.857      0.902
-   4     2       5.00      0.143     0.0411       1.00      0.943
+   0     4       1.00      0.267      0.305      0.267      0.305
+   1     6       2.00      0.400      0.355      0.667      0.660
+   2     2       3.00      0.133      0.169      0.800      0.829
+   3     1       4.00     0.0667     0.0796      0.867      0.909
+   4     2       5.00      0.133     0.0396       1.00      0.949
 
 
 =================================================================
@@ -40,13 +40,13 @@ Data File: C:\Users\Baumbart13\Documents\Schule\GITHUB-ONLINE\Mitschrift\5\AMEC\
 
 Function       Sq Error
 -----------------------
-Lognormal      0.0118
-Gamma          0.0142
-Erlang         0.0143
-Weibull        0.0167
-Poisson        0.024
-Triangular     0.0257
-Beta           0.0293
-Exponential    0.0363
-Normal         0.0501
-Uniform        0.0551
+Lognormal      0.0138
+Gamma          0.0176
+Erlang         0.0177
+Weibull        0.0218
+Triangular     0.0283
+Poisson        0.0355
+Beta           0.0397
+Exponential    0.0527
+Normal         0.0547
+Uniform        0.0711

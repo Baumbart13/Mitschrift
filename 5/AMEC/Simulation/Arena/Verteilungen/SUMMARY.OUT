@@ -6,13 +6,13 @@ Data File: C:\Users\Baumbart13\Documents\Schule\GITHUB-ONLINE\Mitschrift\5\AMEC\
 
 Function       Sq Error
 -----------------------
-Lognormal      0.0118
-Gamma          0.0142
-Erlang         0.0143
-Weibull        0.0167
-Poisson        0.024
-Triangular     0.0257
-Beta           0.0293
-Exponential    0.0363
-Normal         0.0501
-Uniform        0.0551
+Lognormal      0.0138
+Gamma          0.0176
+Erlang         0.0177
+Weibull        0.0218
+Triangular     0.0283
+Poisson        0.0355
+Beta           0.0397
+Exponential    0.0527
+Normal         0.0547
+Uniform        0.0711
