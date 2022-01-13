@@ -85,3 +85,21 @@ Fehlerarten
    - Mittelwerte weichen andauernd um einen bestimmten wert vom Sollwert ab
 - zufälliger Fehler
    - Mittelwert weicht kurzzeitig vom Sollwert ab
+
+
+Qualitätspolitik
+====
+
+Legt fest, wie die Erfüllung eingehalten und umgesetzt wird
+
+
+Qualitätsziele
+====
+
+Müssen die Anforderungen in messbare Einheiten übersetzt werden können
+
+
+PDCA - Plan, Do, Check, Act
+====
+
+Kreislauf des Qualitätsmanagements. Ständige Optimierung des Produkts/der Dienstleistung.
