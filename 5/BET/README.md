@@ -44,7 +44,7 @@ Tests
    - Grundlagen der Arbeits- und Betriebsstättenplanung
       - Begriffe
 	  - Videos
-	  - Andler'sche Losgrößenformel ist herzuleiten!
+	  - Andler\'sche Losgrößenformel ist herzuleiten!
 	     > _Das ist selbstverständlich!_ \
 		 > _A erste Ableitung sollt möglich sein. Das sollte möglich sein in der 5ten._
    - Kapazitätsbedarfsplanung S160 bis S165
