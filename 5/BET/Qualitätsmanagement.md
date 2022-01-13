@@ -5,6 +5,8 @@ Qualitätsmanagement
 
 > "Gehalt in der QM-Abteilung fängt bei 50.000€/Jahr an als Einsteiger. Es ist aber auch hoch verantwortungsvoll, hoch interessant und hoch komplex."
 
+In Japan wird schon seit langem auf die Qualität stark geachtet.
+
 Kurze Recherche
 ----
 
@@ -27,3 +29,39 @@ Kurze Recherche
 	  - Ausgeprägte Teamfähigkeit sowie Kommunikations- und Durchsetzungsstärke
 	  - 3300 bis 3500 €/Monat Brutto
 	  - Vollzeit
+
+Definition
+====
+
+Qualität kann nicht zu 100% genau definiert werden, sie ist subjektiv. Etwa kann auch Farbgebung zur Qualität herangezogen werden.
+
+
+Eigenschaften
+====
+
+- Rückweisungseigenschaften
+   - z.B. Verschmutzungen, augenscheinliche Fehler
+- unerhebliche Eigenschaften
+   - z.B. werden vom Kunden nicht bemerkt, egal ob vorhanden oder nicht
+- Basiseigenschaften
+   - stillschweigend vorausgesetzte EIgenschaften
+   - z.B. Kugelschreiber soll auf Papier schreiben können
+- Leistungseigenschaften
+   - z.B. 
+- Begeisterungseigenschaften
+
+
+Leistungsstörungen
+====
+
+- Nichterfüllung
+   - Leistung wurde nicht erbracht, bzw. Produkt wurde nicht erzeugt/geliefert
+- Verzug
+   - Gläubigerverzug
+      - Verkäufer ist Schuldner in Bezug auf Ware
+	  - Käufer ist Gläubiger in Bezug auf Ware
+	  - Verkäufer ist Gläubiger in Bezug auf Geld
+	  - Käufer ist Schuldner in Bezug auf Geld
+   - Schuldnerverzug
+   - Möglichkeiten
+      - Bei Vertragsabschluss auch ggf. eine Pönale vereinbaren
