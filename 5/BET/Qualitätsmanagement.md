@@ -65,3 +65,7 @@ Leistungsstörungen
    - Schuldnerverzug
    - Möglichkeiten
       - Bei Vertragsabschluss auch ggf. eine Pönale vereinbaren
+- Schlechterfüllung / Fehler
+   - Leistund wurde fehlerhaft erbracht / das Produkt hat Fehler
+- Mangel
+   - Die Leistung wurde mit Mängeln erbracht, das Produkt ist mangelhaft
