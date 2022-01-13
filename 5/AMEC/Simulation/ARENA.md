@@ -7,7 +7,7 @@ Einführung ARENA
 <details><summary>Cheatsheet</summary>
 
 <details><summary>
-**Arena's Probability Distributions**
+<strong>Arena's Probability Distributions</strong>
 </summary>
 
 | Distribution | Parameter | Values                     |
@@ -46,3 +46,7 @@ Arena - Input Analyzer
 
 - Trennzeichen in einer CSV für Arena ist wissentlich gültig:
    - NewLine (CR LF)
+
+
+----
+
