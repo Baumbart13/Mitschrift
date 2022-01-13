@@ -103,3 +103,13 @@ PDCA - Plan, Do, Check, Act
 ====
 
 Kreislauf des Qualitätsmanagements. Ständige Optimierung des Produkts/der Dienstleistung.
+
+
+Qualitätskosten
+====
+
+Wie geht man mit Fehlern um?
+
+- Prüf- und Beurteilungskosten
+- Fehlerverhütungskosten
+- Fehlerbehebungskosten
