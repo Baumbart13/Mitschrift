@@ -151,27 +151,19 @@ Cheat Sheet
 <details><summary style="color:red">Mahnen</summary>
 
 1. **Cockpit: Mahnungen**
-=======
-<details><summary style="color:red">Mahnen</summary>
-
-1. _Vertrieb mit Bezahlung_ bis inklusive **Schritt 3**
-2. **Cockpit: Mahnungen**
    - Mahnvorschlag erzeugen
-3. **Mahnvorschlag erzeugen**
+2. **Mahnvorschlag erzeugen**
    - Mahnvorschlag erzeugen
    - Mahndatum ist NACH Rechnungsdatum und muss mehrere Tage in der Zukunft liegen
    - kleines gelbes Dreicek rechts oben
       - bestätigen
          - Ausgeben
 3. **Cockpit: Mahnungen**
-=======
-   - Ausgeben
-4. **Cockpit: Mahnungen**
    - Mahnvorschlag bearbeiten
-5. **Mahnvorschlag bearbeiten**
+4. **Mahnvorschlag bearbeiten**
    - sperren
    - freigeben
-6. **Cockpit: Mahnungen**
+5. **Cockpit: Mahnungen**
    - Mahnvorschlag prüfen
    - Mahnvorschlag durchführen
    - Mahnungen ausgeben
