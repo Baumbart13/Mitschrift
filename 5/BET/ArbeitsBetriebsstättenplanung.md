@@ -562,3 +562,6 @@ Mit zunehmenden Alter, spürt der Arbeitnehmer die schlechte Haltung mehr und wi
 ----
 
 Aufgaben 4.24 bis 4.36 zusammenfassen und in [Aufgabe](https://moodle2.htlinn.ac.at/mod/assign/view.php?id=40579) hineinschreiben. Abgabe per PDF!
+
+----
+

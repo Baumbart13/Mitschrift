@@ -1,15 +1,29 @@
 SIMAN Run Controller.
 
-0.023945101 Hours>
+0.060377303 Hours>
+0.060377303 Hours>
+0.060377303 Hours>
+0.060377303 Hours>
+0.063026527 Hours>
+0.063026527 Hours>
+0.063026527 Hours>SIMAN Run Controller.
+
+0.063230222 Hours>
+0.063230222 Hours>
+0.063230222 Hours>SIMAN Run Controller.
+
+0.064139896 Hours>SIMAN Run Controller.
+
+4.3017686 Hours>
                                       ARENA Simulation Results
                                     Baumbart13 - License: STUDENT
 
                                   Summary for Replication 1 of 1
 
-Project: Unnamed Project                                             Run execution date :12/ 2/2021
-Analyst: Baumbart13                                                  Model revision date:12/ 2/2021
+Project: Unnamed Project                                             Run execution date :12/16/2021
+Analyst: Baumbart13                                                  Model revision date:12/16/2021
 
-Replication ended at time      : 0.023945101 Hours 
+Replication ended at time      : 4.3017686 Hours 
 Base Time Units: Hours
 
                                            TALLY VARIABLES
@@ -17,38 +31,45 @@ Base Time Units: Hours
 Identifier                                  Average   Half Width  Minimum    Maximum   Observations
 ___________________________________________________________________________________________________
 
-Lehrer.VATime                               .00593     (Insuf)    .00593     .00593          1    
-Lehrer.NVATime                              .00000     (Insuf)    .00000     .00000          1    
-Lehrer.WaitTime                             .00000     (Insuf)    .00000     .00000          1    
-Lehrer.TranTime                             .00000     (Insuf)    .00000     .00000          1    
-Lehrer.OtherTime                            .00000     (Insuf)    .00000     .00000          1    
-Lehrer.TotalTime                            .00593     (Insuf)    .00593     .00593          1    
-Schueler.VATime                             .01055     (Insuf)    .00718     .01473          6    
-Schueler.NVATime                            .00000     (Insuf)    .00000     .00000          6    
-Schueler.WaitTime                           .00000     (Insuf)    .00000     .00000          6    
-Schueler.TranTime                           .00000     (Insuf)    .00000     .00000          6    
-Schueler.OtherTime                          .00000     (Insuf)    .00000     .00000          6    
-Schueler.TotalTime                          .01055     (Insuf)    .00718     .01473          6    
+Lehrer.VATime                               .02129     (Insuf)    .00475     .05759        122    
+Lehrer.NVATime                              .00000     (Insuf)    .00000     .00000        122    
+Lehrer.WaitTime                             .01374     (Insuf)    .00000     .14931        122    
+Lehrer.TranTime                             .00000     (Insuf)    .00000     .00000        122    
+Lehrer.OtherTime                            .00000     (Insuf)    .00000     .00000        122    
+Lehrer.TotalTime                            .03503     (Insuf)    .00475     .18716        122    
+Schueler.VATime                             .02136      4.5995E-4 .00311     .07442       1772    
+Schueler.NVATime                            .00000     .00000     .00000     .00000       1772    
+Schueler.WaitTime                           .01038     (Corr)     .00000     .17017       1772    
+Schueler.TranTime                           .00000     .00000     .00000     .00000       1772    
+Schueler.OtherTime                          .00000     .00000     .00000     .00000       1772    
+Schueler.TotalTime                          .03174     .00112     .00311     .20260       1772    
+Verabschiedung beim Direktor.Queue.Waiting  .09326     (Insuf)    .00000     .17017        216    
 
                                      DISCRETE-CHANGE VARIABLES
 
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-Lehrer.WIP                                  .24749     (Insuf)    .00000     1.0000     .00000    
-Schueler.WIP                                7.7713     (Insuf)    .00000     13.000     13.000    
+Lehrer.WIP                                  1.0145     (Insuf)    .00000     3.0000     1.0000    
+Schueler.WIP                                13.187     (Insuf)    .00000     20.000     18.000    
+Direktor.NumberBusy                         .99832     (Insuf)    .00000     1.0000     1.0000    
+Direktor.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Direktor.Utilization                        .99832     (Insuf)    .00000     1.0000     1.0000    
+Verabschiedung beim Direktor.Queue.NumberI  4.7347     (Insuf)    .00000     5.0000     4.0000    
 
                                              OUTPUTS
 
 Identifier                                   Value
 _____________________________________________________________
 
-Lehrer.NumberIn                             1.0000    
-Lehrer.NumberOut                            1.0000    
-Schueler.NumberIn                           19.000    
-Schueler.NumberOut                          6.0000    
-System.NumberOut                            7.0000    
+Lehrer.NumberIn                             123.00    
+Lehrer.NumberOut                            122.00    
+Schueler.NumberIn                           1790.0    
+Schueler.NumberOut                          1772.0    
+Direktor.NumberSeized                       216.00    
+Direktor.ScheduledUtilization               .99832    
+System.NumberOut                            1894.0    
 
 
-Simulation run time: 0.52 minutes.
+Simulation run time: 0.62 minutes.
 Simulation run complete.

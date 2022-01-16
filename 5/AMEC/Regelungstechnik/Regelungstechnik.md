@@ -346,6 +346,46 @@ Kann zum Abschalten verwendet, wo nicht sofort alles fertig sein soll.
 - Stetige Regler
    - Ausgang kann beliebige Zwischnwerte annehmen
    - zB Alle (ganzzahligen) Werte von 0 bis inklusive 10
-   - Bei einer 2-Punkt geregelten PT2-Strecke schwingt der Istwert ``x`` über den Sollwert ``+/- (Hysterese) delta`` hinaus. Auch dur beliebiges verkleinern der Hysterese lässt dich das Überscwhingen nicht verhindern.
+   - Bei einer 2-Punkt geregelten PT2-Strecke schwingt der Istwert ``x`` über den Sollwert ``+/- (Hysterese) delta`` hinaus. Auch durch beliebiges verkleinern der Hysterese lässt sich das Überscwhingen nicht verhindern.
       - Abhilfe: 2-Punkt-Regler mit interner Rückführung
    - Bei der internen Rückführung wird die Stellgröße dazu verwendetn ein Signal zu generiern, welches einen anderen Istwert vortäuscht. Dadurch kann das Regelverhalten optimiert werden. Zum Beispiel wenn die Heizung aktiv ist, wird ein Wert von 2°C zum Istwert addiert -> dadurch schaltet die Heizung etwas früher aus und _somit kann Überschwingen verhindert werden._
+
+
+### Stetiger Regler
+
+- Kennlinie
+   - 2-Punkt Regler
+      - Steigende Flanke aktiviert die Heizung und liegt bei ``Sollwert + delta``
+      - Fallende Flanke deaktiviert die Heizung und liegt bei ``Sollwert - delta``
+   - 3-Punkt Regler
+      - Bsp.: Es gibt 3 Positionen: Heizen, Kühlen, nichts tun
+	  - Alle Bereiche sind voneinander getrennt
+	  - Anhand von Regelabweichung ist erkennbar, welche Aktion gerade durchgeführt wird (Heizen, Kühlen, nichts tun)
+	  - Auch Regelung mit bspw. den Stufen 0%, 80% und 100% sind möglich
+	     - Somit kann Überschwingen abgeschwächt werden
+		 - Es wird nicht immer zwischen Maximum und Minimum der Istwert gehalten (zwischen 80% und 100%, anstatt zwischen 0% und 100%)
+   - Kennlinien können somit Kennlinie von PWM-Signal widerspiegeln
+- P-Regler
+   - Der P-Regler ist ein stetiger Regler, weil er die Stellgröße auf beliebige Werte halten kann => Für einen bestimmten Sollwert ``W`` kann ``y`` einen konstanten Wert annehmen, welcher ``x``dauerhaft auf ``W`` hält.
+   - Kennlinie
+      - ![Kennlinie P-Regler](./images/PElement000.png)
+   - Innerhalb des regelbaren Bereiches ist ``y etwa E``, also ``y = k[R] * E = k[R] * (W -x )``
+   - Problem beim P-Regler bei Strecken mit Ausgleich (Verlust)
+      - Um ``y != 0`` zu halten benötigt der P-Regler eine stetige Abweichung
+
+
+### Statische Streckenkennlinie
+
+![StatischeStreckenkennlinie.png](./images/StatischeStreckenkennlinie000.png)
+
+Wenn zB die Stellgröße auf 60°C gestellt wird, ergibt sich nach einer bestimmten Zeit die Temperatur.
+
+Im Prinzip ist es wie ein Tabellenbuch.
+
+Wenn eine andere Störgröße vorhanden ist, verschiebt sich lediglich die Kennlinie parallel. Das Verhalten ändert sich dadurch nicht.
+( Heizleistung = 0, aber Außentemperatur ist unterschiedlich )
+
+Die Kennlinie ist NICHT die Sprungantwort.
+
+
+### Unstetige Regler

@@ -13,7 +13,8 @@ Indexes of topics (chronological order)
 1. [Normen](./Normen.md) 
 2. [CE-Kennzeichnung](./CEKennzeichnung.md)
 3. [Arbeitsplatz und Betriebsstättenplanung](./ArbeitsBetriebsstättenplanung.md)
-4. [Qualitätsmanagement](./Qualitätsmanagement.md)
+4. Elektroschutzklassen [zusammengefasst](./Elektroschutzklassen_Zusammenfassung.md)
+5. [Qualitätsmanagement](./Qualitätsmanagement.md)
 
 ----
 
@@ -43,7 +44,7 @@ Tests
    - Grundlagen der Arbeits- und Betriebsstättenplanung
       - Begriffe
 	  - Videos
-	  - Andler'sche Losgrößenformel ist herzuleiten!
+	  - Andler\'sche Losgrößenformel ist herzuleiten!
 	     > _Das ist selbstverständlich!_ \
 		 > _A erste Ableitung sollt möglich sein. Das sollte möglich sein in der 5ten._
    - Kapazitätsbedarfsplanung S160 bis S165

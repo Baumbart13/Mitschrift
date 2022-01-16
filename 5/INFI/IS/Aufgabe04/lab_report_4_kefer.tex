@@ -250,6 +250,18 @@ alternative hypothesis: true location shift is not equal to 0
 	\newpage
 	
 	\item Frauen stimmen einem bedingungslosen Grundeinkommen eher zu (\texttt{basinc}).
+	\begin{lstlisting}
+		d_basicnc <- d[as.numeric(d$basinc) <=7,]
+		d_basicnc$basicnc <- droplevels(d_basicnc$basicnc)
+		table(d_basicnc$gndr,d_basicnc$basinc)
+		boxplot(d_basicnc$basinc~d_basicnc$gndr, col="blue")
+		cor.test(as.numeric(d_basicnc$basinc),as.numeric(d_basicnc$gndr),method="kendall")
+	\end{lstlisting}
+	\begin{Verbatim}[frame=single]
+          1    2    3    4    7
+Male   2527 6527 8690 1815  105
+Female 2361 7165 9569 1934  130
+	\end{Verbatim}
 \end{enumerate}
 \newpage
 

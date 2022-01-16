@@ -7,7 +7,7 @@ Einführung ARENA
 <details><summary>Cheatsheet</summary>
 
 <details><summary>
-**Arena's Probability Distributions**
+<strong>Arena's Probability Distributions</strong>
 </summary>
 
 | Distribution | Parameter | Values                     |
@@ -46,3 +46,20 @@ Arena - Input Analyzer
 
 - Trennzeichen in einer CSV für Arena ist wissentlich gültig:
    - NewLine (CR LF)
+
+
+----
+
+Aufgabe McDoodle
+====
+
+#### Problemstellung
+
+Kunden kommen mit dem Auto (Annahme: 1 Personen pro Auto) zu McDoodle. Messungen haben ergeben dass die Zeit zwischen den ankommenden Autos ``2, 4, 1, 2, 5, 3, 2, 1, 2, 3, 5, 1, 1, 2`` und ``2`` Minuten betragen. ``30%`` der Kunden fahren zum _Drive-In_, ``60%`` parken und gehen ins _Restaurant_ und ``10%`` fahren wieder, _ohne zu konsumieren_. Die Zeit für die Bedienung am _Drive-In-Schalter_ ist _gleichverteilt_ im Intervall ``[3,4]`` in Minuten. Im _Restaurant_ beträgt die _normalverteilte_ Bedienzeit _(``1`` Schalter ist offen)_ im _Mittel_ ``2`` Minuten mit der _Standardabweichung_ ``0.2`` Minuten. Der _Verzehrdauer_ im Restaurant ist _dreiecksverteilt_ (Triangular) mit ``[3,8,20]``. Es stehen _genügend Plätze_ zur Verfügung.
+
+#### Aufgabe
+
+- [ ] Modellieren Sie dieses System und animieren Sie dieses.
+- [ ] Zeigen Sie die Variable der im Gesamtsystem Wartenden
+- [ ] Wie reagiert das Modell bei der Simulation?
+- [ ] Wo können Parameter sinnvoll geändert werden?
