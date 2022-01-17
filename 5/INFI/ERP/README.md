@@ -137,7 +137,136 @@ Cheat Sheet
          - Lieferbedingung: ``110`` (Frei Haus)
 
 </details>
-<details><summary style="color:red">Mahnen</summary>
+<details><summary style="color:red">Beschaffung mit Zahlung</summary>
+
+1. **Beschaffungsaufträge**
+   - Nummer
+      - ``100``
+      - Neu
+   - Lieferant: Der Lieferant. Bspw ``UG00703``
+   - Fremdbelegnummer: Irgendwas
+   - Wunschtermin: Irgendwann ab heute in der Zukunft
+   - Speichern
+   - **Position hinzufügen**
+      - **Allgemeines**
+         - Artikel: Artikel auswählen. Bspw ``UG00704``
+	     - Gesamtmenge: Beliebige Menge. Bspw. ``20 Stk``
+		 - Evtl. ``Lagerort`` ändern von ``100`` (Standard Lager) auf eigenes Lager
+	  - **Preise**
+	     - Preisherkunft: 2 Manuell
+		 - Bruttopreis: Preis eintragen. Bspw. ``50,00 EUR``
+		 - Preisdimension: Beliebig. Bspw. ``Pro Stk``
+		 - "Enter", bzw. ``übernehmen (Eingabetaste)`` drücken
+		 - Speichern
+		 - Rolle: ``Lieferauftrag erzeugen und Warenrücklieferschein mit Materialbuchung ausgeben..``
+		 - ``Ausgeben``
+2. **Wareneingänge**
+   - Nummer:
+      - ``100``
+   - Lieferpartner: Der selbe Lieferant. Bspw. ``UG00703``
+      - Neu
+	  - Fremdbelegnummer:
+	     - Irgendwas
+		 - Irgendwann ab heute in der Zukunft
+	  - Rolle
+	     - Positionen mit Auftragsbezig einfügen...
+		    - Nummer von Beschaffungsauftrag in ``Nummer`` einügen. Bspw. ``BA1171``
+		    - Häckchen hinten setzen
+			- ``Zuordnung speichern``
+	  - Speichern
+	  - Rolle
+	     - Wareneingang buchen...
+		    - [x] Wareneingangsetiketten ausgeben
+			- [x] Warnungen automatisch bestätigen
+			- ``Asugeben``
+3. **Eingangsrechnung**
+   - Nummer:
+      - ``100``
+	  - Neu
+	  - Rechnungssteller: Selbiger Lieferant. Bspw. ``UG00703``
+	  - Fremdbelegnummer und -datum
+	     - Irgendwas
+		 - Irgendwann ab heute in der Zukunft
+	  - Leistungsdatum
+	     - Irgendwann ab heute in der Zukunft
+	  - Speichern
+	  - kleine Rolle
+	     - ``Wareneingang automatisch mit Auftragsposition verknüpfen``
+		    - Nummer: Nummer von Beschaffungsaufrag. Bspw. ``BA1171``
+			- Häckchen hinten setzen
+			- Zuordnungen speichern
+      - Speichern
+	  - Auftragsstelle anwählen
+	  - Kostenrechnungsdaten hinzufügen
+	     - Kostenstelle: Bspw. ``802000`` (Einkauf)
+		 - Kostenträger: Ignorieren
+		 - Fakturierte Menge: Teil von Gesamtmenge. Bspw. ``5,00 Stk``
+		 - Nettobetrag: Sollte sich von selber ergeben
+	  - Auftragsstelle anwählen
+	  - Kostenrechnungsdaten hinzufügen
+	     - Kostenstelle: Bspw. ``805000`` (Einkauf)
+		 - Kostenträger: Ignorieren
+		 - Fakturierte Menge: restlicher Teil von Gesamtmenge. Bspw. ``15,00 Stk``
+		 - Nettobetrag: Sollte sich von selber ergeben
+	  - Bruttobetrag: Mit Betrag von ``Saldo`` gleich setzen. Bspw. ``1190,00 EUR``
+	  - Speichern
+	     - ``Saldo`` muss dann auf ``0,00 EUR`` stehen.
+	  - Rolle
+	     - Eingangsrechnung buchen
+		 - In der HTL
+		    - ``Sofort``
+	     - Außerhalb der HTL
+		    - ``Im Hintergrund``
+4. **Cockpit: Eingangsrechnungen**
+   - Eingangsdatum: Datum der Rechnung. Bspw. ``heute`` oder ``17.01.2022``
+   - Status: ``(Alle)``
+   - Zuständiger Mitarbeiter: Nummer des Mitarbeiters. Bspw. ``H20A007``
+   - Eingabetaste drücken
+   - Häckchen für betroffene Eingangsrechnungen setzen
+   - Rolle
+      - Rechnungen übertragen...
+	     - In der HTL
+		    - ``Sofort``
+	     - Außerhalb der HTL:
+		    - ``Im Hintergrund``
+5. **Cockpit: Buchungsläufe Finanzbuchhaltung**
+   - Herkunft: ``(Alle)``
+   - Erfasst von: Nummer des Mitarbeiters. Bspw. ``H20A007``
+   - Status: ``(Alle)``
+   - Eingabetaste drücken
+   - Häckchen setzen bei betreffender Eingangsrechnung
+   - Rolle
+      - Übernehmen und buchen
+	     - In der HTL
+		    - ``Sofort``
+	     - Außerhalb der HTL:
+		    - ``Im Hintergrund``
+6. **Cockpit: Zahlungen**
+   - Rolle
+      - Zahlungsvorschlag erzeugen
+7. **Zahlungsvorschlag erzeugen**
+   - Auswahl Zahlungsvorschlag: Irgendwas. Bspw. ``LERNEN1``
+   - Bezeichnung: Irgendwas. Bspw. ``Lernen Nummer 1``
+   - **Partner**
+      - Partner: Lieferant angeben. Bspw. ``UG00703``
+   - **Zahlung**
+      - Zahlungsweg-Klassifikation: ``100`` (Zahlungen)
+   - Rolle
+      - ``Ausgeben``
+8. **Cockpit: Zahlungen**
+   - Eingabetaste drücken
+   - Zahlungsvorschlag auswählen
+   - Rolle
+      - Zahlungsvorschlag anzeigen/bearbeiten
+9. **Zahlungsvorschlag anzeigen/bearbeiten**
+   - Rolle
+      - Vorschlag sperren
+	  - Vorschlag freigeben
+	  - Zahlungen durchführen
+	     - ``Ausgeben``
+
+</details>
+<details><summary style="color:green">Mahnen</summary>
 
 1. **Cockpit: Mahnungen**
    - Mahnvorschlag erzeugen
@@ -159,7 +288,7 @@ Cheat Sheet
    - Mahnungen stornieren
 
 </details>
-<details><summary style="color:green">Vertrieb mit Bezahlung</summary>
+<details><summary style="color:red">Vertrieb mit Bezahlung</summary>
 
 1. **Vertriebsaufträge**
    - Rechnung mit Materialbuchungen
