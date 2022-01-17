@@ -1,2 +1,5 @@
-package htl;public interface FlugVerhalten {
+package htl;
+
+public interface BewegungsVerhalten {
+    public void bewegen();
 }
