@@ -105,6 +105,7 @@ Cheat Sheet
             - [x] <u>D</u>ebitor
             - Ausgangssteuer-Klassifikation: ``500`` (Beschaffung Inland)
             - Zahlungsprofil: ``100`` (30 Tage Netto)
+			- PFLICHT !! Partnerkonten-Klassifikation: ``100`` (Inland)
          - **Kreditor**:
             - [x] <u>K</u>reditor
             - Zahlungsbedingung: ``120`` (Sofort Netto)
@@ -133,19 +134,8 @@ Cheat Sheet
       - **Basis**
          - Klassifikation: Wie bei ``Lieferant``
          - Lieferbedingung: ``110`` (Frei Haus)
-      - **Rechnungswesen**
-         - Zahlungsprofil: ``100``
-         - **Debitor**
-            - **Allgemeines**
-               - Zahlungsbedingung. ``120``
-               - Partnerkonto: ``100``
-               - Ausgangssteuer-Klassifikation: ``100``
-            - **Zahlung**
-               - Abzugsprofil: ``100``
-            - **Mahnung**
-               - Mahnprofil: ``100``
-   5. **Rechnungswesen**
-   6. **Kunden**
+         - **Rechnungsdaten**
+            - Zahlungsprofil: ``100``
 
 </details>
 <details><summary style="color:red">Mahnen</summary>
