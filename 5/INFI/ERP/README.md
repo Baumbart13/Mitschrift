@@ -55,7 +55,7 @@ Cheat Sheet
 
 1. **Artikel**
    1. **Basis**
-      - Artikelname
+      - Artikelnummer
       - Bezeichnung
       - Basiseinheit: ``Stk``
       - Verpackungen
@@ -66,27 +66,28 @@ Cheat Sheet
       - Vorsteuer-Klassifikation: ``100``
       - Mehrsteuer-Klassifikation: ``100``
       - Aufwandskonto-Klassifikation: ``500-300`` (WEK Handelsware)
-      - Bestandskonto-Klassifikation: ``400-300`` (Bestand Handelsware)
       - Erlöskonto-Klassifikation: ``400-300`` (Erlöse Handelsware)
-      - Kostenarten-Klassifikation Beschaffung: ``300``
+      - Bestandskonto-Klassifikation: ``100-300`` (Bestand Handelsware)
       - Kostenarten-Klassifikation Vertrieb: ``300``
+      - Kostenarten-Klassifikation Beschaffung: ``300``
       - Kostenarten-Klassifikation Produktion: ``300``
       - Kostenarten-Klassifikation Lagerlogistik: ``300``
       - Preis 1 - Pflichtfeld: beliebiger Geldbetrag
-   3. **Beschaffung**
-      - Klassifikation: ``300``
-      - Standard-Lagerort: ``100``
-      - Einheiten: ``Stk.``
-   4. **Lagerlogistik**
+   3. **Lagerlogistik**
       - Klassifikation: ``300``
       - Lademittel: ``80000`` (Europalette)
-   5. **Disposition**
+   4. **Disposition**
       - Mindestbestand
-      - Meldebestand
       - Maximalbestand
+      - Meldebestand
       - Füllbestand
       - Bedarfsdeckung: ``Externe Beschaffung``
       - Beschaffungsdisponent: ``ADM_KEJ``
+      - [ ] Produktionsdaten anwenden
+   5. **Beschaffung**
+      - Klassifikation: ``300``
+      - Standard-Lagerort: ``100``
+      - Einheiten: ``Stk.``
    6. **Vertrieb**
       - Klassifikation: ``300``
       - Standard-Lager: ``100``
@@ -134,8 +135,6 @@ Cheat Sheet
       - **Basis**
          - Klassifikation: Wie bei ``Lieferant``
          - Lieferbedingung: ``110`` (Frei Haus)
-         - **Rechnungsdaten**
-            - Zahlungsprofil: ``100``
 
 </details>
 <details><summary style="color:red">Mahnen</summary>
