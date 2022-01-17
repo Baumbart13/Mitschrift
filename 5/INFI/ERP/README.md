@@ -104,7 +104,7 @@ Cheat Sheet
       - **Finanzbuchhaltungsdaten**
          - **Debitor**
             - [x] <u>D</u>ebitor
-            - Ausgangssteuer-Klassifikation: ``500`` (Beschaffung Inland)
+            - Ausgangssteuer-Klassifikation: ``100`` (Vertrieb Inland)
             - Zahlungsprofil: ``100`` (30 Tage Netto)
 			- PFLICHT !! Partnerkonten-Klassifikation: ``100`` (Inland)
          - **Kreditor**:
