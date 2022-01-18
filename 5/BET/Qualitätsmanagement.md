@@ -57,18 +57,25 @@ Leistungsstörungen
 - Nichterfüllung
    - Leistung wurde nicht erbracht, bzw. Produkt wurde nicht erzeugt/geliefert
 - Verzug
+   - Verkäufer ist Schuldner in Bezug auf Ware
+   - Käufer ist Gläubiger in Bezug auf Ware
+   - Verkäufer ist Gläubiger in Bezug auf Geld
+   - Käufer ist Schuldner in Bezug auf Geld
    - Gläubigerverzug
-      - Verkäufer ist Schuldner in Bezug auf Ware
-	  - Käufer ist Gläubiger in Bezug auf Ware
-	  - Verkäufer ist Gläubiger in Bezug auf Geld
-	  - Käufer ist Schuldner in Bezug auf Geld
    - Schuldnerverzug
    - Möglichkeiten
       - Bei Vertragsabschluss auch ggf. eine Pönale vereinbaren
+	  - Neue Frist setzen und Rücktritt vom Vertrag androhen
 - Schlechterfüllung / Fehler
    - Leistund wurde fehlerhaft erbracht / das Produkt hat Fehler
 - Mangel
    - Die Leistung wurde mit Mängeln erbracht, das Produkt ist mangelhaft
+
+
+Produkthaftung
+====
+
+- Die Produkkthafunt umfasst Personenschäden und Sachschäden, die durch Fehler verursacht wurden, welche ein fehlerhaftes in Verkehr gebrachtes Produkt als Grund dafür haben
 
 
 Fehlerarten
