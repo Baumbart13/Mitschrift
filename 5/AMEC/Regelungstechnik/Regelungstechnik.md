@@ -387,5 +387,9 @@ Wenn eine andere Störgröße vorhanden ist, verschiebt sich lediglich die Kennl
 
 Die Kennlinie ist NICHT die Sprungantwort.
 
+![Statische Streckenkennlinie mit P-Regler000.png](./images/StatischeStreckenkennlinieMitPRegler000.png)
+
+Was macht ``k[R]``?
+   -> 
 
 ### Unstetige Regler
