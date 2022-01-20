@@ -34,4 +34,4 @@ Licht
 Quellen:
 - OmniLight
 - DirectionalLight
-- SpotLight
+- SpotLightgits
