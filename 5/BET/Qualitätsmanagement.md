@@ -120,3 +120,75 @@ Wie geht man mit Fehlern um?
 - Prüf- und Beurteilungskosten
 - Fehlerverhütungskosten
 - Fehlerbehebungskosten
+
+
+Fehlererfassung
+====
+
+
+Fehlersammelliste
+----
+
+Beispiel:
+
+Jemand kauft sich ein Auto. Fährt aus der Werkstatt raus, das Auto ist verdreckt, obwohl es neu ist.
+Fehlersammellisten sind wie Histogramme
+
+### Wie funktioniert sie?
+
+Es wird nach Fehlern gesucht und gefundene werden aufgelistet.
+
+1. Basisinformationen
+2. Histogramm der Fehler
+   - Fehlernummer
+   - Fehlerart
+   - Anzahl der Fehler
+   - Gesamte Fehler
+   - Prüfer
+   - Prüfart
+   - Datum
+
+
+Fehler sind etwa auch, wenn Ferrari-Rot auf das Motorrad bestellt wurde, aber ÖBB-Rot aufgetragen wurde.
+
+
+### Auswertung
+
+Können sowohl quantitiv als auch qualitativ ausgewertet werden.
+Darstellung mithilfe von Graphen => Leichter zu veranschaulichen
+Trägt essenziell
+
+
+### Qualitätsregelkarte
+
+Mittels Stichprobenentnahme wird geprüft, ob die Toleranzen - die durch die Regelkarte gegeben sind - eingehalten werden.
+Weicht der Sollwert zu sehr ab, wird in den Prozess eingegriffen.
+
+
+#### Erstellung von Qualitätsregelkarten
+
+**Attributive** Beurteilung oder **quantitative** Messung?
+
+
+Fehleranalyse
+----
+
+Pareto-Analyse
+----
+
+Aus 20% Arbeit, lässt sich 80% Leistung erbringen.
+Für die restlichen 20% Leistung, werden weitere 80% Aufwand benötigt.
+
+
+ABC-Analyse
+----
+
+Was verursacht jeder Fehler für Kosten?
+
+Was sind die kostenintensivsten Fehler?
+Benutzt werden dazu die gesamten Nachbearbeitungskosten, Kategorisiert nach Fehlerart
+
+Die Kosten werden aufsummiert
+Erinnert an eine ABC-Analyse
+
+Nun überlegt man, was man vermeiden möchte.. Kosten oder Fehler
