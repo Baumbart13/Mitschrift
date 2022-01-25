@@ -1,3 +1,6 @@
+Termin wird am Anfang des zweiten Semesters ausgemacht im Präsenzunterricht
+
+
 1. Symmetrische Verschlüsselung
    - Philipp Schuler
    - Manuel Repetschnig
