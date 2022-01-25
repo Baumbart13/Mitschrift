@@ -64,9 +64,9 @@ Rotornummer - Rotor - Position - Ring
 4           - I     - 1A       - 1A
 
 Steckerbrett
-bq - cr - di - kw - mt - os - px - uz - gh
+bq - cr - di - ej - kw - mt - os - px - uz - gh
 ```
-Geheimtext: ``xuft g``
+Geheimtext: ``bepeb kvyac dhjty``
 
 [Online](https://cryptii.com/pipes/enigma-machine) verschlüsselt
 
