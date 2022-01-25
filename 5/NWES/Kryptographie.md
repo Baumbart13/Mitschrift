@@ -206,6 +206,7 @@ Ein Schlüssel zum Entschlüsseln - **Private Key**
 </tbody>
 </table>
 
+
 RSA-Algorithmus
 ----
 
@@ -214,32 +215,56 @@ Beispiel mit einfache Zahlen:
 
 Alice -> Bob
 
-Ablauf:
-----
 
-1. Bob
-	2. Zwei Primzahlen
-		- ca. gleich viele Stellen
-		- nicht zu nah beieinander
-			- zwei aufeinander folgende Primzahlen sind eine schlechte Idee
-		- 19 und 23 für Erklärung.. keine gute Praxis!!!
-		- In der Praxis liegen die Primzahlen im Bereich von ![RSA_Prinzahlen000.png](./images/RSA_Prinzahlen000.png)
-		- ``N = p * q = 19 * 23 = 437``
-	3. ``m = (p - 1) * (q - 1) = 18 * 22 = 396``
-	4. Bob wählt eine weitere Zahl ``e`` mit folgenden Eigenschaften
-		- teilerfremd zum ``ggT(m,e) = 1``
-		- ``e = 59`` zur Erklärung
-		- Public Key = ``59,437``
-5. Alice
-	- nimmt ``(a^e) % N = (97^59) % 437 = 203``
-		- "%" entspricht dem "Modulo-Operator"
-		- Das für jedes Zeichen
-		- sendet den verschlüsselten Wert (203) an Bob
-6. Bob
-	- muss eine Gleichung lösen
-	- ``e * d + k * m = 59 * s + k * 396 = 1``
-	- EEA - erweiterter euklidischer Algorithmus
-	- Hiermit werden ``d`` und ``k`` ermittelt. Interessant ist für Bob nur ``d``
-	- ``d = 47; k = -7``
-	- Private Key = ``47,437``
-	- ``(203^47) % 437 = 97``
+Ablauf:
+====
+
+<ol>
+    <li>Bob
+        <ol>
+            <li>Zwei Primzahlen
+                <ul>
+                    <li>ca. gleich viele Stellen</li>
+                    <li>nicht zu nah beieinander
+                        <ul>
+                            <li>zwei aufeinander folgende Primzahlen sind eine schlechte Idee</li>
+                        </ul>
+                    </li>
+                    <li>19 und 23 für Erklärung.. keine gute Praxis!!!</li>
+                    <li>In der Praxis liegen die Primzahlen im Bereich von <img src="./images/RSA_Prinzahlen000.png" alt="RSA_Prinzahlen000.png"></li>
+                    <li><code>N = p * q = 19 * 23 = 437</code></li>
+                </ul>
+            </li>
+            <li><code>m = (p - 1) * (q - 1) = 18 * 22 = 396</code></li>
+            <li>Bob wählt eine weitere Zahl <code>e</code> mit folgenden Eigenschaften
+                <ul>
+                    <li>teilerfremd zum <code>ggT(m,e) = 1</code></li>
+                    <li><code>e = 59</code> zur Erklärung</li>
+                    <li>Public Key = <code>59,437</code></li>
+                </ul>
+            </li>
+        </ol>
+    </li>
+    <li>Alice
+        <ul>
+            <li>nimmt <code>(a^e) % N = (97^59) % 437 = 203</code>
+                <ul>
+                    <li>&quot;%&quot; entspricht dem &quot;Modulo-Operator&quot;</li>
+                    <li>Das für jedes Zeichen</li>
+                    <li>sendet den verschlüsselten Wert (203) an Bob</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>Bob
+        <ul>
+            <li>muss eine Gleichung lösen</li>
+            <li><code>e * d + k * m = 59 * s + k * 396 = 1</code></li>
+            <li>EEA - erweiterter euklidischer Algorithmus</li>
+            <li>Hiermit werden <code>d</code> und <code>k</code> ermittelt. Interessant ist für Bob nur <code>d</code></li>
+            <li><code>d = 47; k = -7</code></li>
+            <li>Private Key = <code>47,437</code></li>
+            <li><code>(203^47) % 437 = 97</code></li>
+        </ul>
+    </li>
+</ol>
