@@ -19,8 +19,22 @@ Die Sicherheit eines Verschlüsselungsverfahrens beruht auf der Geheimhaltung de
 Symmetrische Verschlüsselung
 -----
 
-|     |     |     |
-|:---:|:---:|:---:|
-| Schlüssel | ➡➡ ➡➡ | Geheimtext |
-| ⬆⬆     ⬆⬆ |          | ⬇⬇      ⬇⬇ |
-| Klartext  | ⬅⬅    ⬅⬅ | Schlüssel  |
+<table>
+<tbody>
+<tr>
+<td style="text-align: center;">Schl&uuml;ssel</td>
+<td style="text-align: center;">➡➡ ➡➡</td>
+<td style="text-align: center;">Geheimtext</td>
+</tr>
+<tr>
+<td style="text-align: center;">⬆⬆ ⬆⬆</td>
+<td style="text-align: center;">&nbsp;</td>
+<td style="text-align: center;">⬇⬇ ⬇⬇</td>
+</tr>
+<tr>
+<td style="text-align: center;">Klartext</td>
+<td style="text-align: center;">⬅⬅ ⬅⬅</td>
+<td style="text-align: center;">Schl&uuml;ssel</td>
+</tr>
+</tbody>
+</table>
