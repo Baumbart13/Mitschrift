@@ -389,7 +389,25 @@ Die Kennlinie ist NICHT die Sprungantwort.
 
 ![Statische Streckenkennlinie mit P-Regler000.png](./images/StatischeStreckenkennlinieMitPRegler000.png)
 
-Was macht ``k[R]``?
-   -> 
+Was macht ``k[R]``? -> Sagt aus, wie stark aggressiv der Regler ist
+
+![StatischeStreckenkennlinie001.png](./images/StatischeStreckenkennlinie001.png)
+
+Hier kann eine verbleibende Abweichung erkannt werden durch die verschiedenen Aggressivitäten
+
+Um festzustellen, auf welchen Endewrt sich die geregelte Strecke einstellt, übertragen wir die Kennlinie des P-Reglers in das Diagramm der Streckenkennlinie
+Die y-Achse wird horizontal gezeichnet, die Achse für ``W-x`` verläuft senkrecht nach unten ausgehend von ``X=W``. Der Schnittpunkt der beiden Kennlinien gibt die Endwerte für ``x`` und ``y`` an, auf die sich der Regelkreis nach unendlich langer Zeit einstellt
+Die Steigung der Reglerkennlinie nach der Übertragungn = ``-1/k[R]``
+Regler und Strecke gemeinsam verhalten sich so, dass der einzig stabile Zusatnd nach unendlich langer Zeit der Schnittpunkt der beiden Kennlinien ist.
+
+#### Effekt der Regelung 
+
+![StatischeStreckenkennlinie002.png](./images/StatischeStreckenkennlinie002.png)
+
+Bei Änderung der Störgrößee ``Z`` (Sprung auf eine andere Streckenkennlinie) ändert der Regler die Stellgrößé so, dass der Sprung nicht vertikal erfolgt (``x`` ändert sich weniger stark als ohne Regler)
+
+Eine kleine Regelabweichung bedeutet eine große Stellgröße
+
+Problem: Wenn der Regler zu stark reagiert (``k[R]`` ist zu groß) kann der Regelkreis instabil werden und ``x`` wird immer stärker schwingen. Der Regler wird immer mehr versuchen wollen sich einzufangen und driftet dabei immer mehr vom Sollwert ab und wird nie mehr den Sollwert treffen.
 
 ### Unstetige Regler
