@@ -2,6 +2,8 @@ package htl;
 
 public class Main {
     public static void main(String[] args) {
+        System.out.println( "Strategy Pattern\n" +
+                            "================\n\n");
         var enten = new Enten[3];
 
         enten[0] = new HausEnte();
