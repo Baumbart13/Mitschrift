@@ -36,6 +36,13 @@ anstelle davon, dass die Zentrale bei jedem Sensor nachfragt, ob etwas passiert 
     - Sensor
 
 
+- Zentrale beobachtet Sensoren
+- Signalgeber beobachten Zentrale
+    - Wenn Signalgeber bestimmten Wert erhält, soll
+        1. Blinker
+        2. Sirene
+
+
 - Observer
     - stellt ``update()``-Methode zur Verfügung mit ``Observer`` und ``deltas`` als Parameter
 - Observable
