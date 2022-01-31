@@ -1,7 +1,14 @@
 Kryptographie
 ====
 
-Wissenschaft der Verschlüsselung von Informationen. 
+Wissenschaft der Verschlüsselung von Informationen.
+
+
+Dies gilt immer:
+----
+
+Es sendet (zum Erklären) immer **Alice** an **Bob**
+Der Man-in-the-middle heißt (zum Erklären) immer **Eve**
 
 Geschichte
 ----
@@ -11,16 +18,14 @@ Geschichte
 - Enigma
 - ...
 
-Kerckhoff'sche Prinzip
+Kerckhoff\'sche Prinzip
 ----
 
 Die Sicherheit eines Verschlüsselungsverfahrens beruht auf der Geheimhaltung des Schlüssels, anstatt der Geheimhaltung des Verfahrens.
 
-Symmetrische Verschlüsselung
------
 
-|     |     |     |
-|:---:|:---:|:---:|
-| Schlüssel | ➡➡ ➡➡ | Geheimtext |
-| ⬆⬆     ⬆⬆ |          | ⬇⬇      ⬇⬇ |
-| Klartext  | ⬅⬅    ⬅⬅ | Schlüssel  |
+Arten der Verschlüsselung
+----
+
+- [Symmetrische Verschlüsselung](./Kryptographie_Symmetrisch.md)
+- [Asymmetrische Verschlüsselung](./Kryptographie_Asymmetrisch.md)

@@ -1,3 +1,6 @@
+Termin wird am Anfang des zweiten Semesters ausgemacht im Präsenzunterricht
+
+
 1. Symmetrische Verschlüsselung
    - Philipp Schuler
    - Manuel Repetschnig
@@ -13,13 +16,17 @@
    - Julian Madersbacher
    - Daniel Niederhauser
 6. Diffie-Hellmann
+   - Simon Hauser
+   - Manuel Sailer
 7. Digitale Signatur + Zertifikate (PKI)
    - Sebastian Mayer
    - Michael Perktold
 8. Hashfunktionen
-   - Nimit Signh
+   - Nimit Singh
    - Maximilian Neuner
 9. HTTPS - TLS
+   - Alexander Heim
+   - Niklas Schneider
 10. SALT + Angriffe
    - Anna-Maria Tipotsch
    - Daniel Sommeregger
@@ -30,4 +37,5 @@
    - Alexander Bertoni
    - Moritz Laichner
 13. WLAN 1
+   - Torben Baumgartner
 14. WLAN 2
