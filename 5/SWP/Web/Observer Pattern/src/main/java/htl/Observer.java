@@ -1,6 +1,6 @@
 package htl;
 
-public interface SensorBeobachter {
+public interface Observer {
 
     void update(Sensor sensor, int risiko);
 }

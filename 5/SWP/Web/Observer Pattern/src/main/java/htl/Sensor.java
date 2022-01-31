@@ -4,13 +4,13 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class Sensor {
-    private List<SensorBeobachter> beobachter = new LinkedList<SensorBeobachter>();
+    private List<Observer> beobachter = new LinkedList<Observer>();
 
-    public void add(SensorBeobachter b){
+    public void add(Observer b){
         beobachter.add(b);
     }
 
-    public void remove(SensorBeobachter b){
+    public void remove(Observer b){
         beobachter.remove(b);
     }
 

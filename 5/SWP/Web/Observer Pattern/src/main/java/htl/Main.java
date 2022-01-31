@@ -12,11 +12,26 @@ public class Main {
 
         var z1 = new Zentrale();
 
+        var g1 = new Signalgeber();
+        var g2 = new Signalgeber();
+
         b1.add(z1);
         b2.add(z1);
         b3.add(z1);
 
-        System.out.print("b1 meldet: "); b1.messungVonStärke(3);
-        System.out.print("b2 meldet: "); b2.messungVonStärke(7);
+        z1.add(g1);
+        z1.add(g2);
+
+        b1.messungVonStärke(3);
+        System.out.println("==============");
+        b2.messungVonStärke(7);
+        System.out.println("==============");
+        b3.messungVonStärke(5);
+        System.out.println("==============");
+
+        z1.notifyBeobachter(3);
+        System.out.println("==============");
+        z1.notifyBeobachter(-1);
+        System.out.println("==============");
     }
 }
