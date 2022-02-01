@@ -1,3 +1,11 @@
+Inhaltsverzeichnis
+====
+
+1. [Asymmetrische Verschlüsselung](#asymmetrische-verschlüsselung)
+2. [RSA](#rsa-algorithmus)
+3. [Diffie-Hellmann]()
+
+
 Asymmetrische Verschlüsselung
 ====
 
@@ -104,3 +112,75 @@ Vor- und Nachteile
 |:--------- |:------- |
 | langsam | keine Probleme mit dem Schlüssel |
 | bereits verschlüsselte Inhalte werden wieder gleich verschlüsselt | Kerckhoff\'sches Prinzip erfüllt |
+
+
+### Lösung
+
+Mehrere Verschlüsselungsverfahren kombinieren -> [Hybride Verschlüsselung](./Kryptographie_Hybrid.md)
+Schlüssel asymmetrisch übertragen und Daten symmetrisch verschlüsseln
+
+
+### Anwendung von RSA
+
+- Digitale Signatur von RSA
+    - Alice/Client mit Public Key
+	- Bob/Server mit Private Key
+	- Woher weiß Alice, dass sie wirklich mit Bob kommuniziert?
+		- Alice schickt ein beliebiges Zeichen an Bob, bspw. ``124``
+		- Bob verschlüsselt dieses Zeichen und sendet es zurück an Alice
+		- Alice entschlüsselt die verschlüsselte Nachricht
+			- Wenn daraus wieder das originale Zeichen (``124``) resultiert, kann Alice sich sicher sein, dass sie mit Bob kommuniziert
+			- Wenn daraus etwas anderes resultiert, kommuniziert Alice soeben sehr wahrscheinlich nicht mit Bob, sondern mit jemand Fremden oder gar mit Eve
+
+----
+
+Wenn man auf eine Website geht und die Verbindung über HTTPS ( = verschlüsselt), werden auch Informationen von Zertifikaten übertragen, allerdings im Klartext. Das ist zwischen Layer 4 und Layer 5 im OSI-Modell.
+Zertifikate dienen zur Überprüfung von der Vertrauenswürdigkeit von Webseiten. Sie gelten nur für bestimmte Zeiträume
+
+
+Diffie-Hellmann Schlüsselaustausch
+====
+
+- Alice
+	- Public Key von Bob
+	- Private Key von Alice
+	- Daraus resultiert ein Key
+- Bob
+	- Public Key von Alice
+	- Private Key von Bob
+	- Daraus resultiert der selbe Key wie der von Alice' resultierende
+
+Das ist symmetrische Verschlüsselung
+
+Es spielen wieder Primzahlen eine Rolle.
+Ebenso sind diese wieder groß
+
+
+Ablauf
+----
+
+Im Beispiel werden kleine Zahlen zum Verständnis verwendet
+
+1. Zwei Zahlen
+	- ``p = 17``
+		- zufällig gewählt
+	- ``y = 12``
+		- muss bestimmte Kriterien erfüllen
+	- Diese zwei Zahlen sind in der Praxis vorgegeben
+2. Alice und Bob wählen Zahlen aus
+	- Zahl muss kleiner sein als ``p``
+		- Menge: ``{1, ..., p-1}``
+	- Alice: ``a = 14``
+	- Bob: ``b = 5``
+	- Diese Zahlen sind die jeweiligen Private Keys
+3. Alice und Bob berechnen die Public Keys
+	- Alice: ``A = (y ^ a) % p`` -> ``15 = (12 ^ 14) % 17``
+	- Bob: ``B = (y ^ b) % p`` -> ``3 = (12 ^ 5) % 17``
+4. Public Keys austauschen
+5. Überprüfen, ob die Schlüssel übereinstimmen
+	- Alice hat eigenen Private Key ``a`` und Bob's Public Key ``B``
+		- ``(B ^ a) % p`` -> ``(3 ^ 14) % 17 = 2``
+	- Bob hat eigenen Private Key ``b`` und Alice' Public Key ``A``
+		- ``(A ^ b) % p`` -> ``(15 ^ 5) % 17 = 2``
+	- Gleichen sich die Ergebnisse, sind Alice und Bob sich sicher, dass sie miteinander kommunizieren
+	- Andernfalls kommunizieren sie mit Fremden, wenn nicht mit Eve
