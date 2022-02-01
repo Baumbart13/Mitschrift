@@ -37,10 +37,10 @@ Alice -> Bob
 Ablauf:
 ====
 
-<ol>
-    <li>Bob
-        <ol>
-            <li>Zwei Primzahlen
+<ul>
+    <li>1. Bob
+        <ul>
+            <li>1. Zwei Primzahlen
                 <ul>
                     <li>ca. gleich viele Stellen</li>
                     <li>nicht zu nah beieinander
@@ -53,19 +53,19 @@ Ablauf:
                     <li><code>N = p * q = 19 * 23 = 437</code></li>
                 </ul>
             </li>
-            <li><code>m = (p - 1) * (q - 1) = 18 * 22 = 396</code></li>
-            <li>Bob wählt eine weitere Zahl <code>e</code> mit folgenden Eigenschaften
+            <li>2. <code>m = (p - 1) * (q - 1) = 18 * 22 = 396</code></li>
+            <li>3. Bob wählt eine weitere Zahl <code>e</code> mit folgenden Eigenschaften
                 <ul>
                     <li>teilerfremd zum <code>ggT(m,e) = 1</code></li>
                     <li><code>e = 59</code> zur Erklärung</li>
                     <li>Public Key = <code>59,437</code></li>
                 </ul>
             </li>
-        </ol>
+        </ul>
     </li>
-    <li>Alice
+    <li>4. Alice
         <ul>
-            <li>nimmt <code>(a^e) % N = (97^59) % 437 = 203</code>
+            <li>4. nimmt <code>(a^e) % N = (97^59) % 437 = 203</code>
                 <ul>
                     <li>&quot;%&quot; entspricht dem &quot;Modulo-Operator&quot;</li>
                     <li>Das für jedes Zeichen</li>
@@ -74,7 +74,7 @@ Ablauf:
             </li>
         </ul>
     </li>
-    <li>Bob
+    <li>5. Bob
         <ul>
             <li>muss eine Gleichung lösen</li>
             <li><code>e * d + k * m = 59 * s + k * 396 = 1</code></li>
@@ -85,4 +85,4 @@ Ablauf:
             <li><code>(203^47) % 437 = 97</code></li>
         </ul>
     </li>
-</ol>
+</ul>
