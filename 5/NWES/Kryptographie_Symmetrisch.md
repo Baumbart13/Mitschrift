@@ -1,3 +1,13 @@
+Inhaltsverzeichnis
+====
+
+1. [Symmetrische Verschlüsselung](#symmetrische-verschlüsselung)
+2. [Cäsar-Verschlüsselung](#cäsar-verschlüsselung)
+3. [Enigma-Verschlüsselung](#enigma-verschlüsselung)
+4. [Vigenere](#vigenere)
+5. [AES/DES](#aes--des)
+
+
 Symmetrische Verschlüsselung
 ====
 
@@ -45,8 +55,8 @@ Vor- und Nachteile
 | Schwächen | Stärken |
 |:--------- |:------- |
 |  Kerckhoff\'sches Prinzip gilt nicht | einfach, schnell |
-| Schlüsselübertragung | bereits verschlüsselte Inhalte werden wieder gleich verschlüsselt |
-
+| Schlüsselübertragung |  |
+| bereits verschlüsselte Inhalte werden wieder gleich verschlüsselt |  |
 
 Enigma Verschlüsselung
 ====

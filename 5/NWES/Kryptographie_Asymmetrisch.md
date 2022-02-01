@@ -86,3 +86,21 @@ Ablauf:
         </ul>
     </li>
 </ul>
+
+
+Sicherheit
+====
+
+Die Sicherheit besteht darin, die Primfaktoren herauszufinden.
+Sind diese bekannt, kann die Verschlüsselung aufgehoben werden.
+Es ist mathematisch ein schwieriges Problem eine Zahl in ihre Primfaktoren zu zerlegen.
+Ca mehrere 100 Stellen
+
+
+Vor- und Nachteile
+----
+
+| Schwächen | Stärken |
+|:--------- |:------- |
+| langsam | keine Probleme mit dem Schlüssel |
+| bereits verschlüsselte Inhalte werden wieder gleich verschlüsselt | Kerckhoff\'sches Prinzip erfüllt |
