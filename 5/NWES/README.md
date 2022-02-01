@@ -38,6 +38,9 @@ Lehrerwechsel (21. December 2021)
 
 14. [Handouts](./HandoutThemen.md)
 15. [Kryptographie](./Kryptographie.md)
+16. [Symmetrische](./Kryptographie_Symmetrisch.md) Kryptographie
+17. [Asymmetrische](./Kryptographie_Asymmetrisch.md) Kryptographie
+
 
 - **Lehrplan**
    - [x] Routing (statisch/dynamisch)
