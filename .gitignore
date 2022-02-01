@@ -100,6 +100,18 @@ cython_debug/
 */.idea
 *.idea/*
 
+# MS Office
+*.tmp
+~$*.doc*
+Backup of *.doc*
+~$*.xls*
+*.xlk
+~$*.ppt*
+*.~vsd*
+
+# Libre Office
+.~lock.*#
+
 # Schoolfiles
 */INFI/IS/*/*.aux
 */INFI/IS/*/*.synctex.gz
