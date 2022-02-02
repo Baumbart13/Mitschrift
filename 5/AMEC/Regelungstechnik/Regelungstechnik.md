@@ -332,7 +332,7 @@ Kann zum Abschalten verwendet, wo nicht sofort alles fertig sein soll.
 - ZB.:
    - Beim Wasserhahn kann passieren, dass Knall entsteht, wenn Hahn schnell ganz zugedreht. Dadurch entsteht Wasserschlag, Rohre erfahren Erschütterung und können kaputt werden.
 
-Sprungantwort:
+Sprungantwort:</br>
 ![DTElement001.png - Sprungantwort](./images/DTElement001.png)
 
 
