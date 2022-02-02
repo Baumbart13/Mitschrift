@@ -1,6 +1,15 @@
 Control Theory Game - using Godot
 ================
 
+- Godot-application from godot-website
+	- [Windows](https://godotengine.org/download/windows)
+	- [Linux](https://godotengine.org/download/linux)
+	- [macOS](https://godotengine.org/download/osx)
+- Godot-application from local repository
+	- [Windows](Godot_v3.4-stable_win64.exe)
+- [Additional info](.) about the game
+- [Official repository](https://github.com/csaf4370/CTG)
+
 
 ### What is needed:
 
