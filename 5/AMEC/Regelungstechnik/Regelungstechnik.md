@@ -391,7 +391,8 @@ Wenn zB die Stellgröße auf 60°C gestellt wird, ergibt sich nach einer bestimm
 Im Prinzip ist es wie ein Tabellenbuch.
 
 Wenn eine andere Störgröße vorhanden ist, verschiebt sich lediglich die Kennlinie parallel. Das Verhalten ändert sich dadurch nicht.
-( Heizleistung = 0, aber Außentemperatur ist unterschiedlich )
+</br>( Heizleistung = 0, aber Außentemperatur ist unterschiedlich )
+
 
 Die Kennlinie ist NICHT die Sprungantwort.
 
@@ -403,10 +404,11 @@ Was macht ``k[R]``? -> Sagt aus, wie stark aggressiv der Regler ist
 
 Hier kann eine verbleibende Abweichung erkannt werden durch die verschiedenen Aggressivitäten
 
-Um festzustellen, auf welchen Endewrt sich die geregelte Strecke einstellt, übertragen wir die Kennlinie des P-Reglers in das Diagramm der Streckenkennlinie
-Die y-Achse wird horizontal gezeichnet, die Achse für ``W-x`` verläuft senkrecht nach unten ausgehend von ``X=W``. Der Schnittpunkt der beiden Kennlinien gibt die Endwerte für ``x`` und ``y`` an, auf die sich der Regelkreis nach unendlich langer Zeit einstellt
-Die Steigung der Reglerkennlinie nach der Übertragungn = ``-1/k[R]``
-Regler und Strecke gemeinsam verhalten sich so, dass der einzig stabile Zusatnd nach unendlich langer Zeit der Schnittpunkt der beiden Kennlinien ist.
+Um festzustellen, auf welchen Endewrt sich die geregelte Strecke einstellt, übertragen wir die Kennlinie des P-Reglers in das Diagramm der Streckenkennlinie</br>
+Die y-Achse wird horizontal gezeichnet, die Achse für ``W-x`` verläuft senkrecht nach unten ausgehend von ``X=W``. Der Schnittpunkt der beiden Kennlinien gibt die Endwerte für ``x`` und ``y`` an, auf die sich der Regelkreis nach unendlich langer Zeit einstellt</br>
+Die Steigung der Reglerkennlinie nach der Übertragungn = ``-1/k[R]``</br>
+Regler und Strecke gemeinsam verhalten sich so, dass der einzig stabile Zusatnd nach unendlich langer Zeit der Schnittpunkt der beiden Kennlinien ist.</br>
+
 
 #### Effekt der Regelung 
 
