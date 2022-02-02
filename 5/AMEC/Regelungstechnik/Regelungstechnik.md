@@ -267,6 +267,7 @@ Bsp. Kochtopf:
 Bsp. Induktions-Herd:
    - Strom ein -> Kochtopf erwärmt sich schnell (= PT1_1)
 
+
 Anwendungsbeispiel:
    - zwei hintereinander geschaltene Druckluftbehälter mit einer (sehr) dünnen Verbindungsleitung.
 
@@ -283,7 +284,7 @@ Eine Strecke ist umso schwieriger zu regeln, je größer ``T[U]`` ist (= Träge 
 Wenn ``T[G] = 0``, dann passiert ein _Einheitssprung_ mit einer _Totzeit_ von ``T[U]``.
 
 Parameter für Regelbarkeit:
-```T[U] / T[G]```
+``T[U] / T[G]``
 
 Tendenziell eine kurze Verzugszeit und große Ausgleichszeit. Damit sind schnelle und genaue Änderungen realisierbar.
 
@@ -419,3 +420,83 @@ Bei Änderung der Störgrößee ``Z`` (Sprung auf eine andere Streckenkennlinie)
 Eine kleine Regelabweichung bedeutet eine große Stellgröße
 
 Problem: Wenn der Regler zu stark reagiert (``k[R]`` ist zu groß) kann der Regelkreis instabil werden und ``x`` wird immer stärker schwingen. Der Regler wird immer mehr versuchen wollen sich einzufangen und driftet dabei immer mehr vom Sollwert ab und wird nie mehr den Sollwert treffen.
+
+
+#### Begründung für die bleibende Regelabweichung
+
+![BegründungBleibendeRegelabweichung000.png](./images/BegründungBleibendeRegelabweichung000.png)
+
+``y = k[R] * E`` muss != 0 sein, damit ``x`` bei Strecken mit Ausgleich gehalten werden kann => ``E != 0``, damit ein ``y`` verbleibt
+
+Wenn die Strecke nicht integriert, kann man einen integrierten Anteil in den Regler einbauen, um die bleibende Regelabchweichung zu entfernen.
+
+
+PI-Regler
+====
+
+![PIRegler000.png](./images/PIRegler000.png)
+
+![PIRegler001.png - Strecke](./images/PIRegler001.png)
+
+``y(t) = k[P] * E(t) + k[i] * (integral von 0 bis t (E(t)) nach dt)``
+
+Da ``k[i] = 1/Zeit = E(t) * dt``, muss Zeit weg
+
+``k[p]`` ist bisheriges ``k[R]``
+
+``y(t) = k[p] * (E(t) + (1/T[I]) * (Integral von 0 bis t (E(t)) nach dt))``, wobei ``1/T[I] == k[I]/k[p]``
+
+
+T[I] ... Nachführzeit
+----
+
+``1/T[I] == 1/T[N]``
+
+``T[N]`` zu groß: I-Anteil zu klein und ein "Knick" entsteht
+
+![PIRegler002.png - Knick](./images/PIRegler002.png)
+
+``T[N]`` passend
+
+![PIRegler003.png - kein Knick](./images/PIRegler003.png)
+
+``T[N]`` zu klein: I-Anteil zu groß und das delta zum Sollwert bleibt zu groß
+
+![PIRegler004.png - großes Delta](./images/PIRegler004.png)
+
+
+Sprungantwort eines PI-Reglers wenn Einheitssprung von ``E`` erfolgt
+----
+
+![PIRegler_Sprungantwort000.png](./images/PIRegler_Sprungantwort000.png)
+
+P-Anteil:</br>
+![PIRegler_Sprungantwort001.png](./images/PIRegler_Sprungantwort001.png)
+
+I-Anteil:</br>
+![PIRegler_Sprungantwort002.png](./images/PIRegler_Sprungantwort002.png)
+
+
+Wind-Up-Effekt des I-Anteils
+----
+
+Wenn die Regelabweichung aus irgendeinem Grund zu langsam verschwindet, kann dies zu einem zu großen I-Anteil führen
+
+Dieser Effekt wird häufig daurch verurscaht, dass die Stellgröße ``y`` in der Realität durch einen Maximalwert begrenzt wird (zB. maximale Heizleistung)
+
+
+**1. Beginn des Regelvorgangs:**
+
+Es existiert eine große Regelabweichung aber es ist nich wenig Zeit vergangen, über die der I-Anteil auf integriert wurde.
+
+=> P-Anteil dominiert, hat also den größten Anteil an der Stellgröße
+
+**2. ``E=0`` -> P-Anteil = 0 (verschwindet)**
+
+I-Anteil bleibt konstant auf einem Wert, der die Regelgröße dauerhaft auf den Sollwert hält
+
+_**So ist der Regelwert optimale eingestellt!**_
+
+![PIRegler005.png](./images/PIRegler005.png)
+
+Hier sieht man, dass der Wert ``100`` erreicht werden soll, aber der Begrenzungswert bei ``35`` liegt und somit nie erreicht werden kann.
