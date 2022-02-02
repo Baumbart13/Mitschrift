@@ -323,7 +323,7 @@ Mit Steigung kann starke/schnelle Regelabweichung frühzeitig erkannt werden.
 
 ### DT1-Element = Vorhalteglied
 
-![DElement001.png](./images/DElement001.png)
+![DTlement000.png](./images/DElement000.png)
 
 Ist im Prinzip ein verzögertes D-Element
 
@@ -331,6 +331,10 @@ Kann zum Abschalten verwendet, wo nicht sofort alles fertig sein soll.
 
 - ZB.:
    - Beim Wasserhahn kann passieren, dass Knall entsteht, wenn Hahn schnell ganz zugedreht. Dadurch entsteht Wasserschlag, Rohre erfahren Erschütterung und können kaputt werden.
+
+Sprungantwort:
+![DTElement001.png - Sprungantwort](./images/DTElement001.png)
+
 
 ### Reglertypen
 
