@@ -355,7 +355,7 @@ Sprungantwort:</br>
    - Bei der internen Rückführung wird die Stellgröße dazu verwendetn ein Signal zu generiern, welches einen anderen Istwert vortäuscht. Dadurch kann das Regelverhalten optimiert werden. Zum Beispiel wenn die Heizung aktiv ist, wird ein Wert von 2°C zum Istwert addiert -> dadurch schaltet die Heizung etwas früher aus und _somit kann Überschwingen verhindert werden._
 
 
-### Stetiger Regler
+### Unstetiger Regler
 
 - Kennlinie
    - 2-Punkt Regler
@@ -369,6 +369,10 @@ Sprungantwort:</br>
 	     - Somit kann Überschwingen abgeschwächt werden
 		 - Es wird nicht immer zwischen Maximum und Minimum der Istwert gehalten (zwischen 80% und 100%, anstatt zwischen 0% und 100%)
    - Kennlinien können somit Kennlinie von PWM-Signal widerspiegeln
+
+
+### Stetiger Regler
+
 - P-Regler
    - Der P-Regler ist ein stetiger Regler, weil er die Stellgröße auf beliebige Werte halten kann => Für einen bestimmten Sollwert ``W`` kann ``y`` einen konstanten Wert annehmen, welcher ``x``dauerhaft auf ``W`` hält.
    - Kennlinie
@@ -413,5 +417,3 @@ Bei Änderung der Störgrößee ``Z`` (Sprung auf eine andere Streckenkennlinie)
 Eine kleine Regelabweichung bedeutet eine große Stellgröße
 
 Problem: Wenn der Regler zu stark reagiert (``k[R]`` ist zu groß) kann der Regelkreis instabil werden und ``x`` wird immer stärker schwingen. Der Regler wird immer mehr versuchen wollen sich einzufangen und driftet dabei immer mehr vom Sollwert ab und wird nie mehr den Sollwert treffen.
-
-### Unstetige Regler
