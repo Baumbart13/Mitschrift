@@ -1,0 +1,143 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% University/School Laboratory Report
+% LaTeX Template
+% Version 3.1 (25/3/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Linux and Unix Users Group at Virginia Tech Wiki 
+% (https://vtluug.org/wiki/Example_LaTeX_chem_lab_report)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{article}
+\usepackage{float}
+\usepackage[version=3]{mhchem} % Package for chemical equation typesetting
+\usepackage{siunitx} % Provides the \SI{}{} and \si{} command for typesetting SI units
+\usepackage{graphicx} % Required for the inclusion of images
+\usepackage{natbib} % Required to change bibliography style to APA
+\usepackage{amsmath} % Required for some math elements 
+\usepackage{fullpage} %use smaller top and bottom margins
+\usepackage[utf8]{inputenc} %TODO hier ev.  latin1 setzen
+%\headheight = 20pt
+\headsep = 35pt %space between headline and body text
+%\voffset = 0pt
+
+\usepackage{listings}
+\usepackage{courier}
+\usepackage{color}   
+\usepackage{titling}
+\usepackage{url}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\setlength\parindent{0pt} % Removes all indentation from paragraphs
+
+\renewcommand{\labelenumi}{\alph{enumi}.} % Make numbering in the enumerate environment by letter rather than number (e.g. section 6)
+
+%\usepackage{times} % Uncomment to use the Times New Roman font
+
+
+
+\lstset{ %
+	language=R,                     % the language of the code
+	basicstyle=\footnotesize,       % the size of the fonts that are used for the code
+	numbers=left,                   % where to put the line-numbers
+	numberstyle=\tiny\color{gray},  % the style that is used for the line-numbers
+	stepnumber=1,                   % the step between two line-numbers. If it's 1, each line
+	% will be numbered
+	numbersep=5pt,                  % how far the line-numbers are from the code
+	backgroundcolor=\color{white},  % choose the background color. You must add \usepackage{color}
+	showspaces=false,               % show spaces adding particular underscores
+	showstringspaces=false,         % underline spaces within strings
+	showtabs=false,                 % show tabs within strings adding particular underscores
+	frame=single,                   % adds a frame around the code
+	rulecolor=\color{black},        % if not set, the frame-color may be changed on line-breaks within not-black text (e.g. commens (green here))
+	tabsize=2,                      % sets default tabsize to 2 spaces
+	captionpos=b,                   % sets the caption-position to bottom
+	breaklines=true,                % sets automatic line breaking
+	breakatwhitespace=false,        % sets if automatic breaks should only happen at whitespace
+	title=\lstname,                 % show the filename of files included with \lstinputlisting;
+	% also try caption instead of title
+	keywordstyle=\color{blue},      % keyword style
+	commentstyle=\color{dkgreen},   % comment style
+	stringstyle=\color{mauve},      % string literal style
+	escapeinside={\%*}{*)},         % if you want to add a comment within your code
+	morekeywords={*,...}            % if you want to add more keywords to the set
+} 
+
+
+
+\setlength{\droptitle}{-10em}   % This is your set screw
+
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\title{Übung 07 \\ \texttt{Interaktive statistische Webanwendung} \\ Erste Anwendung von mit \texttt{R-shiny} \\ INFI-IS \\ 5AHWII} 
+\author{Thomas Kefer} % TODO: Bitte den Namen eintragen
+\date{\today} % Date for the report
+
+\begin{document}
+
+\maketitle % Insert the title, author and date
+
+\begin{center}
+\begin{tabular}{l r}
+Abgabetermin: &  Sonntag, 13. Februar 2022 \\
+%Zusammenarbeit mit: & James Smith \\ % Partner names & Mary Smith \\
+Übungsleiter: & Albert Greinöcker % Instructor/supervisor
+\end{tabular} \\ 
+\vspace{1cm}
+\includegraphics[width=2cm]{../images/logo.png}
+\end{center}
+
+%----------------------------------------------------------------------------------------
+
+\section{Grundlegende Aufgabenstellung}
+
+Es soll eine Anwendung (im selben Stil wie die gemeinsame Anwendung zur Bevölkerung in Tirol - R-Skripte dazu liegen in Moodle) entstehen). \\
+
+Folgendes soll die Anwendung beinhalten:
+
+\begin{enumerate}
+	\item Zumindest 3 Auswahlfelder
+	\item Zumindest 3 Grafiken
+	\item Eine Tabellendarstellung der Daten (\texttt{DT} -  also eine Datatable)
+\end{enumerate}
+
+
+
+\subsection{Datensätze}
+
+Diesmal soll allerdings der Datensatz selbst gewählt werden. Ein Umfangreiches Angebot hat hier \texttt{kaggle.com}. Bitte dort einfach mal registrieren und ein paar gezielte Suchen vornehmen. \\
+
+Hier ein paar Beispiele für passende Datensätze:
+
+\begin{enumerate}
+	\item Weltweite Daten zum Corona-Virus, der sich mittels Python-Skript immer aktualisieren lässt. \\ \url{https://www.kaggle.com/gauravduttakiit/covid-19}
+	\item Spotify-Datensatz von Songs mit Bewertung und akustischen Parametern von 1920-2004 \\
+	\url{https://www.kaggle.com/yamaerenay/spotify-dataset-19212020-160k-tracks} 
+	\item Der bereits bekannte FIFA19-Datensatz \\
+	\url{https://www.kaggle.com/karangadiya/fifa19}
+\end{enumerate}
+
+Es müssen nicht unbedingt Datensätze von kaggle, sein, jeder andere passende Datensatz geht natürlich auch ok (z.B. Daten der Diplomarbeit)
+
+\section{Installation auf \texttt{shinyapps.io}}
+
+In Moodle ist ein Link auf eine Anleitung für die Installation zu finden. Bitte die erstellte Anwendung auch online bringen.
+
+\end{document}
