@@ -161,7 +161,7 @@ Trägt essenziell
 
 ### Qualitätsregelkarte
 
-Mittels Stichprobenentnahme wird geprüft, ob die Toleranzen - die durch die Regelkarte gegeben sind - eingehalten werden.
+Mittels Stichprobenentnahme wird geprüft, ob die Toleranzen - die durch die Regelkarte gegeben sind - eingehalten werden.</br>
 Weicht der Sollwert zu sehr ab, wird in den Prozess eingegriffen.
 
 
@@ -176,7 +176,7 @@ Fehleranalyse
 Pareto-Analyse
 ----
 
-Aus 20% Arbeit, lässt sich 80% Leistung erbringen.
+Aus 20% Arbeit, lässt sich 80% Leistung erbringen.</br>
 Für die restlichen 20% Leistung, werden weitere 80% Aufwand benötigt.
 
 
@@ -185,10 +185,125 @@ ABC-Analyse
 
 Was verursacht jeder Fehler für Kosten?
 
-Was sind die kostenintensivsten Fehler?
+Was sind die kostenintensivsten Fehler?</br>
 Benutzt werden dazu die gesamten Nachbearbeitungskosten, Kategorisiert nach Fehlerart
 
 Die Kosten werden aufsummiert
 Erinnert an eine ABC-Analyse
 
 Nun überlegt man, was man vermeiden möchte.. Kosten oder Fehler
+
+
+Fehlervermeidung
+====
+
+
+Fehler-Möglichkeit- und Einfluss-Analyse (FMEA)
+----
+
+Risiken erkennen und bewerten und daraus Maßnahmen ableiten
+
+Das bekannteste Tool dafür stellt die **FMEA** dar
+
+### Prinzipielles FMEA-Formblatt
+
+<table style="background-color:black; color:white">
+<thead>
+<tr>
+<th style="text-align:left">Mögliche Fehler</th>
+<th style="text-align:left">Folgen des Fehlers</th>
+<th style="text-align:left">SEV</th>
+<th style="text-align:left">Mögliche Ursachen</th>
+<th style="text-align:left">OCC</th>
+<th style="text-align:left">Entdeckung/Vermeidung</th>
+<th style="text-align:left">DET</th>
+<th style="text-align:left">RPN</th>
+<th style="text-align:left">Vorgeschlagene Maßnahmen</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Welche Fehler treten durch diese Variationen des INputs(x) auf?)</td>
+<td style="text-align:left">Welche Auswirkungen hat dieser Fehler au den Output (y)?</td>
+<td style="text-align:left">Bedeutung des Fehlers (Skala 1-10)</td>
+<td style="text-align:left">Ausprägungen der Variation des Inputs (x)</td>
+<td style="text-align:left">Auftretenswahrscheinlichkeit (Skala 1-10)</td>
+<td style="text-align:left">Was haben wir heute, um den Fehler zu entdecken oder die Ursache zu vermeiden?</td>
+<td style="text-align:left">Erkennbarkeit (Skala 1-10)</td>
+<td style="text-align:left">Gesamtrisiko (Multiplikation)</td>
+<td style="text-align:left">Empfehlungen, um die Ursache zu vermeiden und/oder die Erkennbarkeit erhöhen?</td>
+</tr>
+<tr>
+<td style="text-align:justify">Das Ei ist hart</td>
+<td style="text-align:justify">Der Kunde verschluckt sich vielleiht, da das Ei zu hart ist.</td>
+<td style="text-align:left">5</td>
+<td style="text-align:left">Das Ei hat zu lange gekocht / Das Ei war schon gekocht nd wurde ein zweites Mals gekocht</td>
+<td style="text-align:left">8</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">4</td>
+<td style="text-align:left">160</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left; background-color:darkorange">Risikoanalyse</td>
+<td style="text-align:left; background-color:darkorange">Risikoanalyse</td>
+<td style="text-align:left; background-color:darkorange">Risikoanalyse</td>
+<td style="text-align:left; background-color:darkorange">Risikoanalyse</td>
+<td style="text-align:left; background-color:darkorange">Risikoanalyse</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left; background-color:skyblue">Risikobewertung</td>
+<td style="text-align:left"></td>
+<td style="text-align:left; background-color:skyblue">Risikobewertung</td>
+<td style="text-align:left"></td>
+<td style="text-align:left; background-color:skyblue">Risikobewertung</td>
+<td style="text-align:left; background-color:skyblue">Risikobewertung</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left; background-color:darkgreen">Risikominimierung</td>
+<td style="text-align:left; background-color:darkgreen">Risikominimierung</td>
+<td style="text-align:left; background-color:darkgreen">Risikominimierung</td>
+<td style="text-align:left; background-color:darkgreen">Risikominimierung</td>
+</tr>
+</tbody>
+</table>
+
+
+Poka Yoke
+----
+
+Bsp.: Wenn Geld abheben, wird zuerst die Karte und dann erst das Geld herausgegeben.
+
+Poka Yoke zielt darauf ab, jeden Fehler vollständig zu vermeiden. Es beruht darauf, dass kein Mensch in der Lage ist, Fehler vollständig zu vermeiden
+
+**Weiches Poka Yoke:**</br>
+Signale sollen Fehler vermeiden
+
+**Hartes Poka Yoke:**</br>
+Mechanische Vorrichtungen vermeiden Fehler
+
+zufällige Fehler sind absehbar:
+- Maßfehler
+- Motorschaden
+- Verwechslung
+
+Fehler in Zaheln, Daten, Fakten beschreiben
+
+Arbeitsanweisungen untersuchen -> u.U. nicht verständlich
+
+
+Design of Experiments (DOE)
+----
+
