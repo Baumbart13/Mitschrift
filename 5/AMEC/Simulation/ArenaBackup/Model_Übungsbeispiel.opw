@@ -1,0 +1,18 @@
+[RESOURCES]
+Getränk
+Kassierfrau
+Nachspeise
+Essen
+[VARIABLES]
+Schauen.NumberIn
+Essen nehmen.NumberOut
+Verlassen.NumberOut
+Nachspeise nehmen.NumberIn
+Nachspeise nehmen.NumberOut
+Ankunft Personen.NumberOut
+Schauen.NumberOut
+Essen nehmen.NumberIn
+Getränk nehmen.NumberOut
+Getränk nehmen.NumberIn
+Bezahlen.NumberOut
+Bezahlen.NumberIn

@@ -1,0 +1,18 @@
+[RESOURCES]
+Restaurant Arbeiter
+Drive in Arbeiter
+[VARIABLES]
+Drive in Schalter.NumberOut
+Drive in Schalter.NumberIn
+Restaurant.NumberIn
+Drive in.NumberIn
+Fahren wieder.NumberOut
+Personen erzeugen.NumberOut
+Fahren wieder.NumberIn
+Drive in.NumberOut
+Person weg.NumberOut
+Restaurant.NumberOut
+Restaurant Schalter.NumberIn
+Restaurant Schalter.NumberOut
+Verzehr im Restaurant.NumberIn
+Verzehr im Restaurant.NumberOut

@@ -1,0 +1,73 @@
+SIMAN Run Controller.
+
+8.8611616 Hours>
+                                      ARENA Simulation Results
+                                    Baumbart13 - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 2/ 3/2022
+Analyst: Baumbart13                                                  Model revision date: 2/ 3/2022
+
+Replication ended at time      : 8.8611616 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Person.VATime                               .06221     (Insuf)    .01559     1.3114        220    
+Person.NVATime                              .00000     (Insuf)    .00000     .00000        220    
+Person.WaitTime                             .00935     (Insuf)    .00000     1.0869        220    
+Person.TranTime                             .00000     (Insuf)    .00000     .00000        220    
+Person.OtherTime                            .00000     (Insuf)    .00000     .00000        220    
+Person.TotalTime                            .07156     (Insuf)    .01667     2.3755        220    
+Essen nehmen.Queue.WaitingTime               3.1903E-4 (Insuf)    .00000     .00698         90    
+Nachspeise nehmen.Queue.WaitingTime         .24759     (Insuf)    .00000     1.0858          7    
+Bezahlen.Queue.WaitingTime                  .00271     (Insuf)    .00000     .02727        195    
+Getränk nehmen.Queue.WaitingTime             3.8220E-4 (Insuf)    .00000     .01353        156    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Person.WIP                                  2.0102     (Corr)     .00000     5.0000     4.0000    
+Getränk.NumberBusy                          .16117     (Insuf)    .00000     1.0000     .00000    
+Getränk.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Getränk.Utilization                         .16117     (Insuf)    .00000     1.0000     .00000    
+Kassierfrau.NumberBusy                      .45822     (Insuf)    .00000     1.0000     1.0000    
+Kassierfrau.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Kassierfrau.Utilization                     .45822     (Insuf)    .00000     1.0000     1.0000    
+Nachspeise.NumberBusy                       .80019     (Insuf)    .00000     1.0000     1.0000    
+Nachspeise.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Nachspeise.Utilization                      .80019     (Insuf)    .00000     1.0000     1.0000    
+Essen.NumberBusy                            .19685     (Insuf)    .00000     1.0000     .00000    
+Essen.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Essen.Utilization                           .19685     (Insuf)    .00000     1.0000     .00000    
+Essen nehmen.Queue.NumberInQueue            .00324     (Insuf)    .00000     1.0000     .00000    
+Nachspeise nehmen.Queue.NumberInQueue       .27524     (Insuf)    .00000     2.0000     2.0000    
+Bezahlen.Queue.NumberInQueue                .05967     (Insuf)    .00000     2.0000     .00000    
+Getränk nehmen.Queue.NumberInQueue          .00673     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Person.NumberIn                             224.00    
+Person.NumberOut                            220.00    
+Getränk.NumberSeized                        156.00    
+Getränk.ScheduledUtilization                .16117    
+Kassierfrau.NumberSeized                    195.00    
+Kassierfrau.ScheduledUtilization            .45822    
+Nachspeise.NumberSeized                     7.0000    
+Nachspeise.ScheduledUtilization             .80019    
+Essen.NumberSeized                          90.000    
+Essen.ScheduledUtilization                  .19685    
+System.NumberOut                            220.00    
+
+
+Simulation run time: 0.50 minutes.
+Simulation run complete.

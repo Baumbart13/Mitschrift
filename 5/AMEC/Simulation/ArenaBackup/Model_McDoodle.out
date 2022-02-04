@@ -1,0 +1,77 @@
+SIMAN Run Controller.
+
+0.7538279 Hours>
+                                      ARENA Simulation Results
+                                    Baumbart13 - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 2/ 3/2022
+Analyst: Baumbart13                                                  Model revision date: 2/ 3/2022
+
+Replication ended at time      : 0.7538279 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Person.VATime                                   --         --         --         --          0
+Person.NVATime                                  --         --         --         --          0
+Person.WaitTime                                 --         --         --         --          0
+Person.TranTime                                 --         --         --         --          0
+Person.OtherTime                                --         --         --         --          0
+Person.TotalTime                                --         --         --         --          0
+Lehrer.VATime                                   --         --         --         --          0
+Lehrer.NVATime                                  --         --         --         --          0
+Lehrer.WaitTime                                 --         --         --         --          0
+Lehrer.TranTime                                 --         --         --         --          0
+Lehrer.OtherTime                                --         --         --         --          0
+Lehrer.TotalTime                                --         --         --         --          0
+Schueler.VATime                                 --         --         --         --          0
+Schueler.NVATime                                --         --         --         --          0
+Schueler.WaitTime                               --         --         --         --          0
+Schueler.TranTime                               --         --         --         --          0
+Schueler.OtherTime                              --         --         --         --          0
+Schueler.TotalTime                              --         --         --         --          0
+Drive in Schalter.Queue.WaitingTime             --         --         --         --          0
+Restaurant Schalter.Queue.WaitingTime           --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Person.WIP                                  8.5288     (Insuf)    .00000     14.000     14.000    
+Lehrer.WIP                                  .00000     (Insuf)    .00000     .00000     .00000    
+Schueler.WIP                                .00000     (Insuf)    .00000     .00000     .00000    
+Restaurant Arbeiter.NumberBusy              .00000     (Insuf)    .00000     .00000     .00000    
+Restaurant Arbeiter.NumberScheduled         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Restaurant Arbeiter.Utilization             .00000     (Insuf)    .00000     .00000     .00000    
+Drive in Arbeiter.NumberBusy                .00000     (Insuf)    .00000     .00000     .00000    
+Drive in Arbeiter.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Drive in Arbeiter.Utilization               .00000     (Insuf)    .00000     .00000     .00000    
+Drive in Schalter.Queue.NumberInQueue       .00000     (Insuf)    .00000     .00000     .00000    
+Restaurant Schalter.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Person.NumberIn                             14.000    
+Person.NumberOut                            .00000    
+Lehrer.NumberIn                             .00000    
+Lehrer.NumberOut                            .00000    
+Schueler.NumberIn                           .00000    
+Schueler.NumberOut                          .00000    
+Restaurant Arbeiter.NumberSeized            .00000    
+Restaurant Arbeiter.ScheduledUtilization    .00000    
+Drive in Arbeiter.NumberSeized              .00000    
+Drive in Arbeiter.ScheduledUtilization      .00000    
+System.NumberOut                            .00000    
+
+
+Simulation run time: 0.12 minutes.
+Simulation run complete.
