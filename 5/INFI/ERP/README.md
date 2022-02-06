@@ -316,6 +316,140 @@ Cheat Sheet
    - Beleg buchen
 
 </details>
+<details><summary style="color:green">Einkauf, Kostenaufteilung auf mehrere Stellen, automatische Bezahlung, manuelle OP-Zuordnung</summary>
+
+1. **Beschaffungsaufträge**
+   - Nummer
+      - ``100``
+      - Neu
+   - Lieferant: Der Lieferant. Bspw ``KK00702``
+   - Fremdbelegnummer: Irgendwas
+   - Wunschtermin: Irgendwann ab heute in der Zukunft
+   - Speichern
+   - **Position hinzufügen**
+      - **Allgemeines**
+         - Artikel: Artikel auswählen. Bspw ``KK00702``
+        - Gesamtmenge: Beliebige Menge. Bspw. ``10 Stk``
+       - Evtl. ``Lagerort`` ändern von ``100`` (Standard Lager) auf eigenes Lager
+     - **Preise**
+        - Preisherkunft: 2 Manuell
+       - Bruttopreis: Preis eintragen. Bspw. ``1050,00 EUR``
+       - Preisdimension: Beliebig. Bspw. ``Pro Stk``
+       - "Enter", bzw. ``übernehmen (Eingabetaste)`` drücken
+       - Speichern
+       - Rolle: ``Bestellung mit Preisangaben ausgeben...``
+       - ``Ausgeben``
+2. **Wareneingänge**
+   - Nummer:
+      - ``100``
+   - Lieferpartner: Der selbe Lieferant. Bspw. ``KK00702``
+      - Neu
+     - Fremdbelegnummer:
+        - Irgendwas
+       - Irgendwann ab heute in der Zukunft
+     - Rolle
+        - Positionen mit Auftragsbezig einfügen...
+          - Nummer von Beschaffungsauftrag in ``Nummer`` einügen. Bspw. ``BA1264``
+          - Häckchen hinten setzen
+         - ``Zuordnung speichern``
+     - Speichern
+     - Rolle
+        - Wareneingang buchen...
+          - [x] Wareneingangsetiketten ausgeben
+         - [x] Warnungen automatisch bestätigen
+         - ``Asugeben``
+3. **Eingangsrechnung**
+   - Nummer:
+      - ``100``
+     - Neu
+     - Rechnungssteller: Selbiger Lieferant. Bspw. ``KK00702``
+     - Fremdbelegnummer und -datum
+        - Irgendwas
+       - Irgendwann ab heute in der Zukunft
+     - Leistungsdatum
+        - Irgendwann ab heute in der Zukunft
+     - Speichern
+     - kleine Rolle
+        - ``Wareneingang automatisch mit Auftragsposition verknüpfen``
+          - Nummer: Nummer von Beschaffungsaufrag. Bspw. ``BA1264``
+         - Häckchen hinten setzen
+         - Zuordnungen speichern
+      - Speichern
+     - Auftragsstelle anwählen
+     - ``Kostenrechnungsdaten hinzufügen``
+        - Kostenstelle: Bspw. ``802000`` (Verwaltung)
+       - Kostenträger: Ignorieren
+       - Fakturierte Menge: Teil von Gesamtmenge. Bspw. ``5,00 Stk``
+       - Nettobetrag: Sollte sich von selber ergeben
+     - Auftragsstelle anwählen
+     - ``Kostenrechnungsdaten hinzufügen``
+        - Kostenstelle: Bspw. ``805000`` (Einkauf)
+       - Kostenträger: Ignorieren
+       - Fakturierte Menge: restlicher Teil von Gesamtmenge. Bspw. ``5,00 Stk``
+       - Nettobetrag: Sollte sich von selber ergeben
+     - Bruttobetrag: Mit Betrag von ``Saldo`` gleich setzen. Bspw. ``12.495,00 EUR``
+     - Speichern
+        - ``Saldo`` muss dann auf ``0,00 EUR`` stehen.
+     - Rolle
+        - ``Eingangsrechnung buchen``
+        - In der HTL
+          - ``Sofort``
+        - Außerhalb der HTL
+          - ``Im Hintergrund``
+4. **Cockpit: Eingangsrechnungen**
+   - ``Eingangsrechnungsnummer``
+      - Nummer von Eingangsrechnung. Bspw. ``ER0908``
+   - ``Status``
+      - ``(Alle)``
+   - "Enter"
+   - Eingangsrechnung auswählen
+   - Rolle
+      - ``Rechungen übertragen...``
+      - In der HTL
+        - ``Sofort``
+      - Außerhalb der HTL
+        - ``Im Hintergrund``
+5. **Cockpit: Finanzbuchhaltung**
+   - ``Erfasst von``
+      - Benutzerkürzel einfügen. Bswp. ``H20A007``
+   - Korrekten Buchungslauf auswählen
+   - Rolle
+      - ``Übernehmen und buchen``
+6. **Eingangsrechnung**
+   - Die vorherige Eingangsrechnung aufrufen. Bspw. ``ER0908``
+   - Belegkette
+      - Auf ``Buchungsbeleg Finanzbuchhaltung`` klicken
+7. **Buchen Finanzbuchhaltung**
+   - Belegart:
+      - ``300``
+   - Neu
+   - ``Beleg``:
+      - irgendwas
+   - ``Datum``:
+      - Korrektes Datum einfügen. Bspw. ``06.02.2022``
+   - ``Konto``
+      - Soll: ``S``
+      - ``1200``
+   - ``Buchungsbetrag``:
+      - Betrag von Eingangsrechnung. Bspw. ``12495,00``
+      - Haben: ``H``
+      - Währung. Bspw. ``EUR``
+   ``Gegenkonto``:
+      - ``K``
+      - Lieferant einfügen. Bswp. ``KK00702``
+   - "Enter"
+   **In der OP-Zuordnung!!!**
+   - "Alt" + "Pfeil nach unten"
+   - "Enter"
+   - Offenen Posten auswählen
+   - ``Zuordnen``
+   - ``Enter``
+   - Speichern
+   - Rolle
+      - ``Beleg buchen``
+
+
+</details>
 
 
 ----
