@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Strategy Pattern" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="htl.Main" />
+    <module name="Strategy Pattern" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
