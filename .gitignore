@@ -125,3 +125,6 @@ Backup of *.doc*
 !*/NWES/packetTracer/abgaben/*
 !*/NWES/packetTracer/saved/*
 */NWES/packetTracer/PT.conf
+
+# Need to include this to work
+!*/SWP/**/.idea/
