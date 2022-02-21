@@ -34,6 +34,10 @@
 	  - Mahnung
 
 
+#### **3. Test - 17. Januar 2022 - Stoff zum Teil geleakt am 06.12.2021**
+- Kostenrechnung
+
+
 Theory
 ====
 
@@ -46,6 +50,7 @@ Theory
 7. [**Fi**nanz**bu**chhaltung](./05_FiBu_CEE02_int_prozesse.pdf) Teil 2
 8. [Lagerlogistik](./08_Lagerlogistik_Lagerplatzsteuerung.pdf)
 9. [Finanzbuchhaltung Theorie](./99_FI_CO_Theorie.pdf)
+10. [Fallstudie Sozialamt](./fallstudie_sozialamt_v.2.pdf)
 
 Cheat Sheet
 ====
