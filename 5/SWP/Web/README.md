@@ -51,3 +51,13 @@ anstelle davon, dass die Zentrale bei jedem Sensor nachfragt, ob etwas passiert 
     - ``remove(Observer)``
     - ``notifyAll()``
 
+
+Command Pattern
+===============
+
+Man speichert
+    - das Objekt, dessen Methode ausgeführt wurde
+    - die Parameter der Methode
+    - die Methode mit denselben Parametern desselben Objekts
+
+Grund dafür ist, dass man die Ausführung wiederholen kann
