@@ -184,3 +184,9 @@ Im Beispiel werden kleine Zahlen zum Verständnis verwendet
 		- ``(A ^ b) % p`` -> ``(15 ^ 5) % 17 = 2``
 	- Gleichen sich die Ergebnisse, sind Alice und Bob sich sicher, dass sie miteinander kommunizieren
 	- Andernfalls kommunizieren sie mit Fremden, wenn nicht mit Eve
+
+
+Sicherheit
+----
+
+Es gibt keine Umkehroperation zum Modulo-Operator.
