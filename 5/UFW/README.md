@@ -11,6 +11,7 @@ Indexes of topics (chronogical order)
 6. [Bilanzanalyse](./Bilanzanalyse.md)
 7. [Arbeitsrecht](./AR.docx)
 8. Entrepreneur und [Innovation](./Entrepreneur_und_Innovation_1._Teil.docx)
+9. [Personalmanagement](./Personalmanagement 5 HWII 2020 21.docx)
 
 ----
 
