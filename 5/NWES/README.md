@@ -12,8 +12,8 @@ Matura-Pools
 1. [x] OSI-Modell
 2. [x] Switching
 3. [x] Routing
-4. [ ] Network Security
-5. [x] Cryptographic Concepts
+4. [x] Network Security
+5. [ ] Cryptographic Concepts
 6. [ ] WiFi
 
 Indexes of topics (chronogical order)
