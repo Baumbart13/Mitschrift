@@ -1,4 +1,9 @@
-Termin wird am Anfang des zweiten Semesters ausgemacht im Präsenzunterricht
+Abgabetermin ist 31. März 2022 für jeden
+====
+
+- **Länge => ca 2 bis 4 Seiten**
+- **Sollte nicht die Mitschrift repräsentieren**
+- **Welche Quellen**
 
 
 1. Symmetrische Verschlüsselung

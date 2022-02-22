@@ -13,7 +13,7 @@ Matura-Pools
 2. [x] Switching
 3. [x] Routing
 4. [ ] Network Security
-5. [ ] Cryptographic Concepts
+5. [x] Cryptographic Concepts
 6. [ ] WiFi
 
 Indexes of topics (chronogical order)
