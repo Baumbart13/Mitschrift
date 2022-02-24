@@ -52,11 +52,11 @@ Geheimtext: ``Mfqqt``
 Vor- und Nachteile
 ----
 
-| Schwächen | Stärken |
-|:--------- |:------- |
-|  Kerckhoff\'sches Prinzip gilt nicht | einfach, schnell |
-| Schlüsselübertragung |  |
-| bereits verschlüsselte Inhalte werden wieder gleich verschlüsselt |  |
+| Schwächen                                                         | Stärken          |
+|:------------------------------------------------------------------|:-----------------|
+| Kerckhoff\'sches Prinzip gilt nicht                               | einfach, schnell |
+| Schlüsselübertragung                                              |                  |
+| bereits verschlüsselte Inhalte werden wieder gleich verschlüsselt |                  |
 
 Enigma Verschlüsselung
 ====
@@ -84,10 +84,10 @@ Geheimtext: ``bepeb kvyac dhjty``
 Vor- und Nachteile
 ----
 
-| Schwächen | Stärken |
-|:--------- |:------- |
+| Schwächen                           | Stärken          |
+|:------------------------------------|:-----------------|
 | Kerckhoff\'sches Prinzip gilt nicht | einfach, schnell |
-| Schlüsselübertragung |  |
+| Schlüsselübertragung                |                  |
 
 
 Vigenere
@@ -103,10 +103,10 @@ Geheimtext: ``VIJYOK``
 Vor- und Nachteile
 ----
 
-| Schwächen | Stärken |
-|:--------- |:------- |
+| Schwächen                           | Stärken          |
+|:------------------------------------|:-----------------|
 | Kerckhoff\'sches Prinzip gilt nicht | einfach, schnell |
-| Schlüsselübertragung |  |
+| Schlüsselübertragung                |                  |
 
 
 AES / DES
@@ -148,10 +148,10 @@ Er durchläuft den Algorhithmus genau umgekehrt zu Alice, hat aber den selben Sc
 Vor- und Nachteile
 ----
 
-| Schwächen | Stärken |
-|:--------- |:------- |
-| Schlüsselübertragung | schnell (für Computer) |
-|  | Kerckhoff\'sches Prinzip erfüllt |
+| Schwächen            | Stärken                          |
+|:---------------------|:---------------------------------|
+| Schlüsselübertragung | schnell (für Computer)           |
+|                      | Kerckhoff\'sches Prinzip erfüllt |
 
 
 Anwendung
@@ -163,3 +163,34 @@ Anwendung
 - IP-Telefonie (ist nicht so etwas wie Skype)
 - Skype (nutzt es aber trotzdem)
 - ...
+
+
+----
+
+
+HTTPS
+=====
+
+- Authentifizierung (Zertifikate, RSA)
+- Asymmetrischer Schlüsselaustausch (Diffie-Hellmann, RSA) (SSL/TLS)
+- Symmetrische Verschlüsselung (AES/DES) (SSL/TLS)
+
+
+Digitale Signatur (RSA)
+====
+
+
+<table>
+<tbody>
+<tr>
+<td style="text-align: center;">Server verschlüsselt mit Private Key</td>
+<td style="text-align: center;">➡➡➡➡➡</td>
+<td style="text-align: center;">Client entschlüsselt mit Public Key</td>
+</tr>
+</tbody>
+</table>
+
+
+----
+
+
