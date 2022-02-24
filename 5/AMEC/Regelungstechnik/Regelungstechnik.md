@@ -1,6 +1,40 @@
 Regelungstechnik
 ================
 
+
+Indices
+=======
+
+- [Introduction](#Regelungstechnik)
+    - [Was wollen wir?](#was-wollen-wir)
+    - [1 Das Führungsverhalten](#1-das-führungsverhalten)
+    - [2 Das Störverhalten](#2-störverhalten)
+    - [3 Typische Regelstrecken regelungstechnische Elemente](#3-typische-regelstrecken-regelungstechnische-elemente)
+    - [Wiederholung Schwingungen](#wiederholung-schwingungen-aus-physik)
+- Regler
+    - [Proportional-Element](#p-element-proportionalelement)
+    - [Totzeit-Element](#totzeit-element)
+    - [Integrierer mit Verlust](#integrierer-mit-verlust)
+    - Differenzialgleichungs-Element
+        - [PT1-Element](#pt1-element-differenzialgleichungselement-zahl-steht-für-die-ordnung-der-gleichung)
+        - [PT2-Element](#pt2-element)
+            - [nicht schwingungsfähiges PT2-Element](#nicht-schwingungsfähiges-pt2-element)
+            - [schwingungsfähiges PT2-Element](#schwingungsfähige-pt2-elemente)
+    - [Vorhalte-Glied](#dt1-element--vorhalteglied)
+    - [Reglertypen](#reglertypen)
+        - [Unstetige Regler](#unstetiger-regler)
+        - [Stetige Regler](#stetiger-regler)
+- [Statische Streckenkennlinie](#statische-streckenkennlinie)
+- Regler
+    - [PI-Regler](#pi-regler)
+        - [Nachführzeit](#ti--nachführzeit)
+        - [Sprungantwort](#sprungantwort-eines-pi-reglers-wenn-einheitssprung-von-e-erfolgt)
+        - [Wind-Up-Effekt](#wind-up-effekt-des-i-anteils)
+
+
+----
+
+
 Technische Systeme werden gesteuert und überwacht
 Jede Regelung hat eine Steuerung.
 
@@ -487,7 +521,7 @@ Dieser Effekt wird häufig daurch verurscaht, dass die Stellgröße ``y`` in der
 
 **1. Beginn des Regelvorgangs:**
 
-Es existiert eine große Regelabweichung aber es ist nich wenig Zeit vergangen, über die der I-Anteil auf integriert wurde.
+Es existiert eine große Regelabweichung aber es ist noch wenig Zeit vergangen, über die der I-Anteil auf integriert wurde.
 
 => P-Anteil dominiert, hat also den größten Anteil an der Stellgröße
 
@@ -500,3 +534,45 @@ _**So ist der Regelwert optimale eingestellt!**_
 ![PIRegler005.png](./images/PIRegler005.png)
 
 Hier sieht man, dass der Wert ``100`` erreicht werden soll, aber der Begrenzungswert bei ``35`` liegt und somit nie erreicht werden kann.
+
+
+PID-Regler
+====
+
+<table>
+   <tr>
+      <td>a</td>
+      <td>b</td>
+      <td>c</td>
+   </tr>
+   <tr>
+      <td>![PIDRegler000.png](./images/PIDRegler000.png)</td>
+      <td>![PIDRegler001.png](./images/PIDRegler001.png)</td>
+      <td>![PIDRegler002.png](./images/PIDRegler002.png)</td>
+   </tr>
+</table>
+
+Bei a ``y`` reduzieren, um möglichst Überschwingen zu verhindern
+
+
+
+Reglereinstellung nach Chien, Hrones und Reswick
+====
+
+Strecken mit Ausgleich
+----
+
+Strecken mit Ausgleich weisen eine Sprungantwort auf, die sich einem festen Endwert nähert. Derartige Strecken enthalten keine offenen Integratoren. Für Strecken mit Ausgleich und Verzögerungen höherer Ordnung haben Chien, Hrones und Reswick einen Satz von Einstellregeln gefunden. Sie unterscheiden einerseits zwischen Führungs- und Störverhalten und andererseits zwischen aperiodischem Ubergang und 20% Überschwingen.
+
+Zur Anwendung dieser Einstellregeln ist die Messung der Sprungantwort der Strecke (ohne Regler) erforderlich.
+
+![Reglereinstellung000.png](./images/Reglereinstellung000.png)
+
+``K[s]`` ist eine Konstante für eine Strecke
+
+Aus der Sprungantwort werden die Parameter ``T[u],`` (Verzugszeit), ``T[g]``, (Ausgleichszeit) und ``K[s]`` (Streckenverstärkung) bestimmt. Hierzu muss die Wendetangente eingezeichnet werden. Die beiden Zeiten ergeben sich aus deren Schnittpunkten mit der Zeitachse. Die Streckenverstärkung ergibt sich aus dem stationären Wert der Sprungantwort und der Eingangsamplitude: `K[s] = W(∞)/y[0]`.
+
+
+Strecken ohne Ausgleich
+----
+
