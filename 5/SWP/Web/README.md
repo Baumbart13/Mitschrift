@@ -53,7 +53,7 @@ anstelle davon, dass die Zentrale bei jedem Sensor nachfragt, ob etwas passiert 
 
 
 Command Pattern
-===============
+====
 
 Man speichert
     - das Objekt, dessen Methode ausgeführt wurde
@@ -61,3 +61,24 @@ Man speichert
     - die Methode mit denselben Parametern desselben Objekts
 
 Grund dafür ist, dass man die Ausführung wiederholen kann
+
+
+Decorator Pattern
+====
+
+Dient zur leichten Erweiterbarkeit
+
+Erklärt anhand von Pizza:
+
+- Man hat einen Teig (Grundbauteil)
+- erweitert man mit Tomatensauce (Erweiterung/``Decorator``)
+- erweitert man mit Käse (Erweiterung/``Decorator``)
+- erweitert man mit ...
+
+
+Für Programmierer ausgedrückt:
+
+- Man hat ein grundlegendes Interface, welches hinzugefügt werden kann
+- Dieses wird vom Grundbauteil implementiert
+- Dieses wird vom ``Decorator`` implementiert
+    - Diese haben eine Methode ``hasA`` gegenüber dem Interface
