@@ -34,8 +34,12 @@
 	  - Mahnung
 
 
-#### **3. Test - 17. Januar 2022 - Stoff zum Teil geleakt am 06.12.2021**
-- Kostenrechnung
+#### **3. Test - 07. März 2022**
+- Theorie (Kostenrechnung)
+	- inklusive Folien ab ca Seite 52 (internes Rechnungswesen)
+	- exklusive Folien bis ca Seite 96 (Kostenrechnungssysteme)
+- Nicht rechnen
+	- somit auch kein Taschenrechner verfügbar
 
 
 Theory
