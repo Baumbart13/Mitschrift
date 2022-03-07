@@ -1,18 +1,18 @@
 Fit All
 
-Document:  C:\Users\Baumbart13\Documents\Schule\GITHUB-ONLINE\Mitschrift\5\AMEC\Simulation\Arena\Verteilungen\ankunft‹bungsbeispiel.dst
-Data File: C:\Users\Baumbart13\Documents\Schule\GITHUB-ONLINE\Mitschrift\5\AMEC\Simulation\Arena\Verteilungen\ankunft‹bungsbeispiel.dst
+Document:  C:\Users\Baumbart13\Documents\Schule\GITHUB-ONLINE\Mitschrift\5\AMEC\Simulation\Arena\Verteilungen\ankunft_Test.dst
+Data File: C:\Users\Baumbart13\Documents\Schule\GITHUB-ONLINE\Mitschrift\5\AMEC\Simulation\Arena\Verteilungen\ankunft_Test.dst
 
 
 Function       Sq Error
 -----------------------
-Lognormal      0.0138
-Gamma          0.0176
-Erlang         0.0177
-Weibull        0.0218
-Triangular     0.0283
-Poisson        0.0355
-Beta           0.0397
-Exponential    0.0527
-Normal         0.0547
-Uniform        0.0711
+Beta           0.195
+Gamma          0.224
+Weibull        0.228
+Lognormal      0.234
+Exponential    0.236
+Erlang         0.236
+Uniform        0.247
+Normal         0.249
+Triangular     0.253
+Poisson        0.269
