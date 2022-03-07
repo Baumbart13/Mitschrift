@@ -1,0 +1,218 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"markdown",
+				"MarkdownTableFormatter: format table"
+			],
+			[
+				"package ",
+				"Package Control: Install Package"
+			],
+			[
+				"pacak",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+			"git status",
+			"exit()",
+			"exit",
+			"quit()",
+			"qui()",
+			"x**10",
+			"type(x*1.0)",
+			"type(x)",
+			"x",
+			"x = 2",
+			"quit()",
+			"ls -lA",
+			"cd ..",
+			"cd \"C:\\Users\\Baumbart13\\Documents\\Schule\\GITHUB-ONLINE\\Mitschrift\\5\""
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Baumbart13/Documents/Schule/GITHUB-ONLINE/Mitschrift",
+		"/C/Users/Baumbart13/Documents/Schule/GITHUB-ONLINE/Mitschrift/5",
+		"/C/Users/Baumbart13/Documents/Schule/GITHUB-ONLINE/Mitschrift/5/UFW"
+	],
+	"file_history":
+	[
+		"/?localhost/Schule/GITHUB-ONLINE/Mitschrift/5/INFI/IS/Aufgabe08/.gitignore",
+		"/C/Users/Baumbart13/Documents/Schule/GITHUB-ONLINE/Mitschrift/5/SWP/Web/README.md",
+		"/C/Users/Baumbart13/Documents/Schule/GITHUB-ONLINE/Mitschrift/5/INFI/IS/Aufgabe08/ex01_first.py",
+		"/C/Users/Baumbart13/Documents/Schule/GITHUB-ONLINE/Mitschrift/5/INFI/IS/Aufgabe08/ex_02_first_learning.py",
+		"/C/Users/Baumbart13/Documents/Schule/GITHUB-ONLINE/Mitschrift/5/AMEC/Simulation/Simulation.md",
+		"/C/Users/Baumbart13/Documents/Schule/GITHUB-ONLINE/Mitschrift/5/AMEC/Regelungstechnik/Regelungstechnik.md",
+		"/C/Users/Baumbart13/Documents/Schule/GITHUB-ONLINE/Mitschrift/5/AMEC/Regelungstechnik/README.md",
+		"/C/Users/Baumbart13/Documents/Schule/GITHUB-ONLINE/Mitschrift/5/NWES/Kryptographie_Symmetrisch.md",
+		"/C/Users/Baumbart13/Documents/Schule/GITHUB-ONLINE/Mitschrift/5/NWES/Kryptographie_Asymmetrisch.md",
+		"/C/Users/Baumbart13/Documents/Schule/GITHUB-ONLINE/Mitschrift/5/NWES/README.md",
+		"/C/Users/Baumbart13/Documents/Schule/GITHUB-ONLINE/Mitschrift/5/NWES/HandoutThemen.md",
+		"/C/Users/Baumbart13/Documents/Schule/GITHUB-ONLINE/Mitschrift/5/UFW/README.md",
+		"/C/Users/Baumbart13/Documents/Schule/GITHUB-ONLINE/Mitschrift/5/INFI/ERP/README.md",
+		"/C/Users/Baumbart13/Documents/Schule/GITHUB-ONLINE/Mitschrift/5/AMEC/Simulation/README.md",
+		"/C/Users/Baumbart13/Documents/Schule/GITHUB-ONLINE/Mitschrift/5/AMEC/Simulation/IndustrielleBildverarbeitung.md",
+		"/C/Users/Baumbart13/AppData/Local/JetBrains/Toolbox/apps/PyCharm-C/ch-0/212.5284.44/bin/idea.properties"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Mitschrift.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 225.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
