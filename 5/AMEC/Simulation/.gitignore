@@ -1,0 +1,7 @@
+ArenaBackup/*.accdb
+ArenaBackup/*.dsn
+ArenaBackup/*.opw
+ArenaBackup/*.out
+ArenaBackup/*.p
+
+Arena/Verteilungen/*.[Oo][Uu][Tt]
