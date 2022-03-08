@@ -77,3 +77,8 @@ Es wird eine zufällige Zeichnkette an den Klartext gehängt, bevor es gehashed 
 3. CLient hasht Password + ``SALT``
 4. Client sendet Server den Hash
 5. Server und Client tauschen ``ACK`` aus
+
+
+CHAP (**C**hallenge **H**andshake **A**uthentication **P**rotocol)
+====
+
