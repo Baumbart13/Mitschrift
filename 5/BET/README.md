@@ -15,6 +15,7 @@ Indexes of topics (chronological order)
 3. [Arbeitsplatz und Betriebsstättenplanung](./ArbeitsBetriebsstättenplanung.md)
 4. Elektroschutzklassen [zusammengefasst](./Elektroschutzklassen_Zusammenfassung.md)
 5. [Qualitätsmanagement](./Qualitätsmanagement.md)
+6. [Energieausweis](./Energieausweis.md)
 
 ----
 
