@@ -82,3 +82,9 @@ Für Programmierer ausgedrückt:
 - Dieses wird vom Grundbauteil implementiert
 - Dieses wird vom ``Decorator`` implementiert
     - Diese haben eine Methode ``hasA`` gegenüber dem Interface
+
+
+State-Pattern
+====
+
+Ist die Umsetzung der Finite-State-Machine als Pattern
