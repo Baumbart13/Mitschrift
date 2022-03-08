@@ -40,6 +40,7 @@ Lehrerwechsel (21. December 2021)
 15. [Kryptographie](./Kryptographie.md)
 16. [Symmetrische](./Kryptographie_Symmetrisch.md) Kryptographie
 17. [Asymmetrische](./Kryptographie_Asymmetrisch.md) Kryptographie
+18. [Hashfunktionen](./Kryptographie_Hashfunktionen.md)
 
 
 - **Lehrplan**
