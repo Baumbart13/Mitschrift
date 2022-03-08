@@ -72,13 +72,20 @@ Salt
 
 Es wird eine zufällige Zeichnkette an den Klartext gehängt, bevor es gehashed wird
 
-1. Client fragt Server an
-2. Server gibt Client den ``SALT``
-3. CLient hasht Password + ``SALT``
-4. Client sendet Server den Hash
-5. Server und Client tauschen ``ACK`` aus
+| Client                     | Richtung | Server   |
+|:---------------------------|:--------:|:---------|
+| Anfrage                    |  ->->->  |          |
+| Passwort + ``SALT`` hashen |  <-<-<-  | ``SALT`` |
+| Hash                       |  ->->->  |          |
+| ACK                        | <->-<->  | ACK      |
 
 
 CHAP (**C**hallenge **H**andshake **A**uthentication **P**rotocol)
 ====
 
+| Client                      | Richtung | Server                                                                    |
+|:----------------------------|:--------:|:--------------------------------------------------------------------------|
+| Anfrage                     |  ->->->  |                                                                           |
+| Password + Challenge hashen |  <-<-<-  | Zufallszahl (Challenge)                                                   |
+| Hash                        |  ->->->  | Aus Datenbank: Passwort + Challenge (Passwort ist aber nicht in Klartext) |
+| ACK                         | <->-<->  | ACK                                                                       |
