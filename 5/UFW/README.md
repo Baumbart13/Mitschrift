@@ -35,3 +35,11 @@ Indexes of topics (chronogical order)
 	  - Teil 3
 	  - Teil 4
    - Arbeitsrecht
+
+#### **3. Test - 25. März 2022 - Stoff erhalten am 08. März 2022**
+- Entrepreneur und Innovation (1 und 2)
+- Personal (das große Skript)
+   - bei Verrechnung
+      - keine Werte
+      - keine Berechnungen
+      - nur welche Bestandteile
