@@ -559,7 +559,7 @@ Bei a ``y`` reduzieren, um möglichst Überschwingen zu verhindern
 Reglereinstellung nach Chien, Hrones und Reswick
 ====
 
-Strecken mit Ausgleich
+Strecken mit Ausgleich / Verlust
 ----
 
 Strecken mit Ausgleich weisen eine Sprungantwort auf, die sich einem festen Endwert nähert. Derartige Strecken enthalten keine offenen Integratoren. Für Strecken mit Ausgleich und Verzögerungen höherer Ordnung haben Chien, Hrones und Reswick einen Satz von Einstellregeln gefunden. Sie unterscheiden einerseits zwischen Führungs- und Störverhalten und andererseits zwischen aperiodischem Ubergang und 20% Überschwingen.
@@ -570,9 +570,22 @@ Zur Anwendung dieser Einstellregeln ist die Messung der Sprungantwort der Streck
 
 ``K[s]`` ist eine Konstante für eine Strecke
 
+I-Teil dafür, dass, wenn der P-Teil auf null geht, dass der Wert erhalten bleibt durch die Fläche "der Vergangenheit"
+
+D-Teil dafür, dass die Änderung durch I-Teil und P-Teil nicht sofort passiert und eine Verzugszeit entsteht.
+
 Aus der Sprungantwort werden die Parameter ``T[u],`` (Verzugszeit), ``T[g]``, (Ausgleichszeit) und ``K[s]`` (Streckenverstärkung) bestimmt. Hierzu muss die Wendetangente eingezeichnet werden. Die beiden Zeiten ergeben sich aus deren Schnittpunkten mit der Zeitachse. Die Streckenverstärkung ergibt sich aus dem stationären Wert der Sprungantwort und der Eingangsamplitude: `K[s] = W(∞)/y[0]`.
 
+Kochtopf mit Wasser hat Strecke mit Ausgleich, da das Wasser bei 100°Grad Celsius ohnehin verdampft.
 
-Strecken ohne Ausgleich
+Optimale Strecke ist, wenn ``T[u]`` gering ist, ``T[g]`` ebenso, damit nach kurzer Zeit die Änderung komplett angenommen werden kann.
+
+
+Strecken ohne Ausgleich / Verlust
 ----
 
+P-Teil ist groß, wenn schnell "eingefangen" werden muss nach Schwingen
+
+I-Teil ist groß, wenn Wert gut gehalten werden soll (nach Abfall)
+
+D-Teil ist groß und macht das System träge
