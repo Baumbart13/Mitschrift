@@ -23,7 +23,7 @@ Indexes of topics (chronological order)
    - D-Element
    - Regelkreiselemente
       - Charakteristika
-	  - Elemente selbst
+	   - Elemente selbst
    - Kriechfall
    - Aperiodischer Grenzfall
    - Schwingfall
@@ -36,3 +36,17 @@ Indexes of topics (chronological order)
    - Was ist "KB"?
    - Seite 15 aus dem Skriptum kann ausgelassen werden
    - Was macht ein PT2-Element
+
+#### **2. Test - 16. März 2022 - Stoff erhalten am 09.03.2022**
+- Alles + Alles
+   - Regelkreis
+   - P-Regler
+   - I-Regler
+   - D-Regler
+   - PI-Regler
+   - PID-Regler
+   - statische Streckenkennlinie
+- Im Prinzip:
+   - Praktische Anwendung
+   - keine Formeln
+   - Man soll wissen können, was die einzelnen (Teil)Elemente tun
