@@ -89,3 +89,9 @@ CHAP (**C**hallenge **H**andshake **A**uthentication **P**rotocol)
 | Password + Challenge hashen |  <-<-<-  | Zufallszahl (Challenge)                                                   |
 | Hash                        |  ->->->  | Aus Datenbank: Passwort + Challenge (Passwort ist aber nicht in Klartext) |
 | ACK                         | <->-<->  | ACK                                                                       |
+
+
+PAP
+----
+
+Warum ist PAP ein Problem bei _MitM_?
