@@ -56,7 +56,18 @@ Tests
 
 
 #### **3. Test - 29ter März - Stoff erhalten am 10.03.2022**
-- 
+- Standortanalyse
+- Arbeitstättenplanung (ASchG, AStV)
+	- Kapazitätsbedarfsplanung
+- Arbeitsplatzgestaltung
+	- Arbeitnehmerschutzgesetz
+- QM
+	- Einführung
+	- Fehler, Fehleranalyse und Fehlerprävention
+	- Poka Yoke
+	- FMEA
+- Ausnahme:
+	- Kapitel 7 - Statistiche Methoden der QM
 
 
 Vorträge
