@@ -550,9 +550,9 @@ PID-Regler
       <td>c</td>
    </tr>
    <tr>
-      <td>![PIDRegler000.png](./images/PIDRegler000.png)</td>
-      <td>![PIDRegler001.png](./images/PIDRegler001.png)</td>
-      <td>![PIDRegler002.png](./images/PIDRegler002.png)</td>
+        <td><img src="./images/PIDRegler000.png" alt="PIDRegler000.png" /></td>
+        <td><img src="./images/PIDRegler001.png" alt="PIDRegler001.png" /></td>
+        <td><img src="./images/PIDRegler002.png" alt="PIDRegler002.png" /></td>
    </tr>
 </table>
 
