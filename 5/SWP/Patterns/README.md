@@ -86,8 +86,8 @@ This Pattern just goes from one state to another. This example shows it as a bev
 <details><summary style="color: seagreen">From Whiteboard</summary>
     <table>
         <tr>
-            <td><img src="UML_Diagram.png" width="1500" height="2000" alt="Class-Diagram" /></td>
-            <td><img src="State_Diagram.png" width="1500" height="2000" alt="UML-Diagram" /></td>
+            <td><img src="UML_Diagram.png" width="1500" height="500" alt="Class-Diagram" /></td>
+            <td><img src="State_Diagram.png" width="1500" height="500" alt="UML-Diagram" /></td>
         </tr>
     </table>
 </details>
