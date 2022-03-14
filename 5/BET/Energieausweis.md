@@ -11,6 +11,10 @@ Energieausweis
         - Solaranlagen
         - Solarthermie
         - ...
+- In Deutschland und Österreich existiert der **Energiebedarfsausweis**
+- In Deutschland existiert auch ein **Energieverbrauchsausweis**
+    - In Österreich nicht erlaubt
+    - Darin ist unter Anderem angegeben, welche Methode betrieben wird für Heizen
 
 
 ### Letzter Fall von R. Steinlechner:
@@ -22,3 +26,14 @@ Energieausweis
     - nur 1 Raum geheizt wurde
 - statt 1.500 Heizkosten (aktuelles Nutzverhalten) wahrscheinlich 15.000 Heizkosten (jeder Raum beheizt)
 - Dieses Haus hat sehr schlechte Isolierungen und gibt sehr viel Wärme an die Umgebung ab
+
+
+Begriffe
+----
+
+### Brutto-Grundfläche
+- Summe aller Flächen ohne Wände
+
+### Nettogeschoßfläche
+- Summe aller Flächen mit Wände
+
