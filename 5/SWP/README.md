@@ -28,11 +28,16 @@
 
 ### [Web](https://github.com/Baumbart13/HTL_SWP_Web) (different repository)
 
-- Some [Theory](./Web.md)
+---
 
+### [Patterns](./Patterns)
 
+---
+
+- Fahrplan [Holzmann](./Fahrplan_Holzmann.md)
 - Maturapool
    - Java Servlets / JSP
+   - Software Patterns
 
 ----
 ----
