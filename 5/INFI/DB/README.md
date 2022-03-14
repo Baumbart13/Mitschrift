@@ -46,3 +46,11 @@ Indexes of topics (chronological order)
    - Man muss keinen Programmcode schreiben müssen
    - Keine Parameterlsiten müssen auswendig gelernt werden
    - Es werden Verständnisfragen gefragt
+
+#### **2. Test - 21. März 2022 - Stoff erhalten am 14.03.2022**
+   - JPA Criteria API
+   - NoSQL / MongoDB
+      - MongoDB Einführung
+      - MongoDB Komplexe Abfragen
+      - MongoDB Transaktionen
+      - MongoDB Java-Schnittstelle
