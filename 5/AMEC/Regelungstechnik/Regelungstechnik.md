@@ -30,6 +30,10 @@ Indices
         - [Nachführzeit](#ti--nachführzeit)
         - [Sprungantwort](#sprungantwort-eines-pi-reglers-wenn-einheitssprung-von-e-erfolgt)
         - [Wind-Up-Effekt](#wind-up-effekt-des-i-anteils)
+    - [PID-Regler](#pid-regler)
+- [Reglereinstellung nach CHR](#reglereinstellung-nach-chien-hrones-und-reswick)
+    - [Strecken mit Ausgleich](#strecken-mit-ausgleich--verlust)
+    - [Strecken ohne Ausgleich](#strecken-ohne-ausgleich--verlust)
 
 
 ----
