@@ -1,8 +1,7 @@
 Strategy Pattern
 ====
 
-Zielt auf austauschbares Verhalten ab.
-Erklärt mithilfe von Entenjagd mit verschiedenen Enten.
+Zielt auf austauschbares Verhalten ab. Erklärt mithilfe von Entenjagd mit verschiedenen Enten.
 
 - Klassen
     - Ente
@@ -20,15 +19,13 @@ Erklärt mithilfe von Entenjagd mit verschiedenen Enten.
         - erbt von
             - Bewegungsverhalten
 
-
 Observer Pattern
 ====
 
-Erklärt mithilfe von Wellensensoren und einer Warnmeldung, die entgegengenommen
-wird von der Zentrale.
+Erklärt mithilfe von Wellensensoren und einer Warnmeldung, die entgegengenommen wird von der Zentrale.
 
-Der Sensor meldet der Zentrale, dass wenn etwas passiert, dies gemeldet werden soll,
-anstelle davon, dass die Zentrale bei jedem Sensor nachfragt, ob etwas passiert ist.
+Der Sensor meldet der Zentrale, dass wenn etwas passiert, dies gemeldet werden soll, anstelle davon, dass die Zentrale
+bei jedem Sensor nachfragt, ob etwas passiert ist.
 
 - Wer ist der Beobachter?
     - Zentrale
@@ -51,14 +48,11 @@ anstelle davon, dass die Zentrale bei jedem Sensor nachfragt, ob etwas passiert 
     - ``remove(Observer)``
     - ``notifyAll()``
 
-
 Command Pattern
 ====
 
-Man speichert
-    - das Objekt, dessen Methode ausgeführt wurde
-    - die Parameter der Methode
-    - die Methode mit denselben Parametern desselben Objekts
+Man speichert - das Objekt, dessen Methode ausgeführt wurde - die Parameter der Methode - die Methode mit denselben
+Parametern desselben Objekts
 
 Grund dafür ist, dass man die Ausführung wiederholen kann
 
@@ -75,7 +69,6 @@ Erklärt anhand von Pizza:
 - erweitert man mit Käse (Erweiterung/``Decorator``)
 - erweitert man mit ...
 
-
 Für Programmierer ausgedrückt:
 
 - Man hat ein grundlegendes Interface, welches hinzugefügt werden kann
@@ -83,8 +76,24 @@ Für Programmierer ausgedrückt:
 - Dieses wird vom ``Decorator`` implementiert
     - Diese haben eine Methode ``hasA`` gegenüber dem Interface
 
-
 State-Pattern
 ====
 
-Ist die Umsetzung der Finite-State-Machine als Pattern
+This Pattern just goes from one state to another. This example shows it as a beverage-automat
+
+<details><summary style="color: green">Diagrams</summary>
+
+<details><summary style="color: seagreen">From Whiteboard</summary>
+    <table>
+        <tr>
+            <td><img src="UML_Diagram.png" width="1500" height="2000" alt="Class-Diagram" /></td>
+            <td><img src="State_Diagram.png" width="1500" height="2000" alt="UML-Diagram" /></td>
+        </tr>
+    </table>
+</details>
+<hr>
+<details><summary style="color: seagreen">From Classes</summary>
+    <img src="State_UML.png" width="1000" height="2200" alt="Class-Diagram"><br/>
+</details>
+
+</details>
