@@ -6,6 +6,7 @@ Indices
 =======
 
 - [Introduction](#Regelungstechnik)
+    - [Regelkreis](#regelkreis)
     - [Was wollen wir?](#was-wollen-wir)
     - [1 Das Führungsverhalten](#1-das-führungsverhalten)
     - [2 Das Störverhalten](#2-störverhalten)
@@ -53,6 +54,8 @@ x ... Istwert {zB 20°C}
 y ... Stellgröße {Ausgang des Reglers zB 70%}
 E ... Regelabweichung = W - x
 ```
+
+### Regelkreis
 
 ![Grafik001.png](./images/Grafik001.png)
 
