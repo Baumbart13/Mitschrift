@@ -20,6 +20,18 @@
 		"selected_items":
 		[
 			[
+				"mar",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markdo",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
 				"packa",
 				"Package Control: List Packages"
 			],
@@ -70,12 +82,17 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Baumbart13/Documents/Schule/GITHUB-ONLINE/Mitschrift",
-		"/C/Users/Baumbart13/Documents/Schule/GITHUB-ONLINE/Mitschrift/5",
-		"/C/Users/Baumbart13/Documents/Schule/GITHUB-ONLINE/Mitschrift/5/UFW"
+		"/home/baumbart13/Documents/Schule/GITHUB-ONLINE/Mitschrift",
+		"/home/baumbart13/Documents/Schule/GITHUB-ONLINE/Mitschrift/5",
+		"/home/baumbart13/Documents/Schule/GITHUB-ONLINE/Mitschrift/5/BET"
 	],
 	"file_history":
 	[
+		"/home/baumbart13/Documents/Schule/GITHUB-ONLINE/Mitschrift/5/BET/README.md",
+		"/home/baumbart13/Documents/Schule/GITHUB-ONLINE/Mitschrift/5/AMEC/Regelungstechnik/Regelungstechnik.md",
+		"/home/baumbart13/.config/sublime-text/Packages/pymdownx/README.md",
+		"/home/baumbart13/.config/sublime-text/Packages/pygments/README.md",
+		"/home/baumbart13/.config/sublime-text/Packages/python-markdown/README.md",
 		"/?localhost/Schule/GITHUB-ONLINE/Mitschrift/5/INFI/IS/Aufgabe08/.gitignore",
 		"/C/Users/Baumbart13/Documents/Schule/GITHUB-ONLINE/Mitschrift/5/SWP/Web/README.md",
 		"/C/Users/Baumbart13/Documents/Schule/GITHUB-ONLINE/Mitschrift/5/INFI/IS/Aufgabe08/ex01_first.py",
@@ -210,7 +227,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 225.0,
+	"side_bar_width": 319.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
