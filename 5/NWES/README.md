@@ -41,18 +41,19 @@ Lehrerwechsel (21. December 2021)
 16. [Symmetrische](./Kryptographie_Symmetrisch.md) Kryptographie
 17. [Asymmetrische](./Kryptographie_Asymmetrisch.md) Kryptographie
 18. [Hashfunktionen](./Kryptographie_Hashfunktionen.md)
-19. [AAA + RADIUS](./Kryptographie_AAA_RADIUS.md)
+19. [AAA + RADIUS](./Kryptographie_AAA_RADIUS.md) - nicht besprochen
+20. [WLAN](./WLAN.md)
 
 
 - **Lehrplan**
    - [x] Routing (statisch/dynamisch)
    - [x] VLANs
-   - [ ] Kryptografie
-   - [ ] WLAN
+   - [x] Kryptografie
+   - [x] WLAN
    - [ ] IT Infrastruktur
       - weniger relevant für Matura
       - Kostenvoranschlag möglich sein
-   - [ ] Network-Security
+   - [x] Network-Security
 - **Note**
    - Referat
    - Handout
