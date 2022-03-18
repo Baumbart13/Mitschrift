@@ -25,3 +25,14 @@ Widerstand
 - ``R = d / λ ``
 - ``R[T] = R[si] + R1 + R2 + ... + Rn + R[se]``
 - Wärmeübergangswiderstand außen + sämtliche Wärmedurchlasswiederstände + Wärmeübergangswiderstände innen = Wärmedurchgangskoeffizient
+
+
+Beispiel 1
+====
+
+``C[L] = 1,2 KS/m³K``
+
+Dichte von Luft in etwa ``1,29 kg/m³``
+
+``C[W] = 4,2 KS/m³K``
+
