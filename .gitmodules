@@ -1,0 +1,3 @@
+[submodule "5/5/INFI/DB/MongoDB_Test"]
+	path = 5/5/INFI/DB/MongoDB_Test
+	url = https://gitlab.com/htl-anichstrasse-infidb/5ahwii/g1/mongodb-jdbc-example-g1.git
