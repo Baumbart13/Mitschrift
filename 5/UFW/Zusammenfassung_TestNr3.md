@@ -246,19 +246,97 @@ Inhaltsverzeichnis
 1.2.3. Weiterbildung zum Thema Unternehmensgründung
 ----
 
+- Schulungen in
+    - Gründerakademien
+    - Wirtschaftskammer
+    - Unternehmensgründerserviceportal
+    - Bezirkshauptmannschaft
+    - Banken
+    - Notare
+    - ...
 
 
 1.2.4. Umsetzung des Finanzplans
 ----
 
-1.2.5. Grünung des Unternehmens
+Finanzplan ist **nicht** deckungsgleich mit Liquiditätsplan!!
+
+
+1.2.5. Gründung des Unternehmens
 ----
+
+- Wahl der Rechtsform
+- Eintrag ins Firmenbuch?
+- Gewerbeberechtigung
+    - Jemand mit der entsprechenden GWO muss mindestens Standorleiter sein
+    - Anmeldung bei BH oder Stadtmagistrat
+- Steuerpflicht
+- Versicherungspflicht
+- Anmeldung der Arbeitnehmer bei
+    - Krankenversicherung
+    - Mitarbeitervorsorgekassa
+- Firmenwortlaut darf nicht irreführend sein und muss sich eindeutig von anderen unterscheiden
+
+
+Arten der Geschäftsbezeichnung
+
+| Firma | Firmenschlagwort (Kurzbezeichnung) | Etablissement- oder Geschäftsbezeichnung |
+|:--|:--|:--|
+| Name des eingetragenen Unternehmens | Firmenname als Schlagwort | Frei gewählte Unternehmensbezeichnung. Geschützt durch Gesetz gegen unlauteren Wettbewerb. Nicht täuschend oder irreführend |
+
+- Wer erteilt die Gewerbeberechtigung?
+    - Bezirkshauptmannschaft oder Stadtmagistrat bei Städten mit eigenem Statut
+- Was regelt die Gewerbeordnung?
+    - Ist ein Bundesgesetz;
+    - Regelt: Zugang, Ausübung, Beendigung von Gewerben/gewerbliche Tätigkeiten
+- Welche Tätigkeiten unterliegen der GWO?
+    - Unternehmerdefinition: Selbstständig (Tätigkeit auf eigene Rechnung und eigene Gefahr), Regelmäßig (Wiederholungsabsicht genügt schon), Ertragserzielungsabsicht
+- Welche Tätigkeiten sind von der GWO ausgenommen?
+    - Land- und Forstwirtschaftliche Tätigkeiten
+    - Freiberufe (Rechtsanwälte, Steuerberater, Ärzte, Architekten, etc.)
+    - Neue Selbstständige (Physiotherapeuten, Künstler, Masseur, Vortragende, DJ‘s, etc.)
+- Welche Arten von Gewerben gibt es?
+    - Freie Gewerbe (Voll geschäftsfähig, keine hohen Finanzstrafen, nur einmal ein unverschuldeter Konkurs vorhanden sein)
+    - Reglementierte Gewerbe und Handwerk (Voraussetzung von Freie Gewerbe und zusätzlich:
+        - Unternehmerprüfung, Ausbilderprüfung, Befähigungsnachweis)
+    - Reglementierte Gewerbe mit Bewilligungspflicht (auch genannt: Rechtskraftgewerbe)
+        - (Voraussetzungen von Reglementierte Gewerbe und Handwerk und zusätzlich: Zuverlässigkeitsprüfung)
+- Welche Voraussetzungen benötigt man um ein Gewerbe ausüben zu können?
+    - Persönliche Voraussetzungen
+    - Sachliche Voraussetzungen (muss der Betrieb erfüllen) (Betriebsanlagengenehmigung, geeigneter
+    - Standort für Gewerbeausübung, Sicherheitskonzept, Abfallwirtschaftskonzept)
+- Was ist eine Betriebsanlage im gewerberechtlichen Sinne?
+    - Ausübung der gewerblichen Tätigkeit, Wiederkehrende Tätigkeit, nicht vorübergehender Standort wo die Tätigkeit ausgeführt wird
+- In welchen Fällen wird eine Betriebsanlagengenehmigung benötigt?
+    - Bei Gefährdung von Leben Gesundheit und/oder Eigentum
+    - Die Gefahren von Lärm, Geruch, Vibrationen, Erschütterungen, Staub
+- Was ist ein Abfallwirtschaftskonzept und wer muss dieses erstellen?
+    - Vermeidung (jeder mit einer genehmigungspflichtigen Betriebsanlage), Verwertung, notfalls ordnungsgemäße Entsorgung?
+- Was ist ein Sicherheitskonzept und wer muss dieses erstellen?
+    - Betriebe, die gefährliche Stoffe verwenden, müssen ein Sicherheitskonzept erstellen Potenziell gefährdete Einrichtungen (z.B. Schulen, Krankenhäuser, etc.) über Unfälle informieren
+
 
 1.2.6. Der neue Alltag als Entrepreneur
 ----
 
+- Selbstmanagement
+- Zeitmanagement
+    - Ziele festlegen
+    - Übersichten festlegen
+    - Prioritäten festlegen
+    - Einen Plan erstellen
+    - Motivation aufbringen
+
+
 1.2.7. Unternehmensleitbild und Strukturen
 ----
+
+- Struktur wird immer benötigt
+- Wird Unternehmen
+    - Aufbauorganisation oder
+    - Ablauforganisation
+- Organigramm erleichter solche Übersichten
+
 
 1.3. Finanzierung
 ====
