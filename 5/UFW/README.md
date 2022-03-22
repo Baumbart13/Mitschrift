@@ -10,8 +10,9 @@ Indexes of topics (chronogical order)
 5. Rechnungswesen [4 Umsatzsteuer](./RechnungsWesen4UST.doc)
 6. [Bilanzanalyse](./Bilanzanalyse.md)
 7. [Arbeitsrecht](./AR.docx)
-8. Entrepreneur und [Innovation](./Entrepreneur_und_Innovation_1._Teil.docx)
-9. [Personalmanagement](./Personalmanagement 5 HWII 2020 21.docx)
+8. Entrepreneur und Innovation [1](./Entrepreneur_und_Innovation_1._Teil.docx)
+9. Entrepreneur und Innovation <a href="./Entrepreneur und Innovation 2. Teil.docx">2</a>
+10. <a href="./Personalmanagement 5 HWII 2020 21.docx">Personalmanagement</a>
 
 ----
 
