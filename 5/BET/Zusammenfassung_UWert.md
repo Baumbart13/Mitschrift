@@ -1,3 +1,17 @@
+Allgemeines
+====
+
+- 1 Grad weniger Temperatur bringt eine Einsparung von 6% Heizenergie
+
+
+- Was ist ein Standortklima
+- Was ist ein Referenzklima
+- Was ist ein Referenz-Wärmebedarf
+- Was ist ein Heizwärmebedarf
+- Was ist ein Warmwasserwärmebedarg
+- Was ist ein Standortklima
+
+
 Wärmedurchgangskoeffizient / U-Wert
 ====
 
@@ -36,3 +50,26 @@ Dichte von Luft in etwa ``1,29 kg/m³``
 
 ``C[W] = 4,2 KS/m³K``
 
+
+
+Erklärung Berechnung
+====
+
+- 1 cm Außenputz
+- 20cm Außen Styropor
+- 20cm Betonwand
+- 2 cm Kalkzementputz
+
+
+1. λ-Werte aus dem Internet
+2. 
+
+
+#### λ-Werte
+
+| Material              | λ-Wert | Dicke [cm] | U-Wert [W/(m²K)] |
+|:----------------------|-------:|-----------:|-----------------:|
+| Zementputz            |   1.40 |          1 |           140,00 |
+| Polystyrol-Hartschaum |   0.35 |         20 |             1,75 |
+| Leichtbeton           |   0.39 |         20 |             1,95 |
+| Kalkzementputz        |   0.87 |          2 |            43,50 |
