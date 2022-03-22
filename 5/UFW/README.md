@@ -37,7 +37,7 @@ Indexes of topics (chronogical order)
 	  - Teil 4
    - Arbeitsrecht
 
-#### **3. Test - 25. März 2022 - Stoff erhalten am 08. März 2022**
+#### **3. Test - 25. März 2022 - Stoff erhalten am 08. März 2022** [Zusammenfassung von 63 Seiten](./Zusammenfassung_TestNr3.md)
 - Entrepreneur und Innovation (1 und 2)
 - Personal (das große Skript)
    - bei Verrechnung
