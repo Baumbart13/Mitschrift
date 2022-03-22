@@ -67,3 +67,50 @@ WLAN-Design
     - Autonom
     - Controller Based
         - 
+
+
+Opertaions-Modi
+====
+- Ad-Hoc
+    - Bluetooth
+        - Kopfhörer
+        - Lautsprecher
+        - ...
+- Infrastruktur
+    - WiFi
+        - Schul-WLAN
+        - Firmen-WLAN
+        - ...
+- Tethering
+    - bspw. Hotspot
+
+
+WLAN-Channels
+====
+
+![WLAN-Channels](./images/WlanChannels.svg)
+
+Je nach Land gibt es verschiedene Channel-Anzahl. USA haben 11 Channels. Japan hat 14 Channels.
+
+Durch Überlappungen vom Netz entstehen Störungen und das Netz für den Benutzer wird schlecht.
+
+Überlappung kann dadurch verhindert werden, dass die Netzfrequenz weiter ausgebreitet wird (mehr Frequenzbereich muss gekauft werden)
+
+- 2,4 GHz
+    - 2,4 bis 2,5 GHz
+    - 13 Channels mit je Breite von 22 MHz
+- 5   GHz
+    - 24 Channels ohne Überlappungen
+
+
+WLAN-Security
+====
+
+Durch das geteilte Medium erhält jeder die Nachrichten, die man sendet und empfängt. Jeder ist ein potenzieller Eve. <br/>
+Dagegen kann nur Verschlüsselung helfen
+
+- Datendiebstahl 🢥 Shared Medium 🢥 verschlüsseln
+- DoS (**D**enial **o**f **S**ervice)
+- Rogue AccessPoint / Evil Twin
+    - SSID-Beacon
+- Unerwünschte Eindringlinge

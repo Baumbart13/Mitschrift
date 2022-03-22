@@ -4,6 +4,7 @@ Abgabetermin ist 31. März 2022 für jeden
 - **Länge => ca 2 bis 4 Seiten**
 - **Sollte nicht die Mitschrift repräsentieren**
 - **Welche Quellen**
+- **Abgabedatei muss PDF-Dokument sein**
 
 
 1. Symmetrische Verschlüsselung
