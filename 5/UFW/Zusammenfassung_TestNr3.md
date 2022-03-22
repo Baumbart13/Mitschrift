@@ -155,26 +155,98 @@ Inhaltsverzeichnis
 1.1.2. Entrepreneur als Wirtschaftsfaktor
 ----
 
-
+4 Funktionen sind volkswirtschaftlich zu erfüllen:
+- Innovationsfunktion
+- Wachstumsfunktion
+- Beschäftigungsfunktion
+- Erhöhung der Unternehmensanzahl
 
 
 1.1.3. Gründe für Selbstständigkeit
 ----
 
+- Selbstbestimmung bei der Arbeit
+- besseres Einkommen
+- mehr Verantwortung im Job
+- einzigartige Geschäftsidee
+- Unzufriedenheit am Arbeitsplatz
+- Wunsch nach mehr Freiraum und Flexibilität
+- neue Berufsprespektive aufgrund von Alter/Arbeitslosigkeit
+- Traum, sein eigener Chef zu sein
+- Betriebsnachfolge
+- Erben eines Unternehmens
+- bessere Vereinbarkeit von Familie und Beruf
+- ...
+
+
 1.1.4. Kompetenzen eines Entrepreneurs
 ----
+
+<table>
+    <tr>
+        <td><strong>Fachliche Kompetenzen</strong></td>
+        <td>Fachkenntnisse im Bereich Buchhaltung, Recht, Marketing, Vertriebsfähigkeiten, (Unternehmerprüfung)</td>
+    </tr>
+    <tr>
+        <td><strong>Soziale Kompetenzen</strong></td>
+        <td>Teamfähigkeit, Konfliktfähigkeit, Führungsfähigkeit</td>
+    </tr>
+    <tr>
+        <td><strong>Methodische Kompetenzen</strong></td>
+        <td>Projektmanagement, Marktkreativität, Kreativitätstechniken, Marktanalysen</td>
+    </tr>
+    <tr>
+        <td><strong>Persönliche Kompetenzen</strong></td>
+        <td>Motivation, Eigeninitiative, Risikobereitschaft</td>
+    </tr>
+</table>
+
 
 1.2. Sieben Schritte zur Unternehmensgründung
 ====
 
+![Sieben Schritte](./images/Zusammenfassung_SiebenSchritte.png)
+
+
 1.2.1. Gründungsfahrplan und Machbarkeitsstudie (Feasibility Study)
 ----
+
+- Machbarkeit und Umsetzbarkeit wird hiermit bewertet
+- Gründungsfahrplan stellt richtige Fragen für erfolgreiceh Gründung
+- _5 W_'s
+    - Was?
+    - Wo?
+    - Wie?
+    - Wer?
+    - Wann?
+- Teilbereiche
+    - Technische Feasibility
+    - Markt-Feasibility
+    - Feasibility der Organisation
+    - Finanzielle Feasibility
+    - Feasibility der Rahmenbedingungen
+
 
 1.2.2. Business- und Finanzplan
 ----
 
+- Businessplan
+    - Präsentiert die Geschäftsidee
+    - Zusammefassung aller wesentlichen Inhalte
+        - Realisierbarkeit
+        - Wirtschaftlichkeit
+        - Chancen
+        - Risiken
+- Finanzplan
+    - Eigenfinanzierung
+    - Fremdfinanzierung
+    - Förderungen
+
+
 1.2.3. Weiterbildung zum Thema Unternehmensgründung
 ----
+
+
 
 1.2.4. Umsetzung des Finanzplans
 ----
