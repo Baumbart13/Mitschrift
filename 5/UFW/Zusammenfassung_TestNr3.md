@@ -452,6 +452,21 @@ Methoden:
 2.1. Einführung
 ====
 
+- **Welcher** Mitarbeiter übernimmt **welche** Aufgaben **wann**?
+- Personal und Organisation sind eng verknüpft
+- Im Mittelpunkt stehen Mitarbeiter
+- Management
+    - Sind aufeinander abgestimmte Tätigkeiten zum Leiten und Lenken eines Unternehmens
+    - Aufgaben
+        - Festlegen von Zielen
+        - Entwicklung einer Strategie zur Zielerreichung
+        - Organisation und Koordination; Führung der Mitarbeiter um Güter und Dienstleistungen zu produzieren
+        - Qualitätssicherung, sowie Kontrolle der Ziele
+- Ist Organisation mangelhaft, entstehen Probleme
+- Personalmanagement wird gestaltet und ausgeführt von
+    - allen leitenden Angestellten
+
+
 2.1.1. Organisation
 ----
 
