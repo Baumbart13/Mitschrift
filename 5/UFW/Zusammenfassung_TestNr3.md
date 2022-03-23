@@ -518,6 +518,16 @@ Abteilungen
 
 #### 2.1.1.2. Gliederung
 
+| funktionale Gliederung | objektorientierte Gliederung      |
+|:-----------------------|:----------------------------------|
+| Einkauf                | Produkten (Auto, LKW)             |
+| Verkauf                | Regionen (Osteuropa, Westeuropa)  |
+| Produktion             | Segmenten (Groß- und Kleinkunden) |
+| Entwicklung            |                                   |
+| HR                     |                                   |
+| Forschung              |                                   |
+
+
 #### 2.1.1.3. Organigramme
 
 <table cellspacing="0" border="0">
@@ -545,11 +555,79 @@ Abteilungen
     </tr>
 </table>
 
+- Einlinienorganigramm
+- Stablinieorganigramm
+    - Erweiterung von Einliniendiagramm
+    - Linien veranschaulichen Weisungsbefugnisse
+    - Vorteile
+        - Bessere Entscheidung
+        - Entlastung der Linie durch Staatsstelle
+        - Einheitliche Kommunikationswege
+    - Nachteile
+        - Stabsstelle reist Kompetenzen an sich
+        - Großer informeller Einfluss der Stabsstelle
+- Spartenorganigramm
+- Matrixorganigramm
+    - Vertreter von Mehrliniensystem
+    - Vorteile
+        - Höhrere Flexibilität in der Gesamtheit
+        - Schnelle, abteilungsübergreifende Entscheidungen
+        - Kurze Informationswege
+    - Nachteile
+        - Eine Stelle erhält Leitung von mehreren Leitstellen
+        - Höhrere Anforderungen an die Mitarbeiter
+        - Höhere Kontrolle der Mitarbeiter
+
+
+Ablauforganistaion von Unternehmen werden dargestellt über
+- Arbeitsanweiseungen oder
+- Flussdiagramm / Flowchart
+
+
+- Prozess besteht aus Teilaufgaben
+- Teilaufgaben werden in logischer Reihenfolge abgearbeitet
+    - sollen effizient und effektiv sein
+- Jede Teilaufgabe hat Input und Output
+    - Output ist wieder Input für nächste Teilaufgabe
+    - Übergabepunkt ist **Schnittstelle**
+
+
 #### 2.1.1.4. Fragen für die Erstellung von Ablauforganisationen
+
+- **Was** ist bei einer Arbeitsabwicklung zu tun?
+- **Wer**
+    - Welche Stelle ist für welche Durchführung verantwortlich?
+- **Woher** kommt Material/Information/Betriebsmittel/Finanzmittel für Durchführung?
+- **Wohin** kommen die Ergebnisse?
+- **Welche** Vorschriften und Regelungen sind einzuhalten?
+
+Hält sich niemand an diese Regeln, scheitert die Ablauforganisation<br/>
+Ablauforganisation muss stabil **und** flexibel sein<br/>
+
+- Regeln helfen Mitarbeitern selbstständig zu arbeiten
+- Nicht zu detailliert
+    - nur Grundmuster vom Wesentlichen
+    - wäre zu viel Aufwand aufgrund ständiger Veränderungen
+
 
 #### 2.1.1.5. Balkendiagramm (Gant-Diagramm)
 
+- Horizontale Achse: Arbeitsschrittdauer
+- Vertikale Achse: verschiedene Einteilungen
+    - Maschinenbelegung
+    - Schichtpläne
+    - Produktionsplan
+    - ...
+
+
 #### 2.1.1.6. Netzplan
+
+- Werden bei größeren Projekten eingesetzt
+- Werden mit Computer erstellt
+- Zeigen Reihenfolge und zeitliche Vorgaben der Arbeitsschritte / Vorgänge
+- Vorgänge per Pfeile verbunden
+- Kritischer Pfad = Vorgang, der Voraussetzung für einen anderen Vorgang ist
+
 
 #### 2.1.1.7. Flussdiagramm
 
