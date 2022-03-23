@@ -10,8 +10,9 @@ Indexes of topics (chronogical order)
 5. Rechnungswesen [4 Umsatzsteuer](./RechnungsWesen4UST.doc)
 6. [Bilanzanalyse](./Bilanzanalyse.md)
 7. [Arbeitsrecht](./AR.docx)
-8. Entrepreneur und [Innovation](./Entrepreneur_und_Innovation_1._Teil.docx)
-9. [Personalmanagement](./Personalmanagement 5 HWII 2020 21.docx)
+8. Entrepreneur und Innovation [1](./Entrepreneur_und_Innovation_1._Teil.docx)
+9. Entrepreneur und Innovation <a href="./Entrepreneur und Innovation 2. Teil.docx">2</a>
+10. <a href="./Personalmanagement 5 HWII 2020 21.docx">Personalmanagement</a>
 
 ----
 
@@ -36,7 +37,7 @@ Indexes of topics (chronogical order)
 	  - Teil 4
    - Arbeitsrecht
 
-#### **3. Test - 25. März 2022 - Stoff erhalten am 08. März 2022**
+#### **3. Test - 25. März 2022 - Stoff erhalten am 08. März 2022** [Zusammenfassung von 63 Seiten](./Zusammenfassung_TestNr3.md)
 - Entrepreneur und Innovation (1 und 2)
 - Personal (das große Skript)
    - bei Verrechnung
