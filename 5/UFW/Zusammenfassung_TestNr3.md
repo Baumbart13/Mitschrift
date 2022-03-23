@@ -470,6 +470,15 @@ Methoden:
 2.1.1. Organisation
 ----
 
+- Schafft Strukturen und Regeln
+- Unternehmen **ist** Organisation => Aufbauorganisation
+    - bildet Stellen und teilt diesen Aufgaben zu
+    - gliedert Stellen und verteilt Kompetenzen
+- Unternehmen **hat** Organisation => Ablauforganisation
+    - regelt Ablauf der Prozesse
+    - gestaltet den internen Informationsfluss
+
+
 #### 2.1.1.1. Aufgabenstelle
 
 ###### 2.1.1.1.1. Stellenbeschreibung
