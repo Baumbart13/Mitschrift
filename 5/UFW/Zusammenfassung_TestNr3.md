@@ -344,20 +344,107 @@ Arten der Geschäftsbezeichnung
 1.3.1. Förderungen
 ----
 
+- Zuschüsse
+- Kredite
+- Haftungen und Garantien
+
+
 1.2.2. österreichische Förderstellen
 ----
+
+- aws (Austria Wirtschaftsservice)
+- NeuFÖG (NeugründerInnen-Fördergesetz)
+- ÖHT (Österreichische Hotel- und Tourismusdatenbank)
+
 
 1.4. Businessplan
 ====
 
+- Planungsinstrument für Gründer
+- Entscheidungsmittel für zukünftige Investoren
+- beinhaltet
+    - konkrete Geschäftsidee
+    - Überblick sämtlicher Schritte der Gründung
+- maximal 30 Seiten
+- Soll Geschäftsidee vermarkten und demenstprechend aussehen
+
+
+Inhalte
+- Executive Summary
+- Geschäftsidee
+- Unternehmen / Unternehmerteam
+- Branche und Markt
+- Marketing
+- Chancen und Risiken
+- Finanzplanung 
+
+
 1.5. Innovationsmanagement
 ====
+
+1. Anregung von Ideen
+2. Entwicklung von Ideen
+3. Auswahl und Bewertung der gesammelten Ideen
+4. Ausarbeitung von Grobkonzepten
+5. Entwicklung von Umsetzungskonzepten
+6. Realisierung und Markteinführung
+
+
+- Innoationsmanagement führt zu Innovation
+- Ziele:
+    - Veränderte Kundenbedürfnisse besser/gezielter befriedigen
+    - Inventionen erfolgreich vermarkten
+    - Arbeitsplätze sichern
+    - Produktportfolio steuern
+    - Gewinn und Wachstum erzielen
+    - Gemeinwohl und Umweltschutz fördern/verbessern
+- Einflussfaktoren auf Innovationsmanagement
+    - Intern
+        - Unternehmensstrategie / -kultur
+        - Mitarbeitermotivation
+        - Qualitäts- / Projektmanagement
+        - Research and Development
+    - Extern
+        - Branche
+        - Markt
+        - Kooperation mit
+            - anderen Unternehmen
+            - wissenschaftlichen Einrichtungen
+
 
 1.5.1. Innovationsarten
 ----
 
+- Produkt- oder Dienstleistungsbereich
+- Prozesse und Abläufe
+- Managementbereich
+- Sozialbereich
+- Neuigkeitsbezogene Innovation
+    - Routine- und Standardbereiche
+    - Verbesserungen und Weiterentwicklungen
+    - Radikale Änderungen
+
+
 1.5.2. Kreativität
 ----
+
+- Verbindet logisches Denken und Fantasie
+- Fähigkeit etwas zu erschaffen, das neu/originell und nützlich ist
+
+Methoden:
+- SWOT-Analyse
+- Kundennutzenmatrix
+- Kreativitätstechniken
+- Wertanalyse
+- TRIZ-Methode
+- Punktebewertung
+- Paarvergleich
+- Ideenportfolio
+- QFD-Methode
+- Morphologischer Kasten
+- Projektmanagement mit Lasten- und Pflichtenheft
+- V-Modell
+
 
 2 Personalmanagement
 ====
