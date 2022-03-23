@@ -596,3 +596,58 @@ P-Teil ist groß, wenn schnell "eingefangen" werden muss nach Schwingen
 I-Teil ist groß, wenn Wert gut gehalten werden soll (nach Abfall)
 
 D-Teil ist groß und macht das System träge
+
+
+Ziegler-Nichols-Einstellverfahren
+====
+
+Idee: Die Strecke wird versuchsweise durch eine P-Regelung zum Schwingen gebracht.
+
+- Ist ``k[p]`` zu klein, wird ``W`` nicht erreicht.
+- Ist ``k[p]`` zu groß, wird ``W`` erreicht, aber per Schwingung
+- Ist ``k[p]`` kritisch, schwingt er Istwert konstant um ``W`` herum
+   - Periodendauer ist ``T[kritisch]``
+
+
+mit ``k[p]`` und ``T[kritisch]`` werden die Parameter des Reglers bestimmt, mit denen sich ein relativ vernünftiges Verhalten des Regelkreises erwarten lässt.
+
+| Regler | ``k[p]`` | ``T[N]`` | ``T[V]`` |
+|:--|--:|--:|--:|
+| P | 0,50 * ``k[kritisch]`` |  |  |
+| PI | 0,45 * ``k[kritisch]`` | 0,85 * (``k[kritisch]``/``k[p]``) |  |
+| PD | 0,80 * ``k[kritisch]`` |  | 0,12 * ``T[kritisch]`` * ``k[p]`` |
+| PID | 0,80 * ``k[kritisch]`` | 0,85 * (``k[kritisch]``/``k[p]``) | 0,12 * ``T[kritisch]`` * ``k[p]`` |
+
+- ``T[kritisch]`` gibt an, wie träge die Strecke ist (groß = träge)
+- Wenn Strecke sehr träge ist, regelt der I-Anteil auch nach Erreichen des Sollwerts weiter
+- Wenn Strecke sehr träge ist, muss der D-Anteil weit in die Zukunft schauen, da kaum eine Änderung vorhanden ist
+
+
+Vorteile des Verfahrens
+----
+
+- Grundsätzlich mit jeder beliebigen Strecke durchführbar
+- Die Faustregel leider PID-Parameter, bei denen der Regelkreis ziemlich sicher nicht instabil wird
+
+
+Nachteile des Verfahrens
+----
+
+- Strecke muss den Schwingungsvorgang überleben
+
+
+**ACHTUNG**<br/>Beide Einstellregeln liefern nur sehr grobe PID-Parameter, die im Normalfall noch händich abgestimmt werden müssen
+
+
+Händisches Optimieren
+----
+
+- Mit einigem Verständnis, was die einzelnen Parameter bewirken, lässt sich der Regelkreis nach folgendem Schema nachoptimieren
+
+
+1. I-Anteil und D-Anteil auf 0 setzen. P-Regelung wird nun so lange erhöht, dass höchstens leichtes Überschwingen festgestellt wird
+2. Nur mehr D-Anteil auf 0 setzen und I-Anteil so lange erhöhen, bis die Regelabweichung möglichst rasch mit höchstensleichtem Überschwingen verschwindet
+3. D-Anteil soweit erhöhen, dass das Überschwingen weitgehend verschwindet
+   - Achtung: D-Anteil zu groß => Reaktion wird langsam oder Überschwingen passiert
+4. Versuchsweise gleichzeitig P- und I-Anteil leicht erhöhen, um zu sehen, wie weit der D-Anteil das Überschwingen unterdrücken kann
+- Alle Schritte mit so kleinem Sprung von ``W``
