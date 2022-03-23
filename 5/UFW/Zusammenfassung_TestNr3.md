@@ -477,15 +477,73 @@ Methoden:
 - Unternehmen **hat** Organisation => Ablauforganisation
     - regelt Ablauf der Prozesse
     - gestaltet den internen Informationsfluss
+- In der Praxis ist Organisation **immer** Aufbau- **und** Ablauforganisation ➩ bedingen sich gegenseitig
+- Regeln und Vorschriften im _Organisationshandbuch_
+- Darstellung via [_Organigramm_](#Organigramme)
+
 
 
 #### 2.1.1.1. Aufgabenstelle
 
-###### 2.1.1.1.1. Stellenbeschreibung
+- Ist die kleinste organisatorische Einheit
+    - Grundeinheit der Aufbauorganisation
+- Arten
+    - Ausführende Stellen
+        - Ausführen
+        - keine Leitungsbefugnis
+    - Leitungsstellen
+        - Weisungsbefugnis
+        - Entscheidungbefugnis
+        - Kontrollbefugnis
+    - Stabstellen
+        - Informationsfunktion
+        - Beratungsfunktion
+        - Kontrollfunktion
+- Leitungsspanne
+    - Anzahl untergeordneter Stellen einer Leitungs-/Stabsstelle
+
+
+##### 2.1.1.1.1. Stellenbeschreibung
+
+- Erfolgt Personenunabhängig
+- Beinhaltet erforderliche Qualifikation für die Stelle
+- Ist **KEINE** Stellenanzeige!!
+
+
+Abteilungen
+- Sind gruppierte Stellen
+- i.d.R eine Leitungsstelle und mehrere Ausführungsstellen
+- Gliederungstiefe ist abhängig von Betriebsgröße und Arbeitsteilung
+
 
 #### 2.1.1.2. Gliederung
 
 #### 2.1.1.3. Organigramme
+
+<table cellspacing="0" border="0">
+    <tr>
+        <td colspan=2 height="17" align="center" valign=middle><strong>Legt folgendes fest</strong></td></tr>
+    <tr>    
+        <td height="17" align="left"><b>Aufgaben</b></td>
+        <td align="left">Wer macht was</td>
+    </tr>   
+    <tr>    
+        <td height="17" align="left"><b>Verantwortung</b></td>
+        <td align="left">Wer ist verantwortlich</td>
+    </tr>   
+    <tr>    
+        <td height="17" align="left"><b>Kompetenz</b></td>
+        <td align="left">Wer kann was und darf was tun</td>
+    </tr>   
+    <tr>    
+        <td height="17" align="left"><b>Hierarchie und Weisungsbefugnisse</b></td>
+        <td align="left">Wer darf wem Anweisungen erteilen</td>
+    </tr>   
+    <tr>    
+        <td height="17" align="left"><b>Kommunikations- und Informationswege</b></td>
+        <td align="left">Wer muss wie informiert werden</td>
+    </tr>
+</table>
 
 #### 2.1.1.4. Fragen für die Erstellung von Ablauforganisationen
 
