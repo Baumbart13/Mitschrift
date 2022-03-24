@@ -631,10 +631,36 @@ Ablauforganisation muss stabil **und** flexibel sein<br/>
 
 #### 2.1.1.7. Flussdiagramm
 
+- Sind graphische, chronologisch geordnete Darstellungen von Terilaufgaben
+    - Jeder Prozess hat Start und Ziel
+    - Wenn ein Ablauf von etwas abhängig ist, folgt Entscheidung
+    - Dokumente und andere Informationsträger werden eingefügt
+    - Auch verantwortliche Stellen angegeben
+
+
 2.1.2. Rechtliche Stellung des Mitarbeiters
 ----
 
 #### 2.1.2.1. Arten von Verträgen
+
+<table cellspacing="0" border="0">
+    <tr>
+        <th style="background-color: skyblue; color: #000000" align="center">Arbeitsvertrag (Dienstvertrag)<br>= unselbstständige Beschäftigung</th>
+        <th style="background-color: lightblue; color: #000000" align="center">Werkvertrag<br>= selbstständige Beschäftigung</th>
+    </tr>
+    <tr>
+        <td align="left">Für (un-)bestimmten Zeitraumwird ein Mitarbeiter eingestellt per Arbeitsvertrag kommt es zum Dienstverhältnis</td>
+        <td align="left">Unternehmen (= Auftraggeber) kauft Leistungen von Unternehmen/Person (= Auftragnehmer)<br/>Dadurch Werkvertrag</td>
+    </tr>
+    <tr>
+        <td align="left">
+        <ul>
+            <li></li>
+        </ul>
+        </td>
+        <td align="left">asd</td>
+    </tr>
+</table>
 
 #### 2.1.2.2. Arten von unselbstständigen Beschäftigungsverhältnissen
 
