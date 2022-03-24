@@ -119,5 +119,7 @@ Wie viel Watt der Heizung sind nötig für das Heizen?
             - H[T] = Summe (aller Flächen * U-Wert)
                 - U-Wert <=> Wärmedurchgangskoeffizient
                     - "Wie schlecht dämmt das Bauteil/die Bauweise/das Baumaterial?"
+                    - Einheit: W / (m² * K)
+                - Einheit: W / K
     - Phi-V = Norm-Lüftungswärmeverlust
         - was zum Heizen gebraucht wird
