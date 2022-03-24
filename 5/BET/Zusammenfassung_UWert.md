@@ -67,9 +67,57 @@ Erklärung Berechnung
 
 #### λ-Werte
 
-| Material              | λ-Wert | Dicke [cm] | U-Wert [W/(m²K)] |
-|:----------------------|-------:|-----------:|-----------------:|
-| Zementputz            |   1.40 |          1 |           140,00 |
-| Polystyrol-Hartschaum |   0.35 |         20 |             1,75 |
-| Leichtbeton           |   0.39 |         20 |             1,95 |
-| Kalkzementputz        |   0.87 |          2 |            43,50 |
+Rsi = 0,13
+Rse = 0,04
+
+| Material              | λ-Wert [W/(m*K)] | Dicke [cm] | Dicke [m] | U-Wert [W/(m²K)] | R [(m² * K) / W] | Rsi und Rse [(m² * K) / W] | R gesamt [(m² * K) / W] | U-Wert gesamt [W/(m² * K)] |
+|:----------------------|-----------------:|-----------:|----------:|-----------------:|-----------------:|---------------------------:|------------------------:|---------------------------:|
+| Zementputz            |            8.700 |          1 |      0,01 |           87,000 |           0,0115 |                  Rsi: 0,13 |                  5,1638 |                     0,1937 |
+| Polystyrol-Hartschaum |            0.045 |         20 |       0,2 |            0,225 |           4,4444 |                  Rse: 0,04 |                         |                            |
+| Leichtbeton           |            0.390 |         20 |       0,2 |            1,950 |           0,5128 |                            |                         |                            |
+| Kalkzementputz        |            0.800 |          2 |      0,02 |            40,00 |           0,0250 |                            |                         |                            |
+
+
+Heizwärmebedarf - Verluste
+
+| Wände | Wärmebrückenzuschlag | Fenster/Türen | Fußböden | Dach | Lüftung |
+|------:|---------------------:|--------------:|---------:|-----:|--------:|
+|   20% |                   6% |           28% |       6% |   8% |     32% |
+
+Innere Gewinne
+- Kochen
+- Glühlampen
+
+
+Wie viel Watt der Heizung sind nötig für das Heizen?
+----
+
+- Hier: Planung
+- Bei bestehendem Gebäude: Messen!!
+- Norm: ``DIN EN 12831 Beiblatt 1 2008-07``
+    - Die originalen Heizungen waren zu überdimensioniert für Deutschland
+- Berechnung i.d.R. per Software
+
+
+- Norm-Aussentemperatur:
+    - "Wie kalt ist die Außentemperatur"
+    - Theta[e]
+    - "Kann kälter werden, wird es aber selten"
+    - Bielefeld: -12°C
+- Norm-Innentemperatur:
+    - Theta[int]
+    - je nach Raumart
+        - typisch 20°C
+- Norm-Heizlast eines Gebäudes:
+    - Phi[HL], -Geb = Summe aller Räume der Phi[T] und Phi-V
+        - Phi[T] <=> Was durch Fenster, Türen, Wände geht
+        - Phi[V] <=> Was an Frischluft reinkommt
+    - Phi[T] = Norm-Transmissionswärmeverlust
+        - Ohne Flüsse zwischen beheizten Räume
+        - Phi-T = H[T] * (Theta[int] - Theta[e])
+            - H[T] <=> Transmissions-Wärmekraft-Koeffizient
+            - H[T] = Summe (aller Flächen * U-Wert)
+                - U-Wert <=> Wärmedurchgangskoeffizient
+                    - "Wie schlecht dämmt das Bauteil/die Bauweise/das Baumaterial?"
+    - Phi-V = Norm-Lüftungswärmeverlust
+        - was zum Heizen gebraucht wird

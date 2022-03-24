@@ -16,6 +16,7 @@ Indexes of topics (chronological order)
 4. Elektroschutzklassen [zusammengefasst](./Elektroschutzklassen_Zusammenfassung.md)
 5. [Qualitätsmanagement](./Qualitätsmanagement.md)
 6. [Energieausweis](./Energieausweis.md)
+7. [Zusammenfassung U-Wert](./Zusammenfassung_UWert.md)
 
 ----
 
@@ -58,14 +59,20 @@ Tests
 #### **3. Test - 29ter März - Stoff erhalten am 10.03.2022**
 - Standortanalyse
 - Arbeitstättenplanung (ASchG, AStV)
+	- Standortfestlegung
 	- Kapazitätsbedarfsplanung
+	- Arbeitsättenverordnung
 - Arbeitsplatzgestaltung
+	- Ergonomie
 	- Arbeitnehmerschutzgesetz
 - QM
-	- Einführung
+	- Was ist das?
+	- Was ist Qualität?
 	- Fehler, Fehleranalyse und Fehlerprävention
+	- RPZ?
 	- Poka Yoke
 	- FMEA
+	- DOE
 - Ausnahme:
 	- Kapitel 7 - Statistiche Methoden der QM
 
