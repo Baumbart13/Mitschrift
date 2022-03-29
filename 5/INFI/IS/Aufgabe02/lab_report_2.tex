@@ -1,0 +1,217 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% University/School Laboratory Report
+% LaTeX Template
+% Version 3.1 (25/3/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Linux and Unix Users Group at Virginia Tech Wiki 
+% (https://vtluug.org/wiki/Example_LaTeX_chem_lab_report)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{article}
+
+\usepackage[version=3]{mhchem} % Package for chemical equation typesetting
+\usepackage{siunitx} % Provides the \SI{}{} and \si{} command for typesetting SI units
+\usepackage{graphicx} % Required for the inclusion of images
+\usepackage{natbib} % Required to change bibliography style to APA
+\usepackage{amsmath} % Required for some math elements 
+\usepackage{fullpage} %use smaller top and bottom margins
+\usepackage[utf8]{inputenc} %TODO hier ev.  latin1 setzen
+%\headheight = 20pt
+\headsep = 35pt %space between headline and body text
+%\voffset = 0pt
+
+\usepackage{listings}
+\usepackage{courier}
+\usepackage{color}   
+\usepackage{titling}
+\usepackage{float}
+\setlength\parindent{0pt} % Removes all indentation from paragraphs
+
+\renewcommand{\labelenumi}{\alph{enumi}.} % Make numbering in the enumerate environment by letter rather than number (e.g. section 6)
+
+%\usepackage{times} % Uncomment to use the Times New Roman font
+
+% -----------------------------------
+\lstset{language=Python, 
+	basicstyle=\small, 
+	%keywordstyle=\color{purple!80!black!100}, 
+	%identifierstyle=\color{black!50!black!100}, 
+	%commentstyle=\color{green!50!black!100}, 
+	%stringstyle=\ttfamily, 
+	breaklines=true, 
+	numbers=none, 
+	numberstyle=\small, 
+	frame=single, 
+	%backgroundcolor=\color{blue!3},
+	showstringspaces=false,
+} 
+
+\lstset{basicstyle=\ttfamily\scriptsize}
+\lstset{showspaces=false}
+\lstset{showtabs=false}
+\lstset{showstringspaces=false}
+\lstset{keywordstyle=\bfseries}
+\lstset{tabsize=3}
+\lstset{frameround=ffff}
+\lstset{extendedchars=true}
+\lstset{stringstyle=\ttfamily}
+\lstset{commentstyle=\ttfamily}
+\lstset{numbers=left, numberstyle=\tiny, stepnumber=1, numbersep=5pt}
+\lstset{captionpos=b}
+\lstset{frame=single} 
+
+\setlength{\droptitle}{-10em}   % This is your set screw
+
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\title{Übung 02 \\ Import und erste Auswertung eines Datensatzes \textbf{R} \\ INFI-IS \\ 5xHWII} 
+\author{Albert Greinöcker} % Author name
+\date{\today} % Date for the report
+
+\begin{document}
+
+\maketitle % Insert the title, author and date
+
+\begin{center}
+
+\includegraphics[width=10cm]{logo.png}
+\end{center}
+\vspace{1cm}
+%----------------------------------------------------------------------------------------
+
+\section{Importieren Aufbereiten des Datensatzes \texttt{Wintertourismus}}
+
+\subsection{Import und Kontrolle}
+
+
+\begin{itemize}
+	\item Es soll der Datensatz \textit{Zeitreihe Wintertourismus 2000 2019} aus Moodle in R importiert werden. In diesem Fall ist die Beschriftung der Spalten schon vorhanden, allerdings wurde der Beschriftung der Jahre immer ein "X" vorne angestellt. Bitte die Namen so ändern dass daraus hervorgeht dass es sich um Jahre handelt.
+	\item Wenn man als ersten Schritt die importierten Daten grundsätzlich kontrollieren möchte, bietet sich der Befehl (\emph{summary}) an. Was ist aus diesem ersichtlich bzw. warum ist er für die Kontrolle wichtig?
+\end{itemize}
+
+
+\begin{lstlisting}
+TODO: Hier die R-Befehle eingeben
+\end{lstlisting}
+
+\textit{Ergebnis:}
+
+\begin{verbatim}
+TODO: Hier die Ergebnisse eintragen
+\end{verbatim}
+
+\section{Erste Auswertung}
+
+\subsection{Wachstum darstellen}
+
+Hole die Zahlenwerte zu den einzelnen Jahren in Innsbruck und stelle den zeitlichen Verlauf als Punktdiagramm dar. Als Zeichen soll ein \texttt{i} Verwendet werden.
+
+\subsection{Wachstum des eigenen Bezirks (Falls Innsbruck, bitte einen anderen auswählen)}
+
+\begin{itemize}
+	\item Dazu ist zuerst die Auswahl der Gemeinden im Bezirk notwendig
+	\item Diese Werte müssen aufsummiert werden (\underline{Hinweis}: Verwende den Befehl \texttt{apply})
+	\item Bitte wieder einerseits die Zahlenwerte in der Konsole als auch ein Liniendiagramm ausgeben
+\end{itemize}
+
+Hier kommt das Liniendiagramm hin:
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.65\textwidth]{placeholder} % Include the image placeholder.png
+		\caption{Figure caption.}
+	\end{center}
+\end{figure}
+
+
+\begin{lstlisting}
+TODO: Hier die R-Befehle eingeben
+\end{lstlisting}
+
+\textit{Ergebnis:}
+
+\begin{verbatim}
+TODO: Hier die Ergebnisse eintragen
+\end{verbatim}
+
+\section{Berechnen von Werten}
+
+
+\subsection{Min, Max, Range, Avg}
+Zu den einzelnen Gemeinden sollen das Minimum, Maximum, Range (also Maximum - Minimum) und der Durchschnitt berechnet werden. Diese sollen in einer eigenen Spalten-Variable abgelegt werden.
+
+\subsection{Gesamtzahl an Touristen}
+
+\begin{itemize}
+	\item Die Gesamtzahl an Touristen pro Jahr soll berechnet werden (\underline{Befehl}: \texttt{apply})
+	\item Diese Werte sollen weiterverarbeitet werden, so dass man die Gesamtzahl über alle Jahre bekommt (also 1 Wert). \underline{Hinweis}: Es gibt eine Funktion \texttt{sum}.
+	\item Wie kann die Zusammenfassung nach Bezirken gemacht werden?
+\end{itemize}
+
+\subsubsection{Standardisierung}
+
+Der Range ist jetzt absolut. Wie könnte man diesen standardisieren?
+
+
+\section{Gegenüberstellung von Bezirken}
+
+
+\subsection{Boxplots}
+
+Stelle die (standardisierten) Ranges der einzelnen Bezirke als Boxplot gegenüber. Jeder Bezirk soll eine eigene Farbe haben 
+
+\subsection{Barplot}
+
+Stelle die  die Jahreswerte für Innsbruck als \texttt{barplot} dar. \underline{Achtung}: Die Werte müssen vorher eventuell mit \texttt{as.numeric} umgewandelt werden
+
+\section{Gegenüberstellung mit den Einwohnerzahlen}
+
+Hier soll noch der Datensatz über die Einwohnerzahlen, den wir zur gemeinsamen Besprechung verwendet haben, miteinbezogen werden.
+
+Man kann relativ einfach die beiden Datensätze "joinen":
+
+\begin{lstlisting}
+m <- merge(w,d, by="Gemnr")
+\end{lstlisting}
+
+Um ein wenig aufzuräumen bitte die Spalten wieder umbenennen und die Spalten, die doppelt sind, löschen, das geht so:
+
+\begin{lstlisting}
+m$Bezirk <- NULL;
+m$Gemeinde.y <- NULL;
+\end{lstlisting}
+
+Bitte mit diesem neu erzeugten Datensatz folgende Fragen beantworten:
+
+\begin{enumerate}
+	\item Standardisiere die Anzahl Nächtigungen im Jahr 2018 mit der Bevölkerung pro Gemeinde (auch Jahr 2020). Es soll also berechnet werden, auf wie viele Einwohner kommen wie viele Touristen
+	\item Stelle diese Zahl als Boxplot, gruppiert nach Bezirk, dar und versuche, dieses Ergebnis zu interpretieren.
+	\item Interessant wären jetzt noch die 10 Gemeinden, wo diese Verhältniszahl am größten ist und die, wo es am kleinsten ist. Dazu gibt es folgende Möglichkeit:
+	
+\begin{lstlisting}
+#Hole die Nummern dier Spalten in einer bestimmten Reihenfolge. Hier ist absteigende Sortierung eingestellt
+ord <- order(zu_sortierende_spalte, decreasing = T)
+#Verwende diese Reihenfolge fuer die Darstellung
+df[ord]
+\end{lstlisting}	
+	
+	\item Wie sieht das Verhältnis in der Heimatgemeinde aus?
+\end{enumerate}
+
+
+\end{document}
