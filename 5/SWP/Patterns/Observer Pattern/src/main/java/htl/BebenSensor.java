@@ -13,23 +13,11 @@ public class BebenSensor extends Sensor {
 
     public void messungVonStärke(int stärke){
         this.stärke = stärke;
-        switch(stärke){
-            case 1:
-            case 2:
-            case 3:
-                notifyBeobachter(1);
-                break;
-            case 4:
-            case 5:
-                notifyBeobachter(1);
-                break;
-            case 6:
-            case 7:
-                notifyBeobachter(2);
-                break;
-            default:
-                notifyBeobachter(3);
-                break;
+        switch (stärke) {
+            case 1, 2, 3 -> notifyBeobachter(1);
+            case 4, 5 -> notifyBeobachter(1);
+            case 6, 7 -> notifyBeobachter(2);
+            default -> notifyBeobachter(3);
         }
     }
 }
