@@ -13,8 +13,8 @@ Matura-Pools
 2. [x] Switching
 3. [x] Routing
 4. [x] Network Security
-5. [ ] Cryptographic Concepts
-6. [ ] WiFi
+5. [x] Cryptographic Concepts
+6. [x] WiFi
 
 Indexes of topics (chronogical order)
 -------------------------------------
@@ -62,6 +62,7 @@ Lehrerwechsel (21. December 2021)
 ----
 
 **Packet Tracer** files can be found [here](./packetTracer/)
+**Handout** files can be found [here](./Handouts/)
 
 ----
 
