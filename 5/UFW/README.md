@@ -1,6 +1,6 @@
 # UFW Fifth school year (2021 - 2022)
 
-Indexes of topics (chronogical order)
+Indexes of topics (chronological order)
 -------------------------------------
 
 1. [Investitionen](./Investitionen.md)
@@ -13,6 +13,7 @@ Indexes of topics (chronogical order)
 8. Entrepreneur und Innovation [1](./Entrepreneur_und_Innovation_1._Teil.docx)
 9. Entrepreneur und Innovation <a href="./Entrepreneur und Innovation 2. Teil.docx">2</a>
 10. <a href="./Personalmanagement 5 HWII 2020 21.docx">Personalmanagement</a>
+11. [Planning](./Planning5AHWII.docx)
 
 ----
 
