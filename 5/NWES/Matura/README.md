@@ -1,6 +1,10 @@
 NWES Maturapools
 ================
 
+- Termine:
+    - 19.05.2022
+    - 
+
 [Side Info](./SideInfo.md)
 
 
@@ -54,11 +58,12 @@ NWES Maturapools
 ------------------------------------------------
 
 + Layer 3
-    * IPv4
-    * (IPv6)
+    * **IPv4**
+    * **IPv6**
         - Dass es existiert
         - Warum es existiert
         - Wissen, wie in etwa eine IPv6-Adresse aussieht
+        - Eventuelle Anwendungsfälle
     * Routing
         - Protokolle
             + RIP

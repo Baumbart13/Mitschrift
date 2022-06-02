@@ -20,3 +20,16 @@ Side-Info
     - Evtl in ``running-config`` vom Packet-Tracer schauen
 - Ablaufdiagramme sind cool
 - Topologien sind cool
+
+
+------
+
+
+- Maximal 30 Minuten Vorbereitung
+    - 1 Zettel eigene Notizen
+    - 1 Zettel Notizen für alle
+        - Notizen werden allen gezeigt bei der Matura
+- Wenn während Vorbereitung schon fertig, kann man aktuellem Kandidaten zuhören
+    - Überlegen, was Kandidat sagt
+    - Überlegen, was man selbst sagen würde
+    - Überlegen, was Prüfer sagt
