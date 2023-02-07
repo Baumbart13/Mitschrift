@@ -1,0 +1,1 @@
+C:\Users\simma\Desktop\TestLernenApp\TestLernenApp\TestLernenApp.UWP\TestLernenApp.UWP.csproj;x86
